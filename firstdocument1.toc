@@ -1,0 +1,9 @@
+\contentsline {part}{I\hspace {1em}elementary}{1}
+\contentsline {chapter}{\numberline {1}introduction}{3}
+\contentsline {section}{\numberline {1.1}first section}{3}
+\contentsline {subsection}{\numberline {1.1.1}I like latex}{3}
+\contentsline {chapter}{\numberline {2}balalba}{5}
+\contentsline {chapter}{\numberline {3}summary}{7}
+\contentsline {part}{II\hspace {1em}advanced}{9}
+\contentsline {chapter}{\numberline {4}intro}{11}
+\contentsline {chapter}{\numberline {5}conclusion}{13}

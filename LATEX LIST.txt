@@ -1,0 +1,7 @@
+brand & type & price & cpu\\
+samsung & me525 & 2420 & 800M\\
+samsung & s5830 & 2250 & 800M\\
+samsung & I9000 & 1630 & 800M\\
+samsung & I9008L & 2830 & 1G\\
+samsung & I9003 & 3050 & 1G\\
+samsung & 8158 & 3000 & 1G\\

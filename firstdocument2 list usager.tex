@@ -1,0 +1,105 @@
+%latex列表与表格环境，如何快速导出EXCEL表格至Latex源文件
+%enumerate宏包使用，setcounter
+%tabular,table,c|l|r,\multicolum,\cline,\hline  %表格命令
+
+
+\documentclass{book} %article,report,letter
+
+\usepackage{enumerate}     %用于修改前面的编号字体和编号大小写
+\usepackage{longtable}     %用于表格分页表示 ，\begin{table}...\end{table}默认是一页显示，若一页显示不全，可考虑调用longtable宏包，使用方法\begin{longtable}...\end{longtable},把table改为longtable即可
+
+\begin{document}
+
+\begin{tabular}{clr}    %c-center;l-left;r-right对齐;
+                            %第一列是居中对齐；第二列是左对齐，第三列是右%对齐
+  111 & 12 & 113 \\
+  21 & 222 & 23 \\          %无边框
+  31 & 32 & 33  \\
+\end{tabular}
+
+
+\begin{tabular}{|c|l|r|}    %c-center;l-left;r-right对齐;|-竖线
+                            %第一列是居中对齐；第二列是左对齐，第三列是右%对齐
+  \hline    %横线
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  111 & 12 & 113 \\         %有边框
+  \hline
+  21 & 222 & 23 \\          %”\\“用于区分两行
+  \hline
+  31 & 32 & 33 \\
+  \hline
+\end{tabular}
+
+\eject  %另起一页
+
+\begin{tabular}{|cccc|}    
+  \hline
+brand & type & price & cpu\\
+  \hline
+samsung & me525 & 2420 & 800M\\
+samsung & s5830 & 2250 & 800M\\
+samsung & I9000 & 1630 & 800M\\
+samsung & I9008L & 2830 & 1G\\
+samsung & I9003 & 3050 & 1G\\
+samsung & 8158 & 3000 & 1G\\
+  \hline
+\end{tabular}
+
+\eject  %另起一页
+
+\begin{table}
+  \centering    %对所有的数据居中操作
+  \begin{tabular}{|c|c|c|c|}
+  \hline
+brand & type & price & cpu\\
+  \hline
+samsung & me525 & 2420 & 800M\\
+samsung & s5830 & 2250 & 800M\\
+samsung & I9000 & 1630 & 800M\\
+samsung & I9008L & 2830 & 1G\\
+samsung & I9003 & 3050 & 1G\\
+samsung & 8158 & 3000 & 1G\\
+  \hline
+\end{tabular}
+  \caption{This is my first table}  %caption用于表示表格的名称,label用于生成标签，利于检索
+\end{table}
+
+%合并列命令 multicolumn
+\eject  %另起一页
+
+\begin{table}
+  \centering    %对所有的数据居中操作
+  \begin{tabular}{|c|c|c|c|}
+  \hline
+\multicolumn{2}{|c|}{brand  type} & price & cpu\\
+  \hline
+samsung & me525 & 2420 & 800M\\
+samsung & s5830 & 2250 & 800M\\
+samsung & I9000 & 1630 & 800M\\
+samsung & I9008L & 2830 & 1G\\
+samsung & I9003 & 3050 & 1G\\
+samsung & 8158 & 3000 & 1G\\
+  \hline
+\end{tabular}
+  \caption{This is my first table}  %caption用于表示表格的名称,label用于生成标签，利于检索
+\end{table}
+
+\eject  %另起一页
+
+%合并行命令 multirow,但要调用相应的宏包，具体参照Latex companion
+%\cline的用法
+
+\begin{tabular}{|cccc|}
+  \hline
+brand & type & price & cpu\\
+  \hline
+samsung & me525 & 2420 & 800M\\
+samsung & s5830 & 2250 & 800M\\
+samsung & I9000 & 1630 & 800M\\
+\cline{2-3}     %生成下划线
+samsung & I9008L & 2830 & 1G\\
+samsung & I9003 & 3050 & 1G\\
+samsung & 8158 & 3000 & 1G\\
+  \hline
+\end{tabular}
+\end{document} 
