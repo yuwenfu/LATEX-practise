@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.1.26)  26 JAN 2018 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.26)  27 JAN 2018 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -91,22 +91,39 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+ (e:/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
  [1
 
-] (./firstdocument.aux) ) 
+{e:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./firstdocumen
+t.aux) ) 
 Here is how much of TeX's memory you used:
- 819 strings out of 493005
- 9147 string characters out of 6137956
- 72775 words of memory out of 5000000
- 4859 multiletter control sequences out of 15000+600000
- 4102 words of font info for 17 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 27i,4n,20p,361b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 835 strings out of 492995
+ 9451 string characters out of 6136402
+ 65244 words of memory out of 5000000
+ 4453 multiletter control sequences out of 15000+600000
+ 4094 words of font info for 16 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 27i,5n,20p,345b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+<e:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+e:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><e:/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><e:/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr7.pfb><e:/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><e:/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb>
+Output written on firstdocument.pdf (1 page, 63419 bytes).
+PDF statistics:
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on firstdocument.pdf (1 page).
