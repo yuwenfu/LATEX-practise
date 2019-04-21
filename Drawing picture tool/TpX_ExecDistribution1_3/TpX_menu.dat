@@ -1,0 +1,10 @@
+MAIN MENU:0
+
+MENU:&Tools
+  Flags:0
+  Hint:
+  Macro:0
+    Item:TpX drawing tool
+    Definition:[Run('"C:\Path_to_TpX\TpX.exe" -i"%f" -l%l');]
+    Shortcut:32848
+END Menu:&Insert

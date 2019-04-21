@@ -1,0 +1,232 @@
+TpX modifications log file
+=========================================
+  [+] Added, [-] Fixed, [*] Changed
+=========================================
+
+=========================================
+2006-05-22 TpX Version 1.3 released
+=========================================
+
+=========================================
+2006-04-06 TpX Version 1.3 beta 2 released
+=========================================
+
+[+] New export format "LaTeX EPS" with tight bounding box 
+ (using dvips) and derivatives (PDF using epstopdf, various 
+ GhostScript formats) 
+
+[+] Custom system fonts for graphical objects
+ (not applies to LaTeX output)
+
+[*] Simpler hot keys for graphical objects
+
+[+] Additional hot keys
+
+[-] A bug in saving of arrow-heads information to TpX file
+
+=========================================
+2006-01-31 TpX Version 1.3 beta released
+=========================================
+
+[*] New version of TpX file format, version 3. The format for 
+ storing rectangles changed
+
+[-] \pgfsetmiterlimit fixed
+
+[+] Preview EPS/PDF files in 'Open' dialog
+ (if GhostscriptPath is set)
+
+[+] View source
+
+[*] Open and Import EMF/EPS dialogs merged
+
+[*] When TeXCenterFigure is 1 and TeXFigure is none then
+ the picture is surrounded by {center} environment
+
+[+] A new kind of graphical primitive, "symbol"
+
+[+] "Arrow-head size factor" property for arrow-heads
+
+[+] "Star size factor" property for stars
+
+[+] BezierPrecision setting
+
+[+] 4 new shapes for stars
+
+[+] Native import of simple SVG pictures
+
+[+] New LaTeX and PdfLaTeX output format, 'none'
+
+[-] ANSI-string text in EMF was incorrectly treated as Widestring
+
+[+] Many new styles of arrow-heads
+
+[+] Program now controls changes made to drawing (no more annoying 
+ 'save drawing' dialog when there were no changes)
+
+[+] New command line options for running TpX without GUI
+
+=========================================
+2005-08-08 TpX Version 1.2 released
+=========================================
+
+[+] HatchingLineWidth option for drawing
+
+[-] Delay in refreshing Bezier path position when moving
+ control points
+
+[*] Conversion of graphical object to another graphical object
+ does not change its order
+
+[*] Use ifpdf to detect whether PdfTeX running in PDF mode
+
+=========================================
+2005-07-20 TpX Version 1.2beta released
+=========================================
+
+[+] Classical Bezier paths
+
+[+] Paste EMF/WMF from clipboard
+
+[+] Picture info
+
+[+] Edit coordinates of control points. Data could be copied and 
+ pasted from another application
+
+[+] "Image tool" for metafiles. Includes EPS printing
+
+[+] TpXpy, Python module to generate TpX drawings
+
+[+] Buttons to change basic properties of several objects
+
+[+] PGF TeX format (suitable both for LaTeX and PdfLaTeX)
+
+[-] Incorrectness in PSTricks circles and segments
+ (line width was part of diameter)
+
+[+] Rotated text
+
+[*] New version of TpX format, v="2"
+ (needed to take into account new text height convention)
+
+[+] Text height convension changed. Now text height does not 
+ include "internal leading" used for accents by Windows GDI
+
+[-] Filling of Bezier paths in PSTricks was done
+ incorrectly
+
+[+] Dropdown menus for TeX preview buttons to change
+ output format
+
+[+] Conversion of graphical objects (like ellipse to
+ spline, etc.)
+
+[-] PicScale ??
+
+[-] Fill rule was inconsistent between formats.
+ Now TpX uses "nonzero winding" rule everywhere
+ (not "even-odd" aka "alternate" fill rule)
+ /See documentation on SVG, PS, PDF or Windows GDI
+  about fill rule/
+
+[*] Moving control points of rectangle or ellipse without
+ changing direction of it's edges; more natural 
+ moving control points of circular primitives
+
+[+] LaTeX->DVI->PS preview
+
+[+] Choose Windows font
+
+[+] PDF compression
+
+[+] Preserve text color when importing from EMF 
+
+[+] Convert to grayscale
+
+=========================================
+2005-02-27 TpX Version 1.1 released
+=========================================
+
+[-] Incorrect drawing of polylines in bitmaps when
+ first and last points coincide
+
+[+] Miter limit for the whole picture. This could be used
+ to remove strange spikes at line joines. Visible at Plot3D.TpX
+ sample picture from TpX distribution
+
+[+] Antialiased text in bitmaps (PNG, BMP)
+
+[+] Import old Windows metafiles (WMF)
+
+=========================================
+2005-02-11 TpX Version 1.1beta released
+=========================================
+
+[+] ".TpX" extension could be associated with TpX
+
+[*+] SVGMagnif replaced by PicMagnif and applies to all formats, 
+ not just SVG. Could be used to scale the whole drawing,
+ changing the meaning of millimeters (e.g. LineWidth, StarsSize)
+
+[-] Incorrect text alignment when importing EMF
+
+[-] Sometimes text was imported incorrectly from EMF
+
+[+] EPS and PDF import using PsToEdit
+
+[*] Use Windows temporary directory for temporary files
+
+[-] Arrow-heads were drawn somewhat inaccurately
+
+[+] "Recent files" menu
+
+[+] Preview LaTeX, PdfLaTex
+
+[+] Preview EPS, PDF, SVG, PNG, BMP, EMF
+
+[+] EPS and PDF are surrounded by TeX picture environment
+ to produce consistent text labels. EPS and PDF are now defaults 
+ for LaTeX and PdfLaTeX respectively
+
+[+] 10 additional star shapes (previously there was only one 
+ shape - circle)
+
+[*] PicScale (scale in mm per world unit) instead of 
+ PicWidth/PicHeight
+
+[-] Unstable algorithm was used for calculation closed splines
+
+[+] Scrollbars to move viewport
+
+[+] Mouse wheel: move and zoom viewport
+
+[+] Line (text) color, hatching color, fill color
+
+[-] Incorrect vertical text alignment in TeX-picture, PSTricks 
+ and MetaPost formats
+
+[-] Incorrect font size in MetaPost format when using 
+ btex...etex
+
+[*] TeX font size selection using \fontsize{}{}\selectfont
+ (TeX picture, PSTricks, MetaPost btex...etex)
+
+=========================================
+2004-10-31 TpX Version 1.0.1 released
+=========================================
+
+[+] PDF from EPS using epstopdf
+
+[+] Type 1 fonts in EPS
+
+[-] Incorrect help about WinEdt installation (edit TpX_menu.dat, 
+ not install_TpX.edt)
+
+[-] Ini file location was not linked to exe file path
+
+[-] Error when running on Windows system with comma set as a 
+ decimal point
+
+=========================================
+2004-10-24 TpX Version 1.0 released
+=========================================

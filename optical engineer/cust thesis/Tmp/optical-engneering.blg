@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: ./Tmp/optical-engneering.aux
+The style file: Biblio/gbt7714-unsrt.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: Biblio/ref.bib
+Warning--empty year in .e
+Warning--empty year in .f
+Warning--empty year in .d
+Warning--empty year in .g
+Warning--empty year in .c
+Warning--empty year in .b
+Warning--empty year in .e
+Warning--empty year in .e
+Warning--empty year in .f
+Warning--empty year in .f
+Warning--empty year in .d
+Warning--empty year in .d
+Warning--empty author in .2018g
+Warning--empty year in .g
+Warning--empty year in .g
+Warning--empty year in .c
+Warning--empty year in .c
+Warning--empty year in .b
+Warning--empty year in .b
+You've used 36 entries,
+            3798 wiz_defined-function locations,
+            1008 strings with 9803 characters,
+and the built_in function-call counts, 67353 in all, are:
+= -- 1844
+> -- 4812
+< -- 9467
++ -- 3968
+- -- 187
+* -- 1019
+:= -- 11136
+add.period$ -- 107
+call.type$ -- 36
+change.case$ -- 36
+chr.to.int$ -- 3394
+cite$ -- 56
+duplicate$ -- 711
+empty$ -- 1762
+format.name$ -- 368
+if$ -- 16517
+int.to.chr$ -- 1
+int.to.str$ -- 37
+missing$ -- 0
+newline$ -- 188
+num.names$ -- 105
+pop$ -- 1030
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 4847
+stack$ -- 0
+substring$ -- 4132
+swap$ -- 74
+text.length$ -- 250
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 318
+warning$ -- 19
+while$ -- 369
+width$ -- 0
+write$ -- 526
+(There were 19 warnings)

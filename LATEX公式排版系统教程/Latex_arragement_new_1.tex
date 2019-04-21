@@ -1,0 +1,221 @@
+\documentclass{book}
+
+\usepackage{mathrsfs}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools,mathtext}
+\usepackage{easybmat} 
+		%编排分块矩阵需要用到水平虚线和垂直虚线，可调用块矩阵宏包 easybmat,它提供了一个BMAT块矩阵环境，该环境命令结构为：
+		%\begin{BMAT}(格式矩阵){列格式}{行格式} \end{BMAT}
+\begin{document}
+\chapter{intro}
+$$
+	\left.
+	\begin{array}{llll}
+		 \text{常数} & y & = & c \\ 
+		 \text{直线} & y & = & cx+d \\
+		 \text{抛物线} & y & = & bx^2+cx+b
+	\end{array}
+	\right\} \text{多项式} %\leqno{a.0}
+$$
+
+$$
+	\left.
+	\begin{array}{llll}
+	\text{常数} & y & = & c \\ 
+	\text{直线} & y & = & cx+d \\
+	\text{抛物线} & y & = & bx^2+cx+b
+	\end{array}
+	\right\} \text{多项式} \leqno(a.0)
+$$
+
+\begin{equation}
+	\sum_{0 \leqslant i\atop 0<j<n} P(i,j)
+\end{equation}
+
+\begin{equation}
+\sum_{\begin{subarray}{l}
+0 \leqslant i \\ 0<j<n
+\end{subarray}}P(i,j)
+\end{equation}
+
+$$\sqrt{2}<\sqrt[3]{3}$$
+$$\sum\limits_{k=1}^n,\int\limits_a^b$$
+$$\int_{a}^{b}$$
+
+%数学重音符号
+\[
+\widehat{ab} + \widehat{cdef} = \widetilde{xyz}
+\]
+%上画线与下画线
+$$	\overline{abc...def} $$
+$$	\underline{abc...def} $$
+$$	\overset{132}{\overbrace{abc...def}} $$
+$$	\underbrace{abc...def}$$
+
+%连加，连乘
+\[  \sum_{i=1}, \sum\limits_{i=1}^n  \]
+\[ \prod_{i=1}, \prod\limits_{i=1}^n \]
+
+%在符号底部写符号：\underset
+\[ \underset{0 \leq j \leq k-1}{argmin} \]
+%在符号下部换行：\understack
+$$ \sum_{\substack{0<i<n \\ 0<j<n}}A_{ij} $$
+
+\chapter{intro1}
+%矩阵
+\section{matrix}
+\begin{gather}
+	\begin{matrix}
+	1 & 0 \\ 
+	0 & -1 
+	\end{matrix}	
+	\begin{pmatrix}
+	1 & 0 \\
+	 0 & -1 
+	\end{pmatrix}	
+	\begin{Bmatrix}
+	1 & 0 \\
+	0 & -1
+	\end{Bmatrix}\\	
+	\begin{bmatrix}
+	1 & 0 \\
+	0 & -1 
+	\end{bmatrix}	
+	\begin{Vmatrix}
+	1 & 0 \\
+	0 & -1 
+	\end{Vmatrix}			
+	\begin{vmatrix}
+	1 & 0 \\
+	0 & -1
+	 \end{vmatrix}	
+\end{gather}
+
+\begin{equation}
+	\mathbf{A}_{m,n} = 
+	\begin{pmatrix}
+	a_{11} & \dots & a_{1n} \\
+	\vdots & \ddots & \dots \\
+	a_{m1} & \dots & a_{mn} 
+	\end{pmatrix}
+\end{equation}
+
+%矩阵中的虚线
+\begin{equation}
+	A = 
+	\begin{bmatrix}
+	a_{11} & a_{12} & \dots & a_{1n}\\
+	a_{21} & \dots & \dots & \dots\\
+	\hdotsfor{4}\\
+	a_{m1} & a_{m2} & \dots & a_{mn} 
+	\end{bmatrix}
+\end{equation}
+
+%单位矩阵
+\begin{equation}
+	E=
+	\begin{bmatrix}
+	1\\
+	& 1 &  & \text{{\huge 0}}\\
+	& & 1 \\
+	& \text{{\huge 0}} & & 1\\
+	& & & & 1
+	\end{bmatrix}
+\end{equation}
+
+%矩阵方程
+\begin{gather}
+	\underbrace{
+	\begin{bmatrix}
+	y_{1} & 1 & 1 \\[20pt]
+	\frac{1}{\sqrt{2}} & 1 & y_{2} \\[20pt]
+	1 & 1 &  y_{3} 
+	\end{bmatrix}
+	}_{Y_(3)}
+	\underbrace{
+	\begin{bmatrix}
+	V_1 \\[20pt]
+	V_2 \\[20pt]
+	V_3 
+	\end{bmatrix}
+	}_{V_(3)}=0
+\end{gather}
+
+%矩阵方程组
+\begin{equation}
+	\begin{cases}
+		\begin{array}{*{3} {l@{+}} l @{=} l}
+		a_{11}x_{1} & a_{12}x_{2} & \cdots & a_{1n}x_{n} & c_{1}\\
+		a_{21}x_{1} & a_{22}x_{2} & \cdots & a_{2n}x_{n} & c_{2}\\
+		\hdotsfor{5}\\
+		a_{m1}x_{1} & a_{m2}x_{2} & \cdots & a_{mn}x_{n} & c_{m}\\		
+		\end{array}
+	\end{cases}
+\end{equation}
+
+\begin{equation}  
+	\left\{
+	\begin{array}{rrrl}
+	a_{0}+a_{1}x_{0}+...+a_{n}x_{0}^{n}=y_{0} \\
+	a_{0}+a_{1}x_{1}+...+a_{n}x_{1}^{n}=y_{1} \\
+	\cdots\\
+	a_{0}+a_{1}x_{n}+...+a_{n}x_{n}^{n}=y_{n}
+	\end{array}
+	\right.
+\end{equation}
+
+
+\[
+	\begin{cases}
+		u_{tt}(x,t)= b(t)\triangle u(x,t-4)   \\
+		q(x,t)f[u(x,t-3)]+te^{-t}\sin^2x,    				\hspace{42pt}& t\neq t_k; \\
+		u(x,t_k^+) - u(x,t_k^-) = c_k u(x,t_k),				 & k=1,2,3\ldots ;\\
+		u_{t}(x,t_k^+) - u_{t}(x,t_k^-) =c_k u_{t}(x,t_k), 	&k=1,2,3\ldots
+	\end{cases}
+\]
+
+%分段函数
+\[ 
+	q(x,t)= 
+	\begin{cases}
+	(t-k+1)x^2,\quad  	& t\in \big( k-1,k-\dfrac{1}{2} \big],\\ 
+	(k-t)x^2, \quad 	& t\in \big( k-\dfrac{1}{2},k \big]
+	\end{cases} 
+\] 
+
+%分块矩阵
+%编排分块矩阵需要用到水平虚线和垂直虚线，可调用块矩阵宏包 easybmat,它提供了一个BMAT块矩阵环境，该环境命令结构为：
+%\begin{BMAT}(格式矩阵){列格式}{行格式} \end{BMAT}
+\begin{equation}  
+	A= 
+	\begin{bmatrix}
+		\begin{BMAT}(@,30pt,20pt){cc.c}{cc.c}
+		a_{11} & a_{12} & a_{13}\\
+		a_{21} & a_{22} & a_{23}\\
+		a_{31} & a_{32} & a_{33}
+		\end{BMAT}	
+	\end{bmatrix}
+\end{equation}
+
+%行内矩阵
+$$
+F=
+\big(
+	\begin{matrix}
+		A & B \\
+		C & D
+	\end{matrix}
+)
+$$
+$$
+F=
+\big(
+	\begin{smallmatrix}
+		A & B \\
+		C & D
+	\end{smallmatrix}
+)
+$$
+
+\end{document}

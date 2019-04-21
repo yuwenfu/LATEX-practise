@@ -1,0 +1,52 @@
+\documentclass[12pt,a5paper,twoside]{ctexbook}
+
+\usepackage{graphicx}
+\usepackage[left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm]{geometry}
+
+\usepackage{lipsum} 
+
+\usepackage{fancyhdr}%设置页眉页脚宏包
+\pagestyle{fancy}
+\fancyhf{} %清空所有页眉页脚
+%-----------------------------------------------
+%E--Even page；O--Odd page；
+%L--Left field；C--Center field；R--Right field
+%H--Header；F--Footer
+%-----------------------------------------------
+\fancyhead[LE,RO]{\slshape \rightmark} %%rightmark表示低一级章节；book格式表示section标题
+\fancyhead[LO,RE]{\slshape \leftmark} %%leftmark表示高一级章节；book格式表示chapter标题
+\fancyfoot[C]{\thepage} %C表示center 奇偶数页都显示页码
+%\fancyhead[LO,RE]{\slshape 长春理工大学}
+%\fancyhead[LE,RO]{\slshape 机械电子工程}
+
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\cfoot{--\zihao{3}\textit{\thepage}--}
+	\renewcommand\headrulewidth{0pt} %设置章的页眉页脚没有横线
+	\renewcommand\footrulewidth{0pt}
+} %重新定义plain页面风格
+
+%N of M 样式的页码
+\usepackage{lastpage}
+\rfoot{\thepage\ of \pageref{LastPage}}
+ 
+\author{YW Fu}
+\title{页面版式设置}
+
+\begin{document}
+	\maketitle
+	\chapter{这是一个章标题}
+	\section{这是一个节标题}
+	\lipsum[1]
+	\section{这是一个节标题}
+	\lipsum[2]
+	\section{这是一个节标题}
+	\lipsum[3]
+	\chapter{这是一个章标题}
+	\section{这是一个节标题}
+	\lipsum[4]
+	\section{这是一个节标题}
+	\lipsum[5]
+	\section{这是一个节标题}
+	\lipsum[6]
+\end{document}

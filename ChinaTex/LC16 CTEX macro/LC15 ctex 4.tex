@@ -1,0 +1,73 @@
+\documentclass[UTF8,fontset = windows,zihao=-4,scheme=chinese,space=auto,linespread=1.25,oneside]{ctexbook}
+
+\setcounter{secnumdepth}{3} %显示subsubsection编号
+%\usepackage{lipsum}
+\usepackage{color}
+
+%\ctexset{
+%	part/number = {\Roman{part}},
+%	chapter = {
+%		name = {第,章},
+%		number = \chinese{chapter}
+%	},
+%	section = {
+%		%name = {\S},
+%		name = {第,节},
+%		number = \arabic{section},
+%		numberformat = \color{blue},
+%		numberformat += \Large\itshape,
+%		format = {\Large\bfseries\flushleft}, %控制章节标题的全局格式，作为域为章节名字和随后的标题内容
+%		format+=\color{blue} %追加格式
+%	},
+%	subsection/number = {\thechapter.\arabic{subsection}},
+%	subsubsection/number = {\thechapter.\arabic{subsection}.\arabic{subsubsection}}
+%}  %arabic代表阿拉伯数字
+
+%\ctexset{
+%	today = big,
+%	section = {
+%		name = {第,节},
+%		aftername = {\qquad}, %将{代码}插入到章节编号与其后的标题内容之间
+%		number = \chinese{section},
+%		format = {\Large\bfseries\flushleft},
+%		format += \color{blue}
+%		}
+%}
+
+\ctexset{
+	section = {
+		name = {第,回},
+		titleformat = \sectiontitleformat,
+		beforeskip = {3cm}, %设置章标题正文与首次节标题的垂直间距
+		afterskip = {6cm} %设置首次节标题与该节正文的垂直间距
+		}
+}
+\newcommand\sectiontitleformat[1]{
+\begin{minipage}[t]{.7\linewidth}\centering#1\end{minipage}
+}
+
+
+\begin{document}
+	\part{这是Part标题}	%\CTEXthepart 将标题添加到页眉
+	\chapter{这是一个章标题}
+	%分散对齐
+	\noindent 所在学院:
+	
+	\noindent {\ziju{2}{姓名}:}
+	
+	\noindent {\makebox[4\ccwd][s]{班级}:} %含义：生成4字符宽度的盒子，其中的内容分散对齐
+	
+	\section{这是一个节标题}
+	这是一段文字。
+	\subsection{这是一个小节标题}
+	这是一段文字。
+	\subsubsection{这是一个小小节标题}
+	这是一段文字。
+	\subsubsection{这是一个小小节标题}
+	这是一段文字。
+	\subsection{这是一个节标题}
+	这是一段文字。
+	
+	\chapter{这是一个章标题}%\CTEXthechapter
+	这是一段文字。
+\end{document}

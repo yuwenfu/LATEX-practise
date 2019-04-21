@@ -1,0 +1,46 @@
+\documentclass[UTF8,fontset = windows,zihao=-4,scheme=chinese,space=auto,linespread=1.25,oneside]{ctexbook}
+
+\setcounter{secnumdepth}{3} %显示subsubsection编号
+%\usepackage{lipsum}
+\usepackage{color}
+\pagestyle{plain}  %empty使页脚和页眉消失;plain使页码显示在页脚;headings/myheadings
+
+
+\ctexset{
+	part/number = {\Roman{part}},
+	chapter = {
+		name = {第,章},
+		number = \arabic{chapter}
+	},
+	section = {
+		name = {\S},
+		name = {第,节},
+	%	number = \arabic{section},
+		numberformat = \color{blue},
+		numberformat += \Large\itshape,
+		format = {\Large\bfseries\flushleft}, %控制章节标题的全局格式，作为域为章节名字和随后的标题内容
+		format+=\color{blue} %追加格式
+	},
+		subsection/number = {\thesection.\arabic{subsection}},
+		subsubsection/number = {\thesubsection.\arabic{subsubsection}}
+}  %arabic代表阿拉伯数字
+
+\begin{document}
+	\part{这是Part标题}	\CTEXthepart~\CTEXthesection %生成特定域的编号
+	\chapter{这是一个章标题}%\CTEXthechapter
+	\section{这是一个节标题}\CTEXthesection
+	\subsection{这是一个小节标题}\CTEXthesubsection
+	\subsection{这是一个小节标题}
+	\subsubsection{这是一个小小节标题}
+	\subsubsection{这是一个小小节标题}
+	\subsection{这是一个节标题}\CTEXthesection
+
+	\section{这是一个节标题}
+	\CTEXthesection
+	\subsection{这是一个小节标题}%\CTEXthesubsection
+	\subsection{这是一个节标题}
+	\subsection{这是一个节标题}
+	\subsubsection{这是一个小小节标题}
+
+	\chapter{这是一个章标题}%\CTEXthechapter
+\end{document}

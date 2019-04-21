@@ -1,0 +1,49 @@
+\documentclass[UTF8,fontset = windows,zihao=-4,scheme=chinese,space=auto,linespread=1.25,twocolumn]{ctexart}
+
+\usepackage{graphicx}
+\usepackage[]{gbt7714}
+\usepackage{lipsum}
+
+\usepackage{titletoc} %改变目录格式
+
+\ctexset{today=big,section/numbering= false} %big/small/old;numbering控制是否对不带星号的标题命令进行编号
+
+
+\ctexset{contentsname = {目 录}, bibname = {文献列表}, abstractname = {摘要}, bibname = {参考文献}}
+
+\title{\heiti CTeX 宏包套件使用介绍}
+\author{\kaishu 付煜文}
+
+\date{\today}
+
+
+\begin{document}
+		\maketitle
+		
+		\let\saved\thepage  %把thepage保存到saved宏里面
+		\let\thepage\relax	%relax表示什么都不操作，将其放在thepage里面
+		
+		\begin{abstract}
+			\lipsum[1]
+		\end{abstract}
+		
+		\newpage
+		\tableofcontents	%输出目录
+		
+		\newpage
+		\let\thepage\saved %把saved里面的东西还原到thepage
+		\setcounter{page}{1}	%设置页码
+		
+		\section{CTeX 简介}
+		\subsection{字体简介}
+		\songti 这是\cite{.2004b}宋体字体 songti。this is the songti code. \\
+		
+		\newpage
+		\section{这是正文文献引用示例}
+		这是一遍正文。\cite{RN169}这是一遍正。\cite{.2005c}。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。这是一遍正文。\lipsum[3-5]
+
+		
+		\clearpage	 %类似于新起一页
+		\addcontentsline{toc}{section}{参考文献}  %将参考文献加入目录
+		\bibliography{bibliography/20181115}
+\end{document}

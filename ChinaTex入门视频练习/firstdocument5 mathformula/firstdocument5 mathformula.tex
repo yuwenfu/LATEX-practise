@@ -1,0 +1,70 @@
+%LaTex的数学公式编辑进阶，公式的对齐方式（split、align、gathered、eqnarray）,\nonumber,casee环境
+
+%数学公式排版书籍：More Math into LaTex --Springer
+%ChinaTex 的新浪微博
+
+\documentclass{book}
+
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\numberwithin{equation}{section}  %使公式编号按照章节来编号
+
+\begin{document}
+
+\chapter{intro}
+\[z=(a+b)^4=(a+b)^2(a+b)^2=(a^2+2ab+b^2)(a^2+2ab+b^2)=a^4+4a^3b+6a^2b^2+4ab^3+b^4\]
+ 
+%公式对齐方法
+
+\chapter{intro1}
+\begin{equation}	%split环境缺点，只能所有公式共用同一标号
+\begin{split}  %利用split环境对公式进行排版
+z&=(a+b)^4=(a+b)^2(a+b)^2  \\
+&=(a^2+2ab+b^2)(a^2+2ab+b^2) \\
+&=a^4+4a^3b+6a^2b^2+4ab^3+b^4		
+\end{split}
+\end{equation}	
+
+
+\begin{align}  %align环境每一行都有编号，且可以独立存在，不需要数学环境
+z&=(a+b)^4=(a+b)^2(a+b)^2  \\ %以等号作为划分
+&=(a^2+2ab+b^2)(a^2+2ab+b^2) \\
+&=a^4+4a^3b+6a^2b^2+4ab^3+b^4		
+\end{align}
+	
+\begin{align}  %\nonumber相应的行没有编号
+z&=(a+b)^4=(a+b)^2(a+b)^2 \nonumber \\
+&=(a^2+2ab+b^2)(a^2+2ab+b^2) \nonumber\\
+&=a^4+4a^3b+6a^2b^2+4ab^3+b^4		
+\end{align}
+
+\begin{equation}
+\begin{gathered}  %gathered环境合并公式，并共用编号，排列关于中心对称
+z=(a+b)^4=(a+b)^2(a+b)^2 \\
+z=(a^2+2ab+b^2)(a^2+2ab+b^2) \\
+z=a^4+4a^3b+6a^2b^2+4ab^3+b^4		
+\end{gathered}
+\end{equation}
+
+\chapter{intro2}	
+
+\begin{eqnarray}
+	%如需以等号划分，须在等号两端加上&...&
+	%等号两端的距离并被拉大，起强调作用
+z&=&(a+b)^4=(a+b)^2(a+b)^2 \nonumber \\
+&=&(a^2+2ab+b^2)(a^2+2ab+b^2) \nonumber\\
+&=&a^4+4a^3b+6a^2b^2+4ab^3+b^4
+\end{eqnarray}
+
+%分段函数的表示方法：cases环境
+Indicator Function:
+\[
+I_A(a)=
+\begin{cases}
+	1&a \in A \\
+	0&a \not\in A
+\end{cases}
+\]
+
+\end{document}

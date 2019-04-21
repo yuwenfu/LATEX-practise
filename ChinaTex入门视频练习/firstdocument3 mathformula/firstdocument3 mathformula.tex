@@ -1,0 +1,68 @@
+%latex 数学公式编辑初步：行间公式，行内公式，特殊符号的输入，从mathtype粘贴代码，公式的编号，subequations,\newcommand,\boxed,\mathop
+%\numberwithin{equation}{...}
+%行内公式：在内容中显示公式，且不影响行间距
+%行间公式：另起一行来显示公式，且居中显示
+%\pm 表示 +-
+%\frac表示分数
+%\sqrt{}表示开方运算
+%使用数学符号必须用$...$框选起来
+
+\documentclass{book}    %article,report,letter
+\usepackage{amsmath}
+%\numberwithin{equation}{section}  %使公式编号按照章节来编号
+
+\newcommand{\fc}{\frac}  %宏命令，创建一个新命令
+
+\begin{document}
+	
+$$\sum_{i=1}^{10}i^2$$  %operator算子--求和等
+$${\rm abcd}^a_b$$
+$$\mathop{{\rm abcd}}^a_b$$
+
+\chapter{intro}
+\section{history}
+The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.The quick brown
+$\frac{{- b \pm \sqrt {{b^2} - 4ac} }}{2a}$ fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.
+
+
+$$\frac{{- b \pm \sqrt {{b^2} - 4ac} }}{2a}$$       %两种行间公式的表达形式     $$...$$     \[...\]
+\[\fc{{- b \pm \sqrt {{b^2}  -4ac} }}{2a}\]
+
+
+
+\begin{equation}
+\oint{abc}
+\end{equation}
+
+\begin{equation}
+\sqrt[3]{1888}
+\end{equation}
+
+
+\section{abcd}
+
+\chapter{deduction}
+
+\begin{subequations}  %subequations环境的作用：编号不变，只改变后缀
+	\begin{equation}
+	\oint{abc}
+	\end{equation}
+	
+	\begin{equation}
+	\sqrt[3]{1888}
+	\end{equation}
+\end{subequations}
+
+\section{deduction 1}
+\begin{subequations}  %subequations环境的作用：编号不变，只改变后缀
+	%\boxed{}在equation环境下使用，作用给公式加框，起强调作用。
+	\begin{equation}\boxed{ 
+	\frac{{- b \pm \sqrt {{b^2} - 4ac} }}{2a}}
+	\end{equation}
+	
+	\begin{equation}
+	\frac{{- b \pm \sqrt {{b^2} - 4ac} }}{2a}
+	\end{equation}
+\end{subequations}
+
+\end{document} 

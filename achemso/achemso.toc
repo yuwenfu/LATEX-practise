@@ -1,0 +1,24 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Installation}{2}{section.2}
+\contentsline {section}{\numberline {3}Requirements}{2}{section.3}
+\contentsline {section}{\numberline {4}The class file}{2}{section.4}
+\contentsline {subsection}{\numberline {4.1}Class options}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Manuscript meta-data}{4}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Floats}{5}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Section headers}{5}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Special sections}{5}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Miscellaneous commands}{6}{subsection.4.6}
+\contentsline {section}{\numberline {5}The package file}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}Package options}{6}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Bibliography notes}{7}{subsection.5.2}
+\contentsline {section}{\numberline {6}The {\rmfamily B\kern -.05em\textsc {i\kern -.025em b}\kern -.08emT\kern -.1667em\lower .7ex\hbox {E}\kern -.125emX} style files}{7}{section.6}
+\contentsline {section}{\numberline {7}The \textsf {natmove} package}{8}{section.7}
+\contentsline {section}{\numberline {8}Implementation}{9}{section.8}
+\contentsline {subsection}{\numberline {8.1}Early class-only code}{9}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Early package-only code}{9}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Common code}{10}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Late class-only code}{16}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Late shared code}{40}{subsection.8.5}
+\contentsline {subsection}{\numberline {8.6}Late package-only code}{41}{subsection.8.6}
+\contentsline {subsection}{\numberline {8.7}Moving citations with \textsf {natbib}}{42}{subsection.8.7}
+\contentsline {subsection}{\numberline {8.8}The configuration files}{44}{subsection.8.8}

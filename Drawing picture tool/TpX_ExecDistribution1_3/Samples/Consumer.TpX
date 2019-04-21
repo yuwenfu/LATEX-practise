@@ -1,0 +1,65 @@
+%<TpX v="3" l="15.044" t="94.4773" r="186.874" b="4.49891" ArrowsSize="1" StarsSize="0.8" DefaultFontHeight="6" DefaultSymbolSize="30" PicScale="0.581099987030029" Border="0.5" PicUnitLength="0.05" HatchingStep="4" DottedSize="0.5" DashSize="1" TeXMinLine="2.5" LineWidth="0.25">
+%  <bezier>122.717,16.515 70.4396,18.1852 40.2924,40.5659 32.2755,83.6571</bezier>
+%  <bezier>120.631,28.8551 79.0974,32.3198 54.1824,50.8162 45.8859,84.3445</bezier>
+%  <line x1="20.5006" y1="4.49891" x2="20.5006" y2="86.6728" arr2="h42"/>
+%  <line x1="16.416" y1="7.64839" x2="134.917" y2="7.64839" arr2="h42"/>
+%  <text x="129.166" y="9.18483" t="x" tex="$x$" h="5.83333" jv="b"/>
+%  <text x="17.7857" y="81.6205" t="y" tex="$y$" h="5.83333" jh="r" jv="b"/>
+%  <bezier arrs="0.699999988079071" lw="0.50">66.9862,49.4543 67.237,51.082 67.286,52.52 67.6452,53.7209 68.7825,57.5239 71.3187,59.108 75.2537,58.4733 80.4314,57.6382 83.7718,60.06 85.2749,65.7387</bezier>
+%  <text x="68.1779" y="65.6189" t="Indifference curve" h="5.83333" jv="b"/>
+%  <line x1="20.5016" y1="63.2036" x2="98.6832" y2="7.65695"/>
+%  <star x="62.6461" y="33.1244"/>
+%  <text x="23.1999" y="17.5625" t="Budget triangle" h="5.83333" jv="b"/>
+%  <bezier arrs="0.699999988079071" lw="0.50">63.5075,34.1586 64.2626,35.1325 64.8276,35.809 65.2079,36.2566 67.6969,39.1859 71.4036,39.6943 74.6426,38.9362 78.6412,38.0003 83.2779,39.8295 88.5527,44.4237</bezier>
+%  <text x="82.9096" y="44.1066" t="Consumer&apos;s choice" h="5.83333" jv="b"/>
+%  <curve closed="1" ha="6">155.724,63.8391 153.107,59.3726 153.259,43.62 154.79,35.652 159.64,31.4407 167.233,31.5444 171.828,35.8195 172.904,43.6998 172.608,59.5481 170.057,64.0146 162.67,65.0847</curve>
+%  <polyline>158.475,31.8555 154.392,23.1776 160.262,11.1818 153.371,10.9265</polyline>
+%  <polyline>167.408,31.6002 171.492,22.9224 165.622,10.9265 172.513,10.6713</polyline>
+%  <polyline>152.54,57.5062 138.374,46.7865 146.031,33.7697 151.774,30.7069</polyline>
+%  <polyline>148.711,28.7927 145.648,34.1525 144.117,28.7927</polyline>
+%  <polyline>172.709,57.889 186.874,47.1693 179.217,34.1526 173.474,31.0898</polyline>
+%  <polyline>176.537,29.1755 179.6,34.5354 181.131,29.1755</polyline>
+%  <circle x="162.198" y="79.2061" d="20.2297"/>
+%  <rect x="159.048" y="65.1631" w="6.509" h="3.8285" ha="2"/>
+%  <rect x="69.5346" y="79.1635" w="66.2324" h="15.3138" li="dash"/>
+%  <text x="101.621" y="86.9854" t="A consumer" tex="{\tt\bf A consumer}" h="8.33333" jh="c" jv="c"/>
+%  <star x="158.139" y="82.3912"/>
+%  <star x="165.317" y="82.3912"/>
+%  <sector x="161.584" y="82.6783" d="13.0954" a1="4.44614" a2="4.97864"/>
+%  <segment x="162.07" y="75.3865" d="8.38576" a1="3.88702" a2="5.61581"/>
+%  <bezier>153.144,90.0013 152.828,88.2633 152.973,87.3153 153.578,87.1573 154.184,86.9993 154.382,86.6043 154.171,85.9723</bezier>
+%  <bezier>155.988,90.7912 155.725,89.5273 155.83,88.869 156.304,88.8163 156.778,88.7636 156.989,88.4476 156.936,87.8683</bezier>
+%  <bezier>159.385,91.4232 159.069,90.3699 159.227,89.6326 159.858,89.2113</bezier>
+%  <bezier>163.255,91.2652 163.94,90.4753 163.887,89.7906 163.097,89.2113</bezier>
+%  <bezier>167.679,91.1072 166.784,90.4226 166.547,89.9223 166.968,89.6063 167.389,89.2903 167.337,88.9216 166.81,88.5003</bezier>
+%  <bezier>170.049,90.3173 170.207,89.0006 170.102,88.3555 169.733,88.3818 169.364,88.4081 169.101,87.921 168.943,86.9203</bezier>
+%  <text x="88.1289" y="59.6714" t="(u(x,y)=const)" tex="($u(x,y)=const$)" h="5.83333" jv="b"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{0.05 mm}
+  \begin{picture}(2017.0, 1065.7)(0,0)
+  \put(0,0){\includegraphics{Consumer.pdf}}
+  \put(1336.3, 55.6){\fontsize{9.64}{11.57}\selectfont \makebox(34.6, 67.8)[lb]{$x$\strut}}
+  \put(10.0, 897.5){\fontsize{9.64}{11.57}\selectfont \makebox(31.9, 67.8)[rb]{$y$\strut}}
+  \put(627.5, 711.5){\fontsize{9.64}{11.57}\selectfont \makebox(494.9, 67.8)[lb]{Indifference~curve\strut}}
+  \put(104.8, 153.0){\fontsize{9.64}{11.57}\selectfont \makebox(417.6, 67.8)[lb]{Budget~triangle\strut}}
+  \put(798.7, 461.5){\fontsize{9.64}{11.57}\selectfont \makebox(509.8, 67.8)[lb]{Consumer's~choice\strut}}
+  \put(781.3, 917.3){\fontsize{13.78}{16.53}\selectfont \makebox(469.7, 96.8)[cc]{{\tt\bf A consumer}\strut}}
+  \put(859.4, 642.4){\fontsize{9.64}{11.57}\selectfont \makebox(387.8, 67.8)[lb]{($u(x,y)=const$)\strut}}
+  \end{picture}
+\else
+  \setlength{\unitlength}{0.05 mm}
+  \begin{picture}(2017.0, 1065.7)(0,0)
+  \put(0,0){\includegraphics{Consumer}}
+  \put(1336.3, 55.6){\fontsize{9.64}{11.57}\selectfont \makebox(34.6, 67.8)[lb]{$x$\strut}}
+  \put(10.0, 897.5){\fontsize{9.64}{11.57}\selectfont \makebox(31.9, 67.8)[rb]{$y$\strut}}
+  \put(627.5, 711.5){\fontsize{9.64}{11.57}\selectfont \makebox(494.9, 67.8)[lb]{Indifference~curve\strut}}
+  \put(104.8, 153.0){\fontsize{9.64}{11.57}\selectfont \makebox(417.6, 67.8)[lb]{Budget~triangle\strut}}
+  \put(798.7, 461.5){\fontsize{9.64}{11.57}\selectfont \makebox(509.8, 67.8)[lb]{Consumer's~choice\strut}}
+  \put(781.3, 917.3){\fontsize{13.78}{16.53}\selectfont \makebox(469.7, 96.8)[cc]{{\tt\bf A consumer}\strut}}
+  \put(859.4, 642.4){\fontsize{9.64}{11.57}\selectfont \makebox(387.8, 67.8)[lb]{($u(x,y)=const$)\strut}}
+  \end{picture}
+\fi
+\end{figure}

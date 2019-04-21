@@ -1,0 +1,64 @@
+\documentclass{ctexart}
+
+\usepackage{geometry}%更改页边距所需  
+\usepackage{graphicx}%插入图片所需  
+\usepackage{booktabs}%表格线条加粗所需  
+
+\usepackage{cite}		%用于配置引用的格式
+						%cite引文宏包已被natbib更强大的引文宏包替代
+%\usepackage{natbib}	%功能更强大的引文宏包，具体查文档说明
+							
+%\usepackage{hyperref}	%给引用生成超链接
+
+\bibliographystyle{unsrt}	%声明参考文献的格式
+%plain:按作者、日期、标题的字母顺序排序
+%unsrt:按正文引用文献的顺序排序
+%alpha:作者姓氏前三个字母+出版年份后两位
+%abbrv:缩写作者名和月份名，其余同plain
+
+\title{参考文献环境的使用}
+\author{YW Fu}
+\date{2018年11月11日}
+%\geometry{left=2.54cm,right=2.54cm,top=1.0cm,bottom=1.0cm}%更改页边距  
+
+\begin{document}%开始正文  
+	\maketitle 
+	\begin{abstract}	%摘要
+		这是写摘要。
+	\end{abstract}	
+	\section{Intro}
+	参考文献可以这样引用
+	
+	%\nocite{*}	%在列表显示并不直接引用的文献
+	
+	这是正文。这是正文\cite{.}\cite{Das.2018}。
+	
+	\newpage
+	\bibliography{./Bibliography/123}
+	
+	
+	%\bibliography{./math} %右键打开math.bib文件
+	%\bibliography{./biobliography/math,./biobliography/CNKI_MEMS,WOS_MEMS} %右键打开math.bib文件
+	%\bibliography{./biobliography/WOS_MEMS,./biobliography/CNKI}
+
+			
+%	\begin{thebibliography}{}
+%		\bibitem{MEMSa}
+%		付煜文，yuwenfu
+%		{\em {Introduction to MEMS}}.
+%		北京：清华大学出版社，2020.
+%		\bibitem{MEMSb}
+%		付煜文，yuwenfu
+%		{\em {Introduction to MEMS}}.
+%		北京：清华大学出版社，2021.
+%		\bibitem{MEMSc}
+%		付煜文，yuwenfu
+%		{\em {Introduction to MEMS}}.
+%		北京：清华大学出版社，2022.
+		 
+%		\bibitem{ref1.1}%加标签  
+%		Li, J.; Bioucas-Dias,J.M.; Plaza, A. Spectral–spatial hyperspectral image segmentation usingsubspace multinomial logistic regression and Markov random fields. {\em IEEETrans. Geosci. Remote Sens.} {\bf 2012}, {\em 50}, 809-823.  
+%	\end{thebibliography}%结束编辑参考文献  
+
+
+\end{document}%结束正文</code>  

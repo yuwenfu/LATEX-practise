@@ -1,0 +1,6 @@
+%boldemph.sty
+\ProvidesPackage{boldemph}[2018/12/22 v1.0 emphasis using bold font]
+\newcommand\Emph[1]{\textbf{#1}}
+
+\let\boldemph@oldemph\emph
+\def\emph#1{\textbf{\boldemph@oldemph{#1}}}

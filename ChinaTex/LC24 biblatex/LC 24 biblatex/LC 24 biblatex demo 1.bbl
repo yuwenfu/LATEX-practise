@@ -1,0 +1,285 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Peebles2001-100-100}{book}{}
+      \name{author}{1}{}{%
+        {{hash=eb7c197b3102c3b54669c04b34b73561}{%
+           family={Peebles},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi Z.},
+           giveni={P\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod},
+           suffix={Jr.},
+           suffixi={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{eb7c197b3102c3b54669c04b34b73561}
+      \strng{fullhash}{eb7c197b3102c3b54669c04b34b73561}
+      \strng{bibnamehash}{eb7c197b3102c3b54669c04b34b73561}
+      \strng{authorbibnamehash}{eb7c197b3102c3b54669c04b34b73561}
+      \strng{authornamehash}{eb7c197b3102c3b54669c04b34b73561}
+      \strng{authorfullhash}{eb7c197b3102c3b54669c04b34b73561}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Probability, random variable, and random signal Principles and \LaTeX{}}
+      \field{usera}{M}
+      \field{userd}{P}
+      \field{usere}{von Peebles, Jr., P. Z.}
+      \field{userf}{von Peebles, Jr., P. Z.}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{100}
+      \range{pages}{1}
+      \keyw{Peebles2001-100-100}
+    \endentry
+    \entry{Miroslav2004--}{book}{}
+      \name{author}{3}{}{%
+        {{hash=e062cdd3fc6650df8f894b3c9f145f88}{%
+           family={Miroslav},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ca0dd80a028e8c0ad21ca4699a8d7220}{%
+           family={Dejan},
+           familyi={D\bibinitperiod},
+           given={V.\bibnamedelimi T.},
+           giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=76e3c0db08981091e13071ccd21f16dc}{%
+           family={Brian},
+           familyi={B\bibinitperiod},
+           given={L.\bibnamedelimi E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=6e5c063ab0f70b073d205af658a3469e}{%
+           family={朱义胜},
+           familyi={朱\bibinitperiod}}}%
+        {{hash=9f12fd2cebf4d4128273759f0900ca49}{%
+           family={董辉},
+           familyi={董\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {北京}%
+      }
+      \list{publisher}{1}{%
+        {电子工业出版社}%
+      }
+      \strng{namehash}{3953130be08b715ffd39b4e746677ed0}
+      \strng{fullhash}{3953130be08b715ffd39b4e746677ed0}
+      \strng{bibnamehash}{3953130be08b715ffd39b4e746677ed0}
+      \strng{authorbibnamehash}{3953130be08b715ffd39b4e746677ed0}
+      \strng{authornamehash}{3953130be08b715ffd39b4e746677ed0}
+      \strng{authorfullhash}{3953130be08b715ffd39b4e746677ed0}
+      \strng{translatorbibnamehash}{097581f1d5f66ea4fdd7663c24679b04}
+      \strng{translatornamehash}{097581f1d5f66ea4fdd7663c24679b04}
+      \strng{translatorfullhash}{097581f1d5f66ea4fdd7663c24679b04}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{信号处理滤波器设计-基于matlab和mathematica的设计方法}
+      \field{usera}{M}
+      \field{userd}{信}
+      \field{usere}{朱义胜 and 董辉}
+      \field{userf}{Miroslav, D. L. and Dejan, V. T. and Brian, L. E.}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \keyw{Miroslav2004--}
+    \endentry
+    \entry{蔡敏2006--}{book}{}
+      \name{author}{3}{}{%
+        {{hash=d64694823faf44f40db1866540253cd0}{%
+           family={蔡敏},
+           familyi={蔡\bibinitperiod}}}%
+        {{hash=8fce582b5cb9d130c25f1f89ce566642}{%
+           family={徐慧慧},
+           familyi={徐\bibinitperiod}}}%
+        {{hash=fd380fc9f011733cc67a7d6c699ee23e}{%
+           family={黄柄强},
+           familyi={黄\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {北京}%
+      }
+      \list{publisher}{1}{%
+        {人民邮电出版社}%
+      }
+      \strng{namehash}{6cbbd8f75ee9ea60d334db08222d7145}
+      \strng{fullhash}{6cbbd8f75ee9ea60d334db08222d7145}
+      \strng{bibnamehash}{6cbbd8f75ee9ea60d334db08222d7145}
+      \strng{authorbibnamehash}{6cbbd8f75ee9ea60d334db08222d7145}
+      \strng{authornamehash}{6cbbd8f75ee9ea60d334db08222d7145}
+      \strng{authorfullhash}{6cbbd8f75ee9ea60d334db08222d7145}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{UML基础和Rose建模教程}
+      \field{usera}{M}
+      \field{userd}{U}
+      \field{usere}{蔡敏 and 徐慧慧 and 黄柄强}
+      \field{userf}{蔡敏 and 徐慧慧 and 黄柄强}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \keyw{蔡敏2006--}
+    \endentry
+    \entry{赵耀东1998--}{book}{}
+      \name{author}{1}{}{%
+        {{hash=35246db8cc70175aaa39fd0befb4e1a5}{%
+           family={赵耀东},
+           familyi={赵\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {台北}%
+      }
+      \list{publisher}{1}{%
+        {天下文化出版社}%
+      }
+      \strng{namehash}{35246db8cc70175aaa39fd0befb4e1a5}
+      \strng{fullhash}{35246db8cc70175aaa39fd0befb4e1a5}
+      \strng{bibnamehash}{35246db8cc70175aaa39fd0befb4e1a5}
+      \strng{authorbibnamehash}{35246db8cc70175aaa39fd0befb4e1a5}
+      \strng{authornamehash}{35246db8cc70175aaa39fd0befb4e1a5}
+      \strng{authorfullhash}{35246db8cc70175aaa39fd0befb4e1a5}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{新时代的工业工程师}
+      \field{urlday}{26}
+      \field{urlmonth}{9}
+      \field{urlyear}{1998}
+      \field{usera}{M}
+      \field{userd}{新}
+      \field{usere}{赵耀东}
+      \field{userf}{赵耀东}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.ie.nthu.edu.tw/info/ie.newie.htm(Big5)
+      \endverb
+      \verb{url}
+      \verb http://www.ie.nthu.edu.tw/info/ie.newie.htm(Big5)
+      \endverb
+      \keyw{赵耀东1998--}
+    \endentry
+    \entry{Simon2001--}{book}{}
+      \name{author}{4}{}{%
+        {{hash=17c1ad283a6f1069f893d124d518ad66}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7ebd17c042758e2a355ffb5492f1582e}{%
+           family={Omura},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=14da46399d63ebcd101b2741a43906a1}{%
+           family={Scholtz},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=533e79caf232f01d4b23c08a2d05c6c0}{%
+           family={Levitt},
+           familyi={L\bibinitperiod},
+           given={B.\bibnamedelimi K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York City}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill, Inc.}%
+      }
+      \strng{namehash}{544b7850b03b5e96429adeb291bacadc}
+      \strng{fullhash}{98e2e186011496b6cc257011856d46b3}
+      \strng{bibnamehash}{544b7850b03b5e96429adeb291bacadc}
+      \strng{authorbibnamehash}{544b7850b03b5e96429adeb291bacadc}
+      \strng{authornamehash}{544b7850b03b5e96429adeb291bacadc}
+      \strng{authorfullhash}{98e2e186011496b6cc257011856d46b3}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spread Spectrum Communications Handbook}
+      \field{usera}{M}
+      \field{userd}{S}
+      \field{usere}{Simon, M. K. and Omura,J. K. and Scholtz,R. A. and Levitt,B. K.}
+      \field{userf}{Simon, M. K. and Omura,J. K. and Scholtz,R. A. and Levitt,B. K.}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \keyw{Simon2001--}
+    \endentry
+    \entry{赵学功2001--}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6b9b50e6acad9e5f05f9f0bd5f10d577}{%
+           family={赵学功},
+           familyi={赵\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {社会科学文献出版社}%
+      }
+      \strng{namehash}{6b9b50e6acad9e5f05f9f0bd5f10d577}
+      \strng{fullhash}{6b9b50e6acad9e5f05f9f0bd5f10d577}
+      \strng{bibnamehash}{6b9b50e6acad9e5f05f9f0bd5f10d577}
+      \strng{authorbibnamehash}{6b9b50e6acad9e5f05f9f0bd5f10d577}
+      \strng{authornamehash}{6b9b50e6acad9e5f05f9f0bd5f10d577}
+      \strng{authorfullhash}{6b9b50e6acad9e5f05f9f0bd5f10d577}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{当代美国外交}
+      \field{urlday}{11}
+      \field{urlmonth}{6}
+      \field{urlyear}{2014}
+      \field{usera}{M}
+      \field{userd}{当}
+      \field{usere}{赵学功}
+      \field{userf}{赵学功}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.baidu.com
+      \endverb
+      \verb{url}
+      \verb http://www.baidu.com
+      \endverb
+      \keyw{赵学功2001--}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

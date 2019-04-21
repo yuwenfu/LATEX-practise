@@ -1,0 +1,299 @@
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.15)  23 DEC 2018 00:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**kalmanfilter.tex
+(./kalmanfilter.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(e:/Program Files/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 147.
+)
+(./kalmanfilter.aux)
+\openout1 = `kalmanfilter.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 25 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 25 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+
+! Text line contains an invalid character.
+l.27 V=randn(1,N); %²�^^?
+                         ֵµ����°�����
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
+! Text line contains an invalid character.
+l.32 Y=c*x+V; %²�^^?
+                    ֵ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 40 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 40 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 41 replaced by U+FFFD.
+! Text line contains an invalid character.
+l.41 figure(2); plot(Y); title('²�^^?
+                                     ֵ');
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ˲ in font [lmmono10-regular]:!
+Missing character: There is no ˷ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no Դ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ԣ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ̳ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ڴ in font [lmmono10-regular]:!
+Missing character: There is no ˸ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no л in font [lmmono10-regular]:!
+Missing character: There is no ϵ in font [lmmono10-regular]:!
+Missing character: There is no ͳ in font [lmmono10-regular]:!
+Missing character: There is no Ԥ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ϵ in font [lmmono10-regular]:!
+Missing character: There is no ͳ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no Ԥ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ֵ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ֵ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ֵ in font [lmmono10-regular]:!
+Missing character: There is no һ in font [lmmono10-regular]:!
+Missing character: There is no ʱ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ϵ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ˲ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ״ in font [lmmono10-regular]:!
+Missing character: There is no ̬ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ϵ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ϵ in font [lmmono10-regular]:!
+Missing character: There is no ͳ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no Ԥ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ֵ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ֵ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no ˲ in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+Missing character: There is no � in font [lmmono10-regular]:!
+File: kalmanfilter_01.eps Graphic file (type eps)
+<kalmanfilter_01.eps>
+[1
+
+]
+File: kalmanfilter_02.eps Graphic file (type eps)
+<kalmanfilter_02.eps>
+File: kalmanfilter_03.eps Graphic file (type eps)
+<kalmanfilter_03.eps>
+ [2] [3] (./kalmanfilter.aux) ) 
+Here is how much of TeX's memory you used:
+ 649 strings out of 492970
+ 8498 string characters out of 6131417
+ 73707 words of memory out of 5000000
+ 4710 multiletter control sequences out of 15000+600000
+ 3656 words of font info for 16 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 25i,6n,19p,207b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on kalmanfilter.pdf (3 pages).

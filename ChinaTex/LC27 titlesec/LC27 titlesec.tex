@@ -1,0 +1,44 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage{microtype}
+
+
+
+\usepackage{blindtext}
+
+\usepackage[explicit]{titlesec}  %使用explicit配置时，#1参数不可少
+\usepackage[dvipsnames]{xcolor}
+
+%基本用法
+%\titleformat*{\section}{\Large\bfseries\sffamily}
+%
+%\titleformat*{\subsection}{\Large\itshape}
+
+\titlespacing*{\subsection}{2cm}{2\baselineskip}{\baselineskip}
+
+%进阶用法
+\titleformat{\section}
+	{\bfseries\sffamily\color{RoyalBlue }}
+	{- \thesection{} -}
+	{1em}
+	{\scshape\S\fbox{#1}\titlerule[2pt]}
+%	[\hrulefill]
+
+
+	
+\titleformat{\subsection}
+	{\Large\bfseries\sffamily\color{BrickRed}
+		\filcenter} %\filcenter居中命令，比centering更匹配titlesec宏包
+	{\S}
+	{6pt} %这个参数不能留空，如0pt
+	{#1\titlerule*[1pc]{*}}
+	[\titleline{\titlerule*[1pc]{*}}]
+	%横线加在后面要用titleline{}这个命令	
+	
+\begin{document}	
+	\blinddocument
+
+\end{document}

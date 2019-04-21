@@ -1,0 +1,38 @@
+%<TpX v="3" l="-60" t="139.833" r="140.186" b="-80" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="16" DefaultSymbolSize="30" PicScale="0.5" Border="2" PicUnitLength="0.05" HatchingStep="2" DottedSize="0.5" DashSize="1" TeXMinLine="2" LineWidth="0.3">
+%  <rect x="80.1323" y="-0.179977" w="100" h="99.9994" rotdeg="53.0919" lc="crimson"/>
+%  <rect x="0" y="0" w="10" h="10"/>
+%  <rect x="-60" y="-5.24537E-6" w="60" h="60" lc="green"/>
+%  <rect x="0" y="-80" w="80" h="80" lc="royalblue"/>
+%  <text x="-5.28509" y="-1.7303" t="A" h="13.3333" jh="r" jv="t"/>
+%  <text x="-0.222355" y="61.4241" t="B" h="13.3333" jh="r" jv="b"/>
+%  <text x="83.7448" y="-2.25124" t="C" h="13.3333" jv="t"/>
+%  <text x="-30" y="31" t="x^2" tex="$x^2$" h="11.6667" jh="c" jv="c"/>
+%  <text x="40.3014" y="-40.8011" t="y^2" tex="$y^2$" h="11.6667" jh="c" jv="c"/>
+%  <text x="70" y="69" t="x^2+y^2" tex="$x^2+y^2$" h="11.6667" jh="c" jv="c"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{0.05 mm}
+  \begin{picture}(2081.9, 2278.3)(0,0)
+  \put(0,0){\includegraphics{Pythagoras.pdf}}
+  \put(491.1, 698.7){\fontsize{18.97}{22.76}\selectfont \makebox(96.0, 133.3)[rt]{A\strut}}
+  \put(549.8, 1436.9){\fontsize{18.97}{22.76}\selectfont \makebox(88.0, 133.3)[rb]{B\strut}}
+  \put(1477.4, 693.5){\fontsize{18.97}{22.76}\selectfont \makebox(89.3, 133.3)[lt]{C\strut}}
+  \put(253.7, 1088.2){\fontsize{16.60}{19.92}\selectfont \makebox(172.7, 116.7)[cc]{$x^2$\strut}}
+  \put(959.0, 370.2){\fontsize{16.60}{19.92}\selectfont \makebox(168.0, 116.7)[cc]{$y^2$\strut}}
+  \put(1137.0, 1468.2){\fontsize{16.60}{19.92}\selectfont \makebox(406.0, 116.7)[cc]{$x^2+y^2$\strut}}
+  \end{picture}
+\else
+  \setlength{\unitlength}{0.05 mm}
+  \begin{picture}(2081.9, 2278.3)(0,0)
+  \put(0,0){\includegraphics{Pythagoras}}
+  \put(491.1, 698.7){\fontsize{18.97}{22.76}\selectfont \makebox(96.0, 133.3)[rt]{A\strut}}
+  \put(549.8, 1436.9){\fontsize{18.97}{22.76}\selectfont \makebox(88.0, 133.3)[rb]{B\strut}}
+  \put(1477.4, 693.5){\fontsize{18.97}{22.76}\selectfont \makebox(89.3, 133.3)[lt]{C\strut}}
+  \put(253.7, 1088.2){\fontsize{16.60}{19.92}\selectfont \makebox(172.7, 116.7)[cc]{$x^2$\strut}}
+  \put(959.0, 370.2){\fontsize{16.60}{19.92}\selectfont \makebox(168.0, 116.7)[cc]{$y^2$\strut}}
+  \put(1137.0, 1468.2){\fontsize{16.60}{19.92}\selectfont \makebox(406.0, 116.7)[cc]{$x^2+y^2$\strut}}
+  \end{picture}
+\fi
+\end{figure}

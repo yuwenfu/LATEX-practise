@@ -1,0 +1,211 @@
+\begin{thebibliography}{36}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[应再恩\ 等(2014)应再恩, 平雪良, 李正洋, 蒋毅, and
+  陈盛龙]{.2014}
+应再恩, 平雪良, 李正洋, 等.
+\newblock 基于视觉跟踪的机器人复杂轨迹模拟再现\allowbreak[J].
+\newblock 机械设计与研究, 2014\penalty0 (01):\penalty0 39-41+46.
+
+\bibitem[张雷\ 等(2015)张雷, 贺虎, and 武传宇]{.2015b}
+张雷, 贺虎, 武传宇.
+\newblock
+  蔬菜嫁接机器人嫁接苗特征参数的视觉测量方法\allowbreak[J].
+\newblock 农业工程学报, 2015\penalty0 (09):\penalty0 32-38.
+
+\bibitem[翟乃斌\ 等(2006)翟乃斌, 苏建, 刘玉梅, 陈友谊, and
+  欧阳新]{.2006}
+翟乃斌, 苏建, 刘玉梅, 等.
+\newblock 基于计算机视觉的汽车整车尺寸测量系统\allowbreak[J].
+\newblock 交通与计算机, 2006\penalty0 (03):\penalty0 22-26.
+
+\bibitem[yong\ 等(2013)yong and hui]{yong.2013}
+yong~Y~w, hui~S.
+\newblock 机器视觉自动检测技术\allowbreak[M].
+\newblock Bei jing: {Hua xue gong ye chu ban she}, 2013.
+
+\bibitem[{A.Forsyth（戴维·A.福赛斯）JeanPonce（简·泊斯）
+  David}(2017)]{A.2017}
+{A.Forsyth（戴维·A.福赛斯）JeanPonce（简·泊斯） David}.
+\newblock
+  计算机视觉一种现代方法（第二版）（英文版）\allowbreak[M].
+\newblock 电子工业出版社, 2017.
+
+\bibitem[章毓晋(2017)]{zhang.2017}
+章毓晋.
+\newblock 计算机视觉教程（第2版）\allowbreak[M].
+\newblock 人民邮电出版社, 2017.
+
+\bibitem[马鹏刚\ 等(2016)马鹏刚, 胡炳方, 韩华, and 林璐]{.2016c}
+马鹏刚, 胡炳方, 韩华, 等.
+\newblock 数字摄影测量与计算机视觉概述\allowbreak[J].
+\newblock 测绘标准化, 2016, 32\penalty0 (02):\penalty0 21-23.
+
+\bibitem[张温()]{.e}
+张温.
+\newblock 基于机器视觉的牲畜体征测量系统的研究\allowbreak[D].
+\newblock 内蒙古科技大学.
+
+\bibitem[陈晨(2018)]{.2018}
+陈晨.
+\newblock
+  为人工智能擦亮双眼------浅论图像去模糊技术\allowbreak[J].
+\newblock 通讯世界, 2018\penalty0 (11):\penalty0 282-283.
+
+\bibitem[卢宏涛\ 等(2016)卢宏涛 and 张秦川]{.2016d}
+卢宏涛, 张秦川.
+\newblock
+  深度卷积神经网络在计算机视觉中的应用研究综述\allowbreak[J].
+\newblock 数据采集与处理, 2016, 31\penalty0 (01):\penalty0 1-17.
+
+\bibitem[刘克松\ 等(2018)刘克松, 程广明, and 李尧]{.2018i}
+刘克松, 程广明, 李尧.
+\newblock 人工智能概念内涵与外延研究\allowbreak[J].
+\newblock 中国新通信, 2018, 20\penalty0 (14):\penalty0 140-141.
+
+\bibitem[潘武()]{.f}
+潘武.
+\newblock 基于机器视觉的工件的识别和定位\allowbreak[D].
+\newblock 北京化工大学.
+
+\bibitem[潘武\ 等(2012)潘武, 张莉彦, and 徐俊成]{.2012}
+潘武, 张莉彦, 徐俊成.
+\newblock 基于机器视觉的工件的在线检测\allowbreak[J].
+\newblock 组合机床与自动化加工技术, 2012\penalty0 (07):\penalty0
+  75-78+81.
+
+\bibitem[罗元成\ 等(2017)罗元成 and 汪应]{.2017b}
+罗元成, 汪应.
+\newblock
+  基于计算机视觉的棉花生长监测自主导航车辆研究\allowbreak[J].
+\newblock 农机化研究, 2017, 39\penalty0 (12):\penalty0 205-209.
+
+\bibitem[武子睿(2018)]{.2018c}
+武子睿.
+\newblock
+  浅析人工智能主要技术方向以及在智能机器人上的应用\allowbreak[J].
+\newblock 电子制作, 2018\penalty0 (20):\penalty0 36-38.
+
+\bibitem[徐德\ 等(2010)徐德 and 谭民]{.2010}
+徐德, 谭民.
+\newblock 基于知识的机器人视觉测量分类与进展\allowbreak[J].
+\newblock 控制与决策, 2010\penalty0 (04):\penalty0 481-486+492.
+
+\bibitem[郭伟青\ 等(2016)郭伟青, 汤一平, 鲁少辉, and
+  陈麒]{.2016}
+郭伟青, 汤一平, 鲁少辉, 等.
+\newblock
+  基于镜面成像技术的三维立体视觉测量与重构综述\allowbreak[J].
+\newblock 计算机科学, 2016\penalty0 (09):\penalty0 1-10+22.
+
+\bibitem[段延娥\ 等(2015)段延娥, 李道亮, 李振波, and
+  傅泽田]{.2015}
+段延娥, 李道亮, 李振波, 等.
+\newblock
+  基于计算机视觉的水产动物视觉特征测量研究综述\allowbreak[J].
+\newblock 农业工程学报, 2015\penalty0 (15):\penalty0 1-11.
+
+\bibitem[关贞珍\ 等(2016)关贞珍, 尹玉军, 曹进华, and
+  尹晓春]{.2016b}
+关贞珍, 尹玉军, 曹进华, 等.
+\newblock
+  基于机器视觉的火箭炮定向管平行度测量技术研究\allowbreak[J].
+\newblock 军械工程学院学报, 2016, 28\penalty0 (05):\penalty0 53-58.
+
+\bibitem[郑季炜(2018)]{.2018k}
+郑季炜.
+\newblock 基于机器视觉的智能人机交互技术研究\allowbreak[J].
+\newblock 海峡科学, 2018\penalty0 (01):\penalty0 24-26.
+
+\bibitem[毕运波\ 等(2017)毕运波, 徐超, 樊新田, and
+  严伟苗]{.2017}
+毕运波, 徐超, 樊新田, 等.
+\newblock 基于视觉测量的沉头孔垂直度检测方法\allowbreak[J].
+\newblock 浙江大学学报(工学版), 2017\penalty0 (02):\penalty0 312-318.
+
+\bibitem[陈熙引()]{.d}
+陈熙引.
+\newblock
+  基于双目视觉的机器人焊缝识别及轨迹规划研究\allowbreak[D].
+\newblock 华南理工大学.
+
+\bibitem[白东升\ 等(2017)白东升 and 李康]{.2017e}
+白东升, 李康.
+\newblock
+  基于计算机视觉的高速机器人芒果分选系统设计\allowbreak[J].
+\newblock 农机化研究, 2017, 39\penalty0 (08):\penalty0 231-233.
+
+\bibitem[刁智华\ 等(2017)刁智华, 刁春迎, 魏玉泉, 毋媛媛,
+  钱晓亮, and 刘玉翠]{.2017d}
+刁智华, 刁春迎, 魏玉泉, 等.
+\newblock 精准施药机器人关键技术研究进展\allowbreak[J].
+\newblock 农机化研究, 2017, 39\penalty0 (11):\penalty0 1-6.
+
+\bibitem[Zhao(2012)]{Zhao.2012}
+Zhao~P.
+\newblock 机器视觉研究与发展\allowbreak[M].
+\newblock Di yi ban.
+\newblock Beijing: {Ke xue chu ban she}, 2012.
+
+\bibitem[张学武(2013)]{zhangke.2013}
+张学武.
+\newblock 视觉检测技术及智能计算\allowbreak[M].
+\newblock 中国质检出版社, 2013.
+
+\bibitem[.20(2018)]{.2018g}
+企业如何发挥人工智能的作用\allowbreak[J].
+\newblock 机器人产业, 2018\penalty0 (04):\penalty0 106-120.
+
+\bibitem[黄伟(2018)]{.2018e}
+黄伟.
+\newblock 计算机视觉技术及产业化应用态势分析\allowbreak[J].
+\newblock 信息通信技术与政策, 2018\penalty0 (09):\penalty0 59-62.
+
+\bibitem[徐鑫(2018)]{.2018b}
+徐鑫.
+\newblock 探究计算机视觉发展前景及趋势\allowbreak[J].
+\newblock 电脑迷, 2018\penalty0 (12):\penalty0 26.
+
+\bibitem[轩中(2018)]{.2018h}
+轩中.
+\newblock 中国在计算机视觉领域的人工智能公司\allowbreak[J].
+\newblock 互联网周刊, 2018\penalty0 (14):\penalty0 46-48.
+
+\bibitem[黄乐平中金公司董事总经理电子及技术硬件行业首席分析师()]{.g}
+黄乐平中金公司董事总经理电子及技术硬件行业首席分析师.
+\newblock 未来竞争将聚焦在人工智能和芯片领域\allowbreak[Z].
+
+\bibitem[梁春疆()]{.c}
+梁春疆.
+\newblock
+  基于机器视觉原理的车辆外廓尺寸在线测量系统\allowbreak[D].
+\newblock 天津大学.
+
+\bibitem[李盛前()]{.b}
+李盛前.
+\newblock 基于视觉技术的水下焊接机器人系统研究\allowbreak[D].
+\newblock 华南理工大学.
+
+\bibitem[尹仕斌\ 等(2018)尹仕斌, 任永杰, 刘涛, 郭思阳, 赵进,
+  and 邾继贵]{.2018j}
+尹仕斌, 任永杰, 刘涛, 等.
+\newblock
+  机器视觉技术在现代汽车制造中的应用综述\allowbreak[J].
+\newblock 光学学报, 2018, 38\penalty0 (08):\penalty0 11-22.
+
+\bibitem[颜发根刘建群陈新丁少华(2004)]{.2004}
+颜发根刘建群陈新丁少华.
+\newblock 机器视觉及其在制造业中的应用\allowbreak[J].
+\newblock 机械制造, 2004\penalty0 (11):\penalty0 28-30.
+
+\bibitem[阮秋琦(1992)]{.1992}
+阮秋琦.
+\newblock 图象处理和计算机视觉检测技术在美国\allowbreak[J].
+\newblock 北方交通大学学报, 1992\penalty0 (03):\penalty0 8-14.
+
+\end{thebibliography}

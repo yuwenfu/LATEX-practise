@@ -1,0 +1,15 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'LC 24 biblatex demo 1.blg'
+[31] biber-MSWIN32:313> INFO - === 
+[59] Biber.pm:371> INFO - Reading 'LC 24 biblatex demo 1.bcf'
+[161] Biber.pm:857> INFO - Found 6 citekeys in bib section 0
+[175] Biber.pm:3976> INFO - Processing section 0
+[191] Biber.pm:4136> INFO - Looking for bibtex format file 'example.bib' for section 0
+[203] bibtex.pm:1500> INFO - LaTeX decoding ...
+[532] bibtex.pm:1316> INFO - Found BibTeX data source 'example.bib'
+[612] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[612] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[612] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[612] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[622] bbl.pm:617> INFO - Writing 'LC 24 biblatex demo 1.bbl' with encoding 'UTF-8'
+[625] bbl.pm:720> INFO - Output to LC 24 biblatex demo 1.bbl

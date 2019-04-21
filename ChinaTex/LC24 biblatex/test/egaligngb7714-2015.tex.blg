@@ -1,0 +1,5 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'egaligngb7714-2015.tex.blg'
+[40] biber-MSWIN32:313> INFO - === 
+[540] Utils.pm:209> ERROR - Cannot find control file 'egaligngb7714-2015.tex.bcf'! - Did latex run successfully on your .tex file before you ran biber?
+[541] Biber.pm:114> INFO - ERRORS: 1

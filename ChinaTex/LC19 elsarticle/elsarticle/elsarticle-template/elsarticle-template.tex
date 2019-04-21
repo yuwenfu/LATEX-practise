@@ -1,0 +1,186 @@
+\documentclass[review,number,sort&compress,3p,twocolumn,11pt]{elsarticle} %5p默认为双栏
+
+
+\biboptions{square} %引用圆括号变为方括号
+\usepackage{amssymb} %数学符号
+\usepackage{amsmath} %特殊数学符号
+\usepackage{amsthm}	%数学定理
+
+\usepackage[american]{babel} %用于文章两端文字对齐和断行
+\usepackage{microtype} %用于文章两端文字对齐和断行
+
+\usepackage{lineno,hyperref}  %行号显示和超链接
+\usepackage{lipsum}
+
+%\hypersetup{
+%	pdfauthor={},%
+%	pdfstartview=FitH,%
+%	CJKbookmarks=true,%
+%	bookmarksnumbered=true,%
+%	bookmarksopen=true,%
+%	colorlinks=true,%
+%	linkcolor=blue,%
+%	urlcolor=blue,%
+%	citecolor=,%
+%}
+
+\newtheorem{thm}{Theorem}  %定理环境
+\newtheorem{lem}[thm]{Lemma} %引理环境
+\newdefinition{dfn}{Defintion}
+\newdefinition{rmk}[dfn]{Remark}
+\newproof{pf}{Proof}
+\newproof{pft}{Proof of Theorem \ref{CUMT}}
+
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{frontmatter}
+
+\title{Elsevier \LaTeX\ template\tnoteref{t1,t2}}
+\tnotetext[t1]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
+\tnotetext[t2]{This document is a collaborative effect.}
+
+%%对填写作者信息很有用
+%% Group authors per affiliation:
+\author{Elsevier\fnref{myfootnote}}
+\address{Radarweg 29, Amsterdam}
+\fntext[myfootnote]{Since 1880.}
+
+%% or include affiliations in footnotes:
+\author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
+\ead[url]{www.elsevier.com}
+
+\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{support@elsevier.com}
+
+\address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
+\address[mysecondaryaddress]{360 Park Avenue South, New York}
+
+\begin{abstract}
+This template helps you to create a properly formatted \LaTeX\ manuscript.
+\end{abstract}
+
+%\begin{keyword}
+%\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+%\MSC[2010] 00-01\sep  99-00
+%\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers %左侧页码表示
+
+\section{The Elsevier article class}
+
+\paragraph{Installation} If the document class \emph{elsarticle} is not available on your computer, you can download and install the system package \emph{texlive-publishers} (Linux) or install the \LaTeX\ package \emph{elsarticle} using the package manager of your \TeX\ installation, which is typically \TeX\ Live or Mik\TeX.
+
+\paragraph{Usage} Once the package is properly installed, you can use the document class \emph{elsarticle} to create a manuscript. Please make sure that your manuscript follows the guidelines in the Guide for Authors of the relevant journal. It is not necessary to typeset your manuscript in exactly the same way as an article, unless you are submitting to a camera-ready copy (CRC) journal.
+
+\paragraph{Functionality} The Elsevier article class is based on the standard article class and supports almost all of the functionality of that class. In addition, it features commands and options to format the
+\begin{itemize}
+\item document style
+\item baselineskip
+\item front matter
+\item keywords and MSC codes
+\item theorems, definitions and proofs
+\item lables of enumerations
+\item citation style and labeling.
+\end{itemize}
+ 
+\begin{thm}\label{CUMT}
+	\lipsum[1]
+\end{thm} 
+
+%\begin{pft}
+%	theorem have been proofed.
+%\end{pft}
+
+\begin{lem}
+	\lipsum[1]
+\end{lem} 
+
+\begin{dfn}
+	\lipsum[2]
+\end{dfn} 	
+
+\begin{rmk}
+	\lipsum[2]
+\end{rmk} 
+
+\begin{proof}
+	\lipsum[2]
+\end{proof}
+
+\section{table}
+	\begin{enumerate}[1.]
+		\item The enumerate environment starts with an optional
+		argument ‘1.’, so that the item counter will be suffixed
+		by a period.
+		\item You can use ‘a)’ for alphabetical counter and ’(i)’ for
+		roman counter.
+		\begin{enumerate}[a)]
+			\item Another level of list with alphabetical counter.
+			\item One more item before we start another.
+			\begin{enumerate}[(i)]
+				\item This item has roman numeral counter.
+				\item Another one before we close the third level.
+			\end{enumerate}
+			\item Third item in second level.
+		\end{enumerate}
+		\item All list items conclude with this step.
+	\end{enumerate}
+
+\section{Front matter}
+
+The author names and affiliations could be formatted in two ways:
+\begin{enumerate}[(1)]
+\item Group the authors per affiliation.
+\item Use footnotes to indicate the affiliations.
+\end{enumerate}
+See the front matter of this document for examples. You are recommended to conform your choice to the journal you are submitting to.
+
+\section{Bibliography styles}
+
+There are various bibliography styles available. You can select the style of your choice in the preamble of this document. These styles are Elsevier styles based on standard styles like Harvard and Vancouver. Please use Bib\TeX\ to generate your bibliography and include DOIs whenever available.
+
+Here are two sample references: \cite{Feynman1963118,Dirac1953888}.
+
+\section*{References}
+
+\bibliography{mybibfile}
+
+\end{document}

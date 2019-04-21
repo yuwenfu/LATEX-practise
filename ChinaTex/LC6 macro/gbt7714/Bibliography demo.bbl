@@ -1,0 +1,37 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[陈忠民(2004)]{.2004b}
+陈忠民.
+\newblock 高Q值RF-MEMS平面电感的研究\allowbreak[Z].
+\newblock [出版地不详]: 清华大学, 2004.
+
+\bibitem[鲍雅萍(2004)]{.2004d}
+鲍雅萍.
+\newblock 微机电系统性能检测的分析与研究\allowbreak[J].
+\newblock 2004\penalty0 (02):\penalty0 14-16.
+
+\bibitem[Du\ et~al.(2018)Du, Yang, Gong, Wang, Sun, Qin, and Dai]{RN142}
+DU~Y~J, YANG~T~T, GONG~D~D, et~al.
+\newblock High dynamic micro vibrator with integrated optical displacement
+  detector for in-situ self-calibration of mems inertial
+  sensors\allowbreak[J/OL].
+\newblock Sensors (Basel), 2018, 18\penalty0 (7).
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/29954126}.
+\newblock DOI: \doi{10.3390/s18072055}.
+
+\bibitem[Dwivedi\ et~al.(2017)Dwivedi and Khanna]{RN205}
+DWIVEDI~A, KHANNA~G.
+\newblock Sensitivity enhancement of a folded beam mems capacitive
+  accelerometer-based microphone for fully implantable hearing
+  application\allowbreak[J/OL].
+\newblock Biomed Tech (Berl), 2017.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/29087950}.
+\newblock DOI: \doi{10.1515/bmt-2016-0181}.
+
+\end{thebibliography}

@@ -1,0 +1,150 @@
+\documentclass{zjureport}
+% =============================================
+% Part 1 Edit the info
+% =============================================
+
+%%%%%%%%%%%%%%
+\makeatletter
+\newcommand\dlmu[2][4cm]{\hskip1pt\underline{\hb@xt@ #1{\hss#2\hss}}\hskip3pt}
+\makeatother
+%%%%%%%%%%%%%%
+
+\newcommand{\major}{机械电子工程}
+\newcommand{\name}{付煜文}
+\newcommand{\stuid}{150321128}
+\newcommand{\newdate}{2018年第2次}
+\newcommand{\loc}{机办301}
+
+\newcommand{\course}{光电检测实验}
+\newcommand{\tutor}{丁红昌}
+\newcommand{\grades}{}
+\newcommand{\newtitle}{光敏电阻实验}
+\newcommand{\exptype}{验证性实验}
+\newcommand{\group}{None}
+
+\renewcommand\labelenumi{(\theenumi)} %重新定义编号,如（x）
+
+% =============================================
+% Part 1 Main document
+% =============================================
+\begin{document}
+		\thispagestyle{plain}         %只保留页脚
+	\begin{figure}[h]
+		\begin{minipage}{0.6\linewidth}
+			\centerline{\includegraphics[width=\linewidth]{custed.png}}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{.4\linewidth}
+			\raggedleft
+			\begin{tabular*}{.8\linewidth}{ll}
+				专业： & \underline\major   \\
+				姓名： & \underline\name    \\
+				学号： & \underline\stuid   \\
+				日期： & \underline\newdate \\
+				地点： & \underline\loc
+			\end{tabular*}
+		\end{minipage}
+	\end{figure}
+	
+	\begin{table}[!htbp]
+		\centering
+		\begin{tabular*}{\linewidth}{llllll}
+			课程名称： & \underline\course   & 指导老师： & \underline\tutor   & 成绩：       &  \dlmu[1.5cm]{} \\
+			实验名称： & \underline\newtitle & 实验类型： & \underline\exptype 
+		\end{tabular*}
+	\end{table}
+
+
+% =============================================
+% Part 2 Main document
+% =============================================
+
+\section{实验目的和要求}
+	{了解光敏电阻的光照特性、光谱特性和伏安特性等基本特性。}
+\section{基本原理}
+	{
+		在光线的作用下，电子吸收光子的能量从键合状态过渡到自由状态，引起电导率的变化，这
+		种现象称为光电导效应。光电导效应是半导体材料的一种效应。光照愈强，器件自身的电阻愈小。
+		基于这种效应的光电器件称光敏电阻。光敏电阻无极性，其工作特性与入射光光强、波长和外加
+		电压有关。}
+
+
+\section{主要仪器设备}
+  {主机、安装架、发光二极管光源、光敏电阻探头、
+  	光照度计及探头、分光装置。}
+
+\section{操作方法和实验步骤}
+  \subsection{亮电阻和暗电阻测量}
+	\addimagesml{L2-1-guangmin}{光敏器件实验原理图}
+	\addimagebig{L2-2-jiexian}{光照度计测量接线}
+	\addimagebig{L2-3-jiexian}{光敏器件实验安装接线图}
+	\begin{enumerate}
+		\item{图\ref{L2-1-guangmin}是光敏电阻实验原理图}
+		\item{按图\ref{L2-2-jiexian}光照度实验安装接线。将照度计探头与主
+			机小面板上照度计显示表 Vi 口相连接（照度计探头的黄
+			色接照度表的 Vi，黑色接地）。按图\ref{L2-2-jiexian}接。打开主机
+			电源，然后，顺时针慢慢调节 0$\sim$20mA 可调电流源旋钮，使照度计显示为 100Lx。}
+		\item{
+			撤下照度计探头，换上光敏电阻探头及电路（图\ref{L2-3-jiexian}顺时针慢慢调节 0 $\sim$ 5V 可调电源，
+			使电压表显示 5V（如调不到 5V 则 Vcc 改接 0 -- 15V 可调电压源）。}
+		\item{
+			在光敏电阻与光源之间用遮光筒连接，10 秒钟后，读取电压表（量程为 20V 档）和电流表量程为 20mA 档）的值分别为亮电压$U_{\text{亮}}$和亮电流$I_{\text{亮}}$。}
+		\item{将 0$\sim$20mA 可调电流源的调节旋钮逆时针方向慢慢旋到底， 10 秒钟后，读取电压表（量程
+			为 20V 档）和电流表（量程为 20µA 档）的值分别为暗电压$U_{\text{暗}}$和暗电流$I_{\text{暗}}$。}
+		\item{根据以下公式，计算亮阻和暗阻}
+		\par
+	$R_{\text{亮}}$=$U_{\text{亮}}$/$I_{\text{亮}}$ = $\dfrac{4.92 V}{1.74 mA }$= 2.82k$\Omega$ 
+ \qquad $R_{\text{暗}}$=$U_{\text{暗}}$/$I_{\text{暗}}$=$\dfrac{5.73 V}{0.03 \mu A} $ = 191M$\Omega$ 
+		\item{光敏电阻在不同的照度下有不同的亮阻和暗阻； 在不同的工作电压下有不同的亮阻和暗阻。
+			如有兴趣可重复以上实验步骤做实验。}
+	\end{enumerate}
+  \subsection{光照特性测量}
+	当光敏电阻的工作电压（Vcc）为+5V 时，光敏电阻的光电流随光照强度变化而变化，它们之
+	间的关系是非线性的。改变光源电流大小可得到不同的光照度值(实验方法同以上实验，照度计探
+	头和光敏电阻探头交替使用)，测得数据填入表\ref{tb1}，并作出光电流与光照度 I-Lx 曲线图。
+	\begin{table}[!htbp]
+		\centering
+		\caption{}\label{tb1}
+		\begin{tabular}{lccccccccc}
+			%\toprule
+			\Xhline{1pt}
+			光照度(L$_X$) & 20 & 40 & 60 & 80 & 100 & 120 & 140 & 160 & 180  \\
+			%\cmidrule
+			%\midrule
+			\Xhline{0.4pt}
+			电流(mA) & 0.37 & 0.62 & 0.92 & 1.18 & 1.49 & 1.92 & 2.12 & 3.48 & 3.60  \\
+			%\bottomrule
+			\Xhline{1pt}
+		\end{tabular}
+	\end{table}
+
+	\addimagebig{L2-1-data.pdf}{光照特性测量}
+	
+  \subsection{伏安特性测量}
+  在一定的光照强度下，光敏电阻的光电流随外加电压的变化而变化，实验时，在给定光照强
+  度为 50Lx、100Lx、150Lx 时，图\ref{L2-2-jiexian}改变光敏电阻的工作电压值$\Delta$ U＝0.5（由电压表监测），测
+  得不同光照度下流过光敏电阻的电流值,将数据填入表\ref{tb2}， 并作不同照度下的三条伏安特性曲线。
+\begin{table}[!htbp]
+  	\centering
+  	\caption{}\label{tb2}
+	\begin{tabular}{c|l|l|ccccccccccc}
+	\Xhline{1pt}
+	\multicolumn{2}{c|}{型号:G5528} & 电压(U) & 0	& 0.50 & 1 & 1.50 & 2 & 2.50 & 3 & 3.50	 & 4 & 4.50 & 5\\
+	\Xhline{0.4pt}
+	\multirow{3}{*}{照度（Lx）} & 50 & 电流(mA) & 0 & 0.07 & 0.15 & 0.23 & 0.31	 & 0.39	 & 0.47 & 0.54	 & 0.59	 & 0.68	 & 0.81\\
+	\Xcline{2-14}{0.4pt}
+	 & 100 & 电流(mA) & 0 & 0.18 & 0.34 & 0.53 & 0.71 & 0.87 & 1.05 & 1.23 & 1.41 & 1.58 & 1.76\\
+	\Xcline{2-14}{0.4pt}
+	& 150 & 电流(mA) & 0 & 0.35	 & 0.70 & 1.04 & 1.45 & 1.76 & 2.10 & 2.46 & 2.8 & 3.14 & 3.51\\
+	\Xhline{1pt}
+\end{tabular} 
+\end{table}
+
+	\addimagebig{L2-2-data.pdf}{伏安特性测量}
+	
+\section{思考题}
+	{
+		为什么测光敏电阻亮阻和暗阻要经过10 秒钟后读数，这是光敏电阻的缺点，只能应用于什么
+		状态？}
+
+\end{document}

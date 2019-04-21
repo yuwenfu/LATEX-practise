@@ -1,0 +1,43 @@
+\documentclass[UTF8,fontset = windows,zihao=-4,scheme=chinese,space=auto,linespread=1.25]{ctexart} %space推荐auto，因为latex默认回车表示一个空格；
+%\documentclass[UTF8,fontset = adobe,zihao=-4,scheme=chinese]{ctexart} %adobe仅支持宋体，仿宋，黑体，楷书，不然会报错
+
+\usepackage{graphicx}
+
+\begin{document}
+	\title{\heiti CTeX 宏包套件使用介绍}
+	\author{\kaishu 付煜文}
+	\date{\today}
+	\maketitle
+	\section{CTeX 简介}
+	
+	\subsection{字体简介}
+	\songti 这是   宋体字体 songti。this is the songti code. \\
+	\heiti	这是黑体字体。this is the heiti code.\\
+	\fangsong 这是仿宋字体。this is the fangsong code.\\
+	\kaishu 这是楷书字体。this is the kaishu code.
+	\\
+	\lishu 这是隶书字体。this is the lishu code.\\
+	\youyuan 这是幼圆字体。this is the youyuan code.\\
+	\yahei 这是微软雅黑字体。this is the yahei code.
+	
+	\subsection{插入图片}
+	%\begin{figure}[h]
+	%\begin{figure}[t]
+	%\begin{figure}[b]
+	\begin{figure}[htb!]
+		%\centering
+		\includegraphics[width=3cm]{../logo/TikZ.png}
+		\caption{这是一张图片}
+		\label{fig:latex}
+	\end{figure}
+	这是什么字体。
+	\youyuan
+	\yahei{这是微软雅黑字体}
+	
+	这是什么字体
+	
+	\kaishu 这是楷书字体
+	
+	这是什么字体
+	
+\end{document}

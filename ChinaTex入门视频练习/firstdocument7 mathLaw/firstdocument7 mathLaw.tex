@@ -1,0 +1,82 @@
+%主讲人:Chinatex  www.chinatex.com
+%数学定理的编号设置
+%数学定理的说明文字加入
+%数学定理的样式选择(plain，definition,remark)
+%证明环境简介(proof)
+
+\documentclass[openany]{book}  %[openany]的作用：去掉奇数页码生成空白页的问题
+
+\usepackage{mathrsfs}
+\usepackage{amsthm}		%星号*要调用此宏包；proof后面生成已证明的小符号
+\usepackage{amsmath}	%美国数学协会定义的数学宏包	
+\usepackage{graphicx} %插入图片的宏包
+
+\numberwithin{equation}{section}  %使公式编号按照章节来编号
+
+%\theoremstyle{plain}  %新的式样，有三种风格：plain、definition、remark，默认为plain
+\theoremstyle{plain} 
+\newtheorem{thm}{Theorem}[section] 	
+							%定义定理相关的环境
+							%thm和Theorem同义
+							%[chapter]的作用：定理编号加上章节编号
+
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition} %定理定义
+							%[thm]的作用:继承theorem的计数器
+\theoremstyle{remark}
+\newtheorem{rmk}{Remark} %文章需要注意的事项
+
+\theoremstyle{plain} 
+\newtheorem*{nt}{Note} %定理笔记  %星号的作用是去掉显示数字标号，要调用宏包amsthm
+
+%renewcommand命令是对现有命令进行更新
+\renewcommand{\proofname}{\sffamily\bfseries myproof}
+
+\begin{document}
+	\chapter{Introduction}
+	
+	
+	\chapter{Advanced}
+	\section{History}
+	
+	\section{Suggestion}
+	
+	\section{Conclusion}
+	\begin{thm}[the first fundamental theorem] %方框是定理补充说明文字
+		This is a Theorem env.
+	\end{thm}
+	
+	\begin{thm}
+		This is also a Theorem env.
+	\end{thm}
+
+	\begin{thm}
+		This is also a Theorem env.
+	\end{thm}
+	
+	\begin{nt}
+	This is a note with no number.
+	\end{nt}
+
+	\begin{defn}
+	This is a Definition env.
+	\end{defn}
+
+	\begin{defn}
+	This is also a Definition env.
+	\end{defn}
+
+	\begin{rmk}
+	This is a remark env.
+	\end{rmk}
+
+	\begin{rmk}
+	This is a also remark env.
+	\end{rmk}
+
+	\chapter{Summary}
+	\begin{proof}  %证明环境
+	This is a proof env.	
+	\end{proof}
+	
+\end{document}

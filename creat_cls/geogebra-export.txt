@@ -1,0 +1,25 @@
+\documentclass[10pt]{article}
+\usepackage{pgf,tikz,pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{sexdts}{rgb}{0.1803921568627451,0.49019607843137253,0.19607843137254902}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\begin{axis}[
+x=1cm,y=1cm,
+axis lines=middle,
+ymajorgrids=true,
+xmajorgrids=true,
+xmin=-11.559999999999992,
+xmax=11.56000000000001,
+ymin=-6.600000000000007,
+ymax=6.600000000000009,
+xtick={-11,-10,...,11},
+ytick={-6,-5,...,6},]
+\clip(-11.56,-6.6) rectangle (11.56,6.6);
+\draw[line width=2pt,color=sexdts,smooth,samples=100,domain=-11.559999999999992:11.56000000000001] plot(\x,{10*sin(((\x))*180/pi)});
+\end{axis}
+\end{tikzpicture}
+\end{document}

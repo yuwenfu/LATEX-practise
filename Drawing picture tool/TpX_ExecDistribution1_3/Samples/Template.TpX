@@ -1,0 +1,20 @@
+%<TpX v="3" l="5.84392" t="75.1006" r="119.999" b="4.49305" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" PicScale="1" Border="2" PicUnitLength="0.05" HatchingStep="2" DottedSize="0.5" DashSize="1" TeXMinLine="2" LineWidth="0.3" IncludePath="Samples/">
+%  <rect x="5.84392" y="4.49305" w="114.155" h="70.6076" li="dash" lw="0.50"/>
+%  <text x="62.9718" y="40.3225" t="Template drawing" h="4" jh="c"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{0.05 mm}%
+  \begin{picture}(2363.1, 1492.2)(0,0)
+  \put(0,0){\includegraphics{Samples/Template.pdf}}
+  \put(891.36,734.99){\fontsize{11.38}{13.66}\selectfont \makebox(582.4, 80.0)[c]{Template~drawing\strut}}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{0.05 mm}%
+  \begin{picture}(2363.1, 1492.2)(0,0)
+  \put(0,0){\includegraphics{Samples/Template}}
+  \put(891.36,734.99){\fontsize{11.38}{13.66}\selectfont \makebox(582.4, 80.0)[c]{Template~drawing\strut}}
+  \end{picture}%
+\fi
+\end{figure}

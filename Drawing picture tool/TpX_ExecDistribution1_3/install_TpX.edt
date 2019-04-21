@@ -1,0 +1,4 @@
+    Prompt("Add TpX to 'Tools' Menu ?",1,3,>
+    "AddMenus('TpX_menu.dat',1)");
+
+End;

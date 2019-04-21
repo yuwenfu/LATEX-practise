@@ -1,0 +1,121 @@
+%LaTex的数学公式编辑初步2：\left & \right,矩阵的输入（bmatrix,Bmatrix,pmatrix,vmatrix,Vmatrix,array）,分块矩阵
+%\hdashline{2pt/2pt}
+%;{2pt|2pt}
+
+\documentclass{book}    %article,report,letter
+\usepackage{amsmath}	%用于矩阵的宏包（bmatrix,Bmatrix,pmatrix,vmatrix,Vmatrix）
+\usepackage{mathrsfs}
+\usepackage{arydshln}	%推荐，用于矩阵分块，用虚线划分 
+						%竖线命令如;{4pt|2pt}，即实线4pt长，虚线2pt长
+						%横线命令如\hdashline
+						%pmat第三方宏包，也是用于虚线划分虚线
+
+\newcommand{\fc}{\frac}
+
+\begin{document}
+	
+	$$lim_{n\to\infty}(1+\fc{1}{n})^n=e$$ 
+	 %存在问题：括号非常小
+	$$lim_{n\to\infty}\left(1+\fc{1}{n}\right)^n=e$$ %解决方法
+	%\left & \right设置长括号
+		
+	$$\frac{\partial y}{\partial x}|^{y_2=4}_{y_1=1}$$ 
+	%存在问题：竖线非常短
+	$$\left.\frac{\partial y}{\partial x}\right|^{y_2=4}_{y_1=1}$$ 
+	%解决方法：\left和\frac中间的点是分隔符
+	
+	%array用于矩阵的排版
+	$$
+	\begin{array}{ccc}  %括号中ccc表示列对齐方式
+	222 & 333 & 78 \\ 
+	111 & 666 & 45 \\ 
+	56 & 78 & 68
+	\end{array} 
+	$$
+	$$
+	\left(
+	\begin{array}{clr}
+	222 & 333 & 78 \\ 
+	111 & 666 & 45 \\ 
+	56 & 78 & 68
+	\end{array} 
+	\right)
+	$$
+	$$
+	\left[
+	\begin{array}{ccc}
+	222 & 333 & 78 \\ 
+	111 & 666 & 45 \\ 
+	56 & 78 & 68
+	\end{array} 
+	\right]
+	$$	
+	
+	%\usepackage{amsmath}  矩阵的宏包（bmatrix,Bmatrix,pmatrix,vmatrix,Vmatrix,array）	
+	$$
+	\begin{bmatrix}   %不用写ccc对齐方式，bmatrix的作用：为矩阵增加中括号
+	222 & 333 & 78 \\ 
+	111 & 666 & 45 \\ 
+	56 & 78 & 68
+	\end{bmatrix}
+	$$
+	
+	$$
+	\begin{Bmatrix}   %Bmatrix的作用：为矩阵增加大括号
+	222 & 333 & 78 \\ 
+	111 & 666 & 45 \\ 
+	56 & 78 & 68
+	\end{Bmatrix}
+	$$
+	
+	$$
+	\begin{vmatrix}   %vmatrix的作用：为矩阵增加竖线，即行列式
+	222 & 333 & 78 \\ 
+	111 & 666 & 45 \\ 
+	56 & 78 & 68
+	\end{vmatrix}
+	$$
+	
+	$$
+	\begin{Vmatrix}   %Vmatrix的作用：为矩阵增加双竖线
+	222 & 333 & 78 \\ 
+	111 & 666 & 45 \\ 
+	56 & 78 & 68
+	\end{Vmatrix}
+	$$
+	
+	$$
+	\begin{pmatrix}   %pmatrix的作用：为矩阵增加括号，即矩阵
+	222 & 333 & 78 \\ 
+	111 & 666 & 45 \\ 
+	56 & 78 & 68
+	\end{pmatrix}
+	$$
+	
+	%矩阵分块
+	$$
+	\left[
+	\begin{array}{c|cc}
+	222 & 333 & 78 \\ 
+	\hline
+	111 & 666 & 45 \\ 
+	56 & 78 & 68
+	\end{array} 
+	\right]
+	$$	
+	
+	%\usepackage{arydshln}	%用于矩阵分块，用虚线划分	
+	$$
+	\left[
+	\begin{array}{c|c;{4pt/2pt}c}
+	222 & 333 & 78 \\ 
+	\hline
+	111 & 666 & 45 \\ 
+	\hdashline{4pt/2pt}
+	56 & 78 & 68
+	\end{array} 
+	\right]
+	$$
+	
+		
+\end{document}

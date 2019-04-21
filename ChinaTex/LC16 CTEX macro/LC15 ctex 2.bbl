@@ -1,0 +1,26 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[陈忠民(2004)]{.2004b}
+陈忠民.
+\newblock 高Q值RF-MEMS平面电感的研究\allowbreak[Z].
+\newblock [出版地不详]: 清华大学, 2004.
+
+\bibitem[Duan\ et~al.(2017)Duan, Li, Li, Oldham, and Wang]{RN169}
+DUAN~X, LI~H, LI~X, et~al.
+\newblock Axial beam scanning in multiphoton microscopy with mems-based
+  actuator\allowbreak[J/OL].
+\newblock Opt Express, 2017, 25\penalty0 (3):\penalty0 2195-2205.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/29519067}.
+\newblock DOI: \doi{10.1364/OE.25.002195}.
+
+\bibitem[.20(2005)]{.2005c}
+单片集成MEMS技术: 第 03 册\allowbreak[Z].
+\newblock [出版地不详: 出版者不详], 2005.
+
+\end{thebibliography}

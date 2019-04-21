@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: LC15 ctex 2.aux
+The style file: gbt7714-unsrt.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: bibliography/20181115.bib
+Warning--entry type for ".2004b" isn't style-file defined
+--line 5 of file bibliography/20181115.bib
+You've used 3 entries,
+            3798 wiz_defined-function locations,
+            830 strings with 6178 characters,
+and the built_in function-call counts, 8329 in all, are:
+= -- 251
+> -- 796
+< -- 1047
++ -- 330
+- -- 64
+* -- 113
+:= -- 1218
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 7
+chr.to.int$ -- 275
+cite$ -- 4
+duplicate$ -- 60
+empty$ -- 219
+format.name$ -- 28
+if$ -- 2156
+int.to.chr$ -- 1
+int.to.str$ -- 4
+missing$ -- 0
+newline$ -- 25
+num.names$ -- 6
+pop$ -- 248
+preamble$ -- 1
+purify$ -- 3
+quote$ -- 0
+skip$ -- 879
+stack$ -- 0
+substring$ -- 447
+swap$ -- 6
+text.length$ -- 22
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 26
+warning$ -- 0
+while$ -- 28
+width$ -- 0
+write$ -- 52
+(There was 1 warning)

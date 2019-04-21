@@ -1,0 +1,341 @@
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xetex 2018.11.8)  15 NOV 2018 00:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**achemso.ins
+(./achemso.ins (e:/texlive/2018/texmf-dist/tex/latex/base/docstrip.tex
+\blockLevel=\count28
+\emptyLines=\count29
+\processedLines=\count30
+\commentsRemoved=\count31
+\commentsPassed=\count32
+\codeLinesPassed=\count33
+\TotalprocessedLines=\count34
+\TotalcommentsRemoved=\count35
+\TotalcommentsPassed=\count36
+\TotalcodeLinesPassed=\count37
+\NumberOfFiles=\count38
+\inFile=\read1
+\inputcheck=\read2
+\@tempcnta=\count39
+\off@0=\count40
+\off@1=\count41
+\off@2=\count42
+\off@3=\count43
+\off@4=\count44
+\off@5=\count45
+\off@6=\count46
+\off@7=\count47
+\off@8=\count48
+\off@9=\count49
+\off@10=\count50
+\off@11=\count51
+\off@12=\count52
+\off@13=\count53
+\off@14=\count54
+\off@15=\count55
+\@temptokena=\toks13
+\@maxfiles=\count56
+\@maxoutfiles=\count57
+
+Utility: `docstrip' 2.5e <2014/09/29>
+English documentation    <2017/03/13>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+)
+
+Generating file(s) achemso.cls achemso.sty natmove.sty 
+\openout0 = `achemso.cls'.
+
+\openout1 = `achemso.sty'.
+
+\openout2 = `natmove.sty'.
+
+
+Processing file achemso.dtx (class) -> achemso.cls
+                            (package) -> achemso.sty
+                            (natmove) -> natmove.sty
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+
+Generating file(s) achemso-aaembp.cfg achemso-aaemcq.cfg achemso-aamick.cfg ach
+emso-aanmf6.cfg achemso-aapmcd.cfg achemso-abseba.cfg achemso-accacs.cfg achems
+o-achre4.cfg 
+\openout0 = `achemso-aaembp.cfg'.
+
+\openout1 = `achemso-aaemcq.cfg'.
+
+\openout2 = `achemso-aamick.cfg'.
+
+\openout3 = `achemso-aanmf6.cfg'.
+
+\openout4 = `achemso-aapmcd.cfg'.
+
+\openout5 = `achemso-abseba.cfg'.
+
+\openout6 = `achemso-accacs.cfg'.
+
+\openout7 = `achemso-achre4.cfg'.
+
+
+Processing file achemso.dtx (aaembp) -> achemso-aaembp.cfg
+                            (aaemcq) -> achemso-aaemcq.cfg
+                            (aamick) -> achemso-aamick.cfg
+                            (aanmf6) -> achemso-aanmf6.cfg
+                            (aapmcd) -> achemso-aapmcd.cfg
+                            (abseba) -> achemso-abseba.cfg
+                            (accacs) -> achemso-accacs.cfg
+                            (achre4) -> achemso-achre4.cfg
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+
+Generating file(s) achemso-acscii.cfg achemso-acbcct.cfg achemso-acncdm.cfg ach
+emso-acsccc.cfg achemso-aesccq.cfg achemso-aelccp.cfg achemso-ascefj.cfg achems
+o-amlccd.cfg 
+\openout0 = `achemso-acscii.cfg'.
+
+\openout1 = `achemso-acbcct.cfg'.
+
+\openout2 = `achemso-acncdm.cfg'.
+
+\openout3 = `achemso-acsccc.cfg'.
+
+\openout4 = `achemso-aesccq.cfg'.
+
+\openout5 = `achemso-aelccp.cfg'.
+
+\openout6 = `achemso-ascefj.cfg'.
+
+\openout7 = `achemso-amlccd.cfg'.
+
+
+Processing file achemso.dtx (acscii) -> achemso-acscii.cfg
+                            (acbcct) -> achemso-acbcct.cfg
+                            (acncdm) -> achemso-acncdm.cfg
+                            (acsccc) -> achemso-acsccc.cfg
+                            (aesccq) -> achemso-aesccq.cfg
+                            (aelccp) -> achemso-aelccp.cfg
+                            (ascefj) -> achemso-ascefj.cfg
+                            (amlccd) -> achemso-amlccd.cfg
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+
+Generating file(s) achemso-amclct.cfg achemso-ancac3.cfg achemso-acsodf.cfg ach
+emso-apchd5.cfg achemso-aidcbc.cfg achemso-ascecg.cfg achemso-asbcd6.cfg achems
+o-ancham.cfg 
+\openout0 = `achemso-amclct.cfg'.
+
+\openout1 = `achemso-ancac3.cfg'.
+
+\openout2 = `achemso-acsodf.cfg'.
+
+\openout3 = `achemso-apchd5.cfg'.
+
+\openout4 = `achemso-aidcbc.cfg'.
+
+\openout5 = `achemso-ascecg.cfg'.
+
+\openout6 = `achemso-asbcd6.cfg'.
+
+\openout7 = `achemso-ancham.cfg'.
+
+
+Processing file achemso.dtx (amclct) -> achemso-amclct.cfg
+                            (ancac3) -> achemso-ancac3.cfg
+                            (acsodf) -> achemso-acsodf.cfg
+                            (apchd5) -> achemso-apchd5.cfg
+                            (aidcbc) -> achemso-aidcbc.cfg
+                            (ascecg) -> achemso-ascecg.cfg
+                            (asbcd6) -> achemso-asbcd6.cfg
+                            (ancham) -> achemso-ancham.cfg
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+
+Generating file(s) achemso-bichaw.cfg achemso-bcches.cfg achemso-bomaf6.cfg ach
+emso-crtoec.cfg achemso-chreay.cfg achemso-cmatex.cfg achemso-cgdefu.cfg achems
+o-enfuem.cfg 
+\openout0 = `achemso-bichaw.cfg'.
+
+\openout1 = `achemso-bcches.cfg'.
+
+\openout2 = `achemso-bomaf6.cfg'.
+
+\openout3 = `achemso-crtoec.cfg'.
+
+\openout4 = `achemso-chreay.cfg'.
+
+\openout5 = `achemso-cmatex.cfg'.
+
+\openout6 = `achemso-cgdefu.cfg'.
+
+\openout7 = `achemso-enfuem.cfg'.
+
+
+Processing file achemso.dtx (bichaw) -> achemso-bichaw.cfg
+                            (bcches) -> achemso-bcches.cfg
+                            (bomaf6) -> achemso-bomaf6.cfg
+                            (crtoec) -> achemso-crtoec.cfg
+                            (chreay) -> achemso-chreay.cfg
+                            (cmatex) -> achemso-cmatex.cfg
+                            (cgdefu) -> achemso-cgdefu.cfg
+                            (enfuem) -> achemso-enfuem.cfg
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+
+Generating file(s) achemso-esthag.cfg achemso-estlcu.cfg achemso-iecred.cfg ach
+emso-inoraj.cfg achemso-jafcau.cfg achemso-jceda8.cfg achemso-jceaax.cfg achems
+o-jcisd8.cfg 
+\openout0 = `achemso-esthag.cfg'.
+
+\openout1 = `achemso-estlcu.cfg'.
+
+\openout2 = `achemso-iecred.cfg'.
+
+\openout3 = `achemso-inoraj.cfg'.
+
+\openout4 = `achemso-jafcau.cfg'.
+
+\openout5 = `achemso-jceda8.cfg'.
+
+\openout6 = `achemso-jceaax.cfg'.
+
+\openout7 = `achemso-jcisd8.cfg'.
+
+
+Processing file achemso.dtx (esthag) -> achemso-esthag.cfg
+                            (estlcu) -> achemso-estlcu.cfg
+                            (iecred) -> achemso-iecred.cfg
+                            (inoraj) -> achemso-inoraj.cfg
+                            (jafcau) -> achemso-jafcau.cfg
+                            (jceda8) -> achemso-jceda8.cfg
+                            (jceaax) -> achemso-jceaax.cfg
+                            (jcisd8) -> achemso-jcisd8.cfg
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+
+Generating file(s) achemso-jctcce.cfg achemso-jmcmar.cfg achemso-jnprdf.cfg ach
+emso-joceah.cfg achemso-jpcafh.cfg achemso-jpcbfk.cfg achemso-jpccck.cfg achems
+o-jpclcd.cfg 
+\openout0 = `achemso-jctcce.cfg'.
+
+\openout1 = `achemso-jmcmar.cfg'.
+
+\openout2 = `achemso-jnprdf.cfg'.
+
+\openout3 = `achemso-joceah.cfg'.
+
+\openout4 = `achemso-jpcafh.cfg'.
+
+\openout5 = `achemso-jpcbfk.cfg'.
+
+\openout6 = `achemso-jpccck.cfg'.
+
+\openout7 = `achemso-jpclcd.cfg'.
+
+
+Processing file achemso.dtx (jctcce) -> achemso-jctcce.cfg
+                            (jmcmar) -> achemso-jmcmar.cfg
+                            (jnprdf) -> achemso-jnprdf.cfg
+                            (joceah) -> achemso-joceah.cfg
+                            (jpcafh) -> achemso-jpcafh.cfg
+                            (jpcbfk) -> achemso-jpcbfk.cfg
+                            (jpccck) -> achemso-jpccck.cfg
+                            (jpclcd) -> achemso-jpclcd.cfg
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+
+Generating file(s) achemso-jprobs.cfg achemso-jacsat.cfg achemso-langd5.cfg ach
+emso-mamobx.cfg achemso-mpohbp.cfg achemso-nalefd.cfg achemso-orlef7.cfg achems
+o-oprdfk.cfg 
+\openout0 = `achemso-jprobs.cfg'.
+
+\openout1 = `achemso-jacsat.cfg'.
+
+\openout2 = `achemso-langd5.cfg'.
+
+\openout3 = `achemso-mamobx.cfg'.
+
+\openout4 = `achemso-mpohbp.cfg'.
+
+\openout5 = `achemso-nalefd.cfg'.
+
+\openout6 = `achemso-orlef7.cfg'.
+
+\openout7 = `achemso-oprdfk.cfg'.
+
+
+Processing file achemso.dtx (jprobs) -> achemso-jprobs.cfg
+                            (jacsat) -> achemso-jacsat.cfg
+                            (langd5) -> achemso-langd5.cfg
+                            (mamobx) -> achemso-mamobx.cfg
+                            (mpohbp) -> achemso-mpohbp.cfg
+                            (nalefd) -> achemso-nalefd.cfg
+                            (orlef7) -> achemso-orlef7.cfg
+                            (oprdfk) -> achemso-oprdfk.cfg
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+
+Generating file(s) achemso-orgnd7.cfg 
+\openout0 = `achemso-orgnd7.cfg'.
+
+
+Processing file achemso.dtx (orgnd7) -> achemso-orgnd7.cfg
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+
+Generating file(s) achemso.bst biochem.bst 
+\openout0 = `achemso.bst'.
+
+\openout1 = `biochem.bst'.
+
+
+Processing file achemso.dtx (bst) -> achemso.bst
+                            (bst,bio) -> biochem.bst
+Lines  processed: 6012
+Comments removed: 1943
+Comments  passed: 0
+Codelines passed: 3904
+
+Overall statistics:
+Files  processed: 10
+Lines  processed: 60120
+Comments removed: 19430
+Comments  passed: 0
+Codelines passed: 39040
+ )
+No pages of output.

@@ -1,0 +1,86 @@
+%-*- coding: UTF-8 -*-
+%2.1.1.2 正确使用标点
+
+\documentclass[UTF8]{ctexart}
+%P68 txfonts增加了数学字体的支持，是效果最好的免费字体
+\usepackage{txfonts}	
+%高德纳的Concrete正文字体和Zapf的Euler数学字体配合需要综合使用字体包cccfonts和euler,这一组合字体清晰适合PPT演示使用
+\usepackage[T1]{fontenc} %使用新的宏包fontenc来选择字体的编码，XELATEX使用的是Unicode编码（在NFSS中一般是EU1），传统的LATEX字体编码有一般正文字体OT1，扩展字体T1，数学字母OML，数学符号OMS，数学扩展符号OMX等。需要手工设置的通常只有正文字体的编码，默认的正文编码是OT1，而扩展码T1则包含更多的符号，特别是带重音的拉丁字母等，许多字体包都要求使用T1编码，字体说明文档会有说明
+\usepackage{ccfonts,eulervm}	
+
+\begin{document}
+
+“\,'A' or 'B?'\,”he asked.
+
+X-ray
+
+1--2
+
+dash---like
+
+one...
+
+one two\ldots
+
+one two three\dots
+
+\# \quad \$ \quad \% \quad \& \quad
+\{ \quad \}	\quad \_ \quad
+\textbackslash	%"\"
+
+\punctstyle{quanjiao}全角式，所有标点全角，有挤压。%全角
+\punctstyle{banjiao}半角式，所有标点半角，有挤压。
+
+Mr.~K	%带子“~”，TEX禁止在这种空格之间分行，因而用来表示一些不宜分开的情况
+
+%LATEX把大写字母后的点看做缩写标记，把小写字母后的点看做是句子结束，并对他们使用不同的间距
+%使用\ 表明使用普通的空格，或用\@.指明.是大写字母后的句末
+Roman number XII. Yes
+
+Roman number XII\@. Yes
+
+条目-a不同于条目-b
+
+\mbox{条目}-a 不同于条目-b %忽略汉字与其他内容之间的空格
+
+\CJKsetecglue{}	%手动设置汉字与其他内容之间的内容为空
+汉字word
+
+幻影\phantom{参数}速速隐形	%产生与参数内容一样大小的空格
+
+\hphantom{123}幻影参数速速隐形\vphantom{123}
+
+速速\vphantom{12}幻影
+
+这是一行文字\\另一行
+
+这是一行文字\linebreak 另一行	%\linebreak 一行散开分布
+
+\symbol{28450}\symbol{35486}
+\symbol{"DE}\symbol{"FE}
+
+%P63
+{\bfseries \slshape Bold front test}	%粗体倾斜
+\par 	%分段
+\sffamily	%字体族，字体形状，字体系列
+\textbf{This is a paragraph of bold and
+\textit{italic front,sometimes returning to \textnormal{normal front} is necessary. }}
+
+{\itshape M}M \quad {\itshape M\/}M	%\/倾斜修正 
+
+%NFSS为字体划分了编码，族，系列，形状，尺寸等多个正交属性
+%需要用\selectfont命令使它们生效
+%P67
+\fontencoding{OT1}\fontfamily{pzc}
+\fontseries{mb}\fontshape{it}	%it是意大利斜体的缩写
+\fontsize{18}{17}\selectfont
+PostScript New Century Schoolbook
+
+%另一方法
+\usefont{T1}{pbk}{db}{n}
+PostScript Bookman Demibold Normal
+
+
+
+\end{document}
+

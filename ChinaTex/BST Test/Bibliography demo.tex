@@ -1,0 +1,24 @@
+\documentclass{ctexart}		%ctexart对中文支持友好
+\usepackage{natbib}		%用于配置引用的格式
+						%cite引文宏包已被natbib更强大的引文宏包替代
+\usepackage[authoryear]{gbt7714}
+\title{参考文献环境的使用}
+\author{YW Fu}
+\date{2018年11月12日}
+
+\begin{document}	%开始正文  
+	\maketitle 
+	\begin{abstract}	%摘要
+		这是写摘要。
+	\end{abstract}	
+	\section{Intro}
+	参考文献\cite{.2018d}可以这样引用\cite{Yocom.2018,Das.2018,.2018e}	
+	%\nocite{*}	%在列表显示并不直接引用的文献 
+	
+	这是正文。这是正文\citep{.2018e}。
+														
+	\newpage %新的页面	
+	%\bibliographystyle{gbt7714-unsrt}	%声明参考文献的格式		
+	\bibliography{BIB} %文献引用数据库路径
+			
+\end{document}	%结束正文</code>  

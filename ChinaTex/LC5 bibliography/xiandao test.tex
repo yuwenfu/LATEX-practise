@@ -1,0 +1,27 @@
+\documentclass[12pt,a4paper]{ctexart}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm]{geometry}
+\author{YW Fu}
+\title{参考文献环境的使用}
+
+\bibliographystyle{unsrt}	%声明参考文献的格式
+
+\begin{document}
+	\maketitle 
+	\begin{abstract}	%摘要
+		这是写摘要。
+	\end{abstract}	
+	\section{Intro}
+	参考文献可以这样引用
+	
+	%\nocite{*}	%在列表显示并不直接引用的文献
+	
+	这是正文。这是正文\cite{KandR}。
+
+	\newpage
+	\bibliography{./Bibliography/Bib20181113}
+\end{document}

@@ -1,0 +1,67 @@
+%<TpX v="3" l="2.23398" t="60.3077" r="114.177" b="0.546809" ArrowsSize="0.5" StarsSize="0.55" DefaultFontHeight="3.5" DefaultSymbolSize="30" PicScale="1" Border="2" PicUnitLength="0.05" HatchingStep="1" HatchingLineWidth="0.25" DottedSize="0.5" DashSize="1" TeXMinLine="2" LineWidth="0.25" TeXCenterFigure="0" IncludePath="pics/">
+%  <line x1="58.2891" y1="51.8621" x2="13.1587" y2="4.78017" lc="black"/>
+%  <line x1="58.3675" y1="51.9116" x2="98.2877" y2="14.7853" lc="black"/>
+%  <line x1="98.3533" y1="14.7197" x2="13.1587" y2="4.63906" lc="black"/>
+%  <line x1="60.5358" y1="10.2734" x2="61.8247" y2="44.9971" lc="black"/>
+%  <line x1="60.5179" y1="10.2376" x2="35.0487" y2="13.582" li="dash" lc="black"/>
+%  <line x1="35.0254" y1="13.6312" x2="55.0431" y2="42.5028" li="dash" lc="black"/>
+%  <bezier lc="black">90.7527,21.9783 71.2762,20.0026 53.2975,29.2062 65.7582,45.0836</bezier>
+%  <bezier li="dash" lc="black">90.6499,22.0049 76.1154,28.2138 65.556,35.8258 65.791,45.018</bezier>
+%  <bezier lc="black">29.4924,21.8174 53.8079,19.3853 71.3399,30.0692 55.2326,48.4191</bezier>
+%  <bezier li="dash" lc="black">29.55,21.8541 36.8526,22.9301 54.2046,33.0731 55.1219,48.5778</bezier>
+%  <line x1="56.3919" y1="22.2781" x2="58.8613" y2="60.3077" arr2="h42" lc="black"/>
+%  <line x1="56.3919" y1="22.2781" x2="3.05155" y2="0.546809" arr2="h42" lc="black"/>
+%  <line x1="56.3919" y1="22.2781" x2="114.177" y2="11.9063" arr2="h42" lc="black"/>
+%  <star x="13.2204" y="4.85073" lc="black" fill="black"/>
+%  <star x="58.3492" y="51.8621" lc="black" fill="black"/>
+%  <star x="98.311" y="14.8697" lc="black" fill="black"/>
+%  <star x="60.5537" y="10.2912" lc="black" fill="black"/>
+%  <star x="61.4807" y="35.4015" lc="black" fill="black"/>
+%  <line x1="80.0172" y1="18.0246" x2="60.4643" y2="10.2018" li="dash" lc="black"/>
+%  <line x1="79.9516" y1="18.0902" x2="63.8003" y2="44.5032" li="dash" lc="black"/>
+%  <text x="60.8369" y="56.7938" t="x1" tex="$x_1$" h="3.5"/>
+%  <text x="108.744" y="14.3191" t="x22" tex="$x_{22}$" h="3.5"/>
+%  <text x="7.51898" y="3.47804" t="x12" tex="$x_{12}$" h="3.5" jh="r"/>
+%  <text x="60.5371" y="10.464" t="omega" tex="$\omega$" h="3.5" jv="t"/>
+%  <text x="98.3727" y="15.768" t="C" tex="$C$" h="3.5"/>
+%  <text x="60.8369" y="51.361" t="A" tex="$A$" h="3.5"/>
+%  <text x="12.443" y="5.78536" t="B" tex="$B$" h="3.5" jh="r"/>
+%  <text x="34.619" y="14.9506" t="omega12" tex="$\omega_{12}$" h="3.5" jh="r"/>
+%  <text x="78.9168" y="17.371" t="omega22" tex="$\omega_{22}$" h="3.5" jv="t"/>
+%  <star x="50.9679" y="36.6715" lc="black" fill="black"/>
+%  <star x="68.113" y="37.5887" lc="black" fill="black"/>
+%  <text x="62.7419" y="34.0748" t="#x" tex="$\bar{\mathbf{x}}$" h="3.5"/>
+%</TpX>
+\begin{figure}
+\ifpdf
+  \setlength{\unitlength}{0.05 mm}
+  \begin{picture}(2318.9, 1275.2)(0,0)
+  \put(0,0){\includegraphics{pics/Kolm.pdf}}
+  \put(1212.1, 1146.0){\fontsize{9.96}{11.95}\selectfont \makebox(70.7, 70.0)[l]{$x_1$\strut}}
+  \put(2170.2, 296.5){\fontsize{9.96}{11.95}\selectfont \makebox(105.7, 70.0)[l]{$x_{22}$\strut}}
+  \put(40.0, 79.7){\fontsize{9.96}{11.95}\selectfont \makebox(105.7, 70.0)[r]{$x_{12}$\strut}}
+  \put(1206.1, 173.2){\fontsize{9.96}{11.95}\selectfont \makebox(185.5, 70.0)[lt]{$\omega$\strut}}
+  \put(1962.8, 325.5){\fontsize{9.96}{11.95}\selectfont \makebox(46.9, 70.0)[l]{$C$\strut}}
+  \put(1212.1, 1037.4){\fontsize{9.96}{11.95}\selectfont \makebox(50.4, 70.0)[l]{$A$\strut}}
+  \put(198.0, 125.9){\fontsize{9.96}{11.95}\selectfont \makebox(46.2, 70.0)[r]{$B$\strut}}
+  \put(432.2, 309.2){\fontsize{9.96}{11.95}\selectfont \makebox(255.5, 70.0)[r]{$\omega_{12}$\strut}}
+  \put(1573.7, 311.4){\fontsize{9.96}{11.95}\selectfont \makebox(255.5, 70.0)[lt]{$\omega_{22}$\strut}}
+  \put(1250.2, 691.7){\fontsize{9.96}{11.95}\selectfont \makebox(70.7, 70.0)[l]{$\bar{\mathbf{x}}$\strut}}
+  \end{picture}
+\else
+  \setlength{\unitlength}{0.05 mm}
+  \begin{picture}(2318.9, 1275.2)(0,0)
+  \put(0,0){\includegraphics{pics/Kolm}}
+  \put(1212.1, 1146.0){\fontsize{9.96}{11.95}\selectfont \makebox(70.7, 70.0)[l]{$x_1$\strut}}
+  \put(2170.2, 296.5){\fontsize{9.96}{11.95}\selectfont \makebox(105.7, 70.0)[l]{$x_{22}$\strut}}
+  \put(40.0, 79.7){\fontsize{9.96}{11.95}\selectfont \makebox(105.7, 70.0)[r]{$x_{12}$\strut}}
+  \put(1206.1, 173.2){\fontsize{9.96}{11.95}\selectfont \makebox(185.5, 70.0)[lt]{$\omega$\strut}}
+  \put(1962.8, 325.5){\fontsize{9.96}{11.95}\selectfont \makebox(46.9, 70.0)[l]{$C$\strut}}
+  \put(1212.1, 1037.4){\fontsize{9.96}{11.95}\selectfont \makebox(50.4, 70.0)[l]{$A$\strut}}
+  \put(198.0, 125.9){\fontsize{9.96}{11.95}\selectfont \makebox(46.2, 70.0)[r]{$B$\strut}}
+  \put(432.2, 309.2){\fontsize{9.96}{11.95}\selectfont \makebox(255.5, 70.0)[r]{$\omega_{12}$\strut}}
+  \put(1573.7, 311.4){\fontsize{9.96}{11.95}\selectfont \makebox(255.5, 70.0)[lt]{$\omega_{22}$\strut}}
+  \put(1250.2, 691.7){\fontsize{9.96}{11.95}\selectfont \makebox(70.7, 70.0)[l]{$\bar{\mathbf{x}}$\strut}}
+  \end{picture}
+\fi
+\end{figure}
