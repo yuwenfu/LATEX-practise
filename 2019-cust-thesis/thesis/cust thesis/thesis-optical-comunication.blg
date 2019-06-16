@@ -4,44 +4,53 @@ The top-level auxiliary file: thesis-optical-comunication.aux
 The style file: Biblio/gbt7714-unsrt.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
-You've used 6 entries,
+Warning--I didn't find a database entry for "WYJ.2015.12"
+Warning--I didn't find a database entry for "JHL.2010.12"
+Warning--empty year in 李展.
+Warning--empty year in 魏宾.b
+Warning--empty year in 李展.
+Warning--empty year in 李展.
+Warning--empty year in 魏宾.b
+Warning--empty year in 魏宾.b
+You've used 19 entries,
             3798 wiz_defined-function locations,
-            848 strings with 6653 characters,
-and the built_in function-call counts, 16047 in all, are:
-= -- 359
-> -- 1374
-< -- 2390
-+ -- 903
-- -- 41
-* -- 175
-:= -- 2543
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 6
-chr.to.int$ -- 778
-cite$ -- 6
-duplicate$ -- 120
-empty$ -- 292
-format.name$ -- 76
-if$ -- 3997
+            945 strings with 8971 characters,
+and the built_in function-call counts, 61438 in all, are:
+= -- 1149
+> -- 5911
+< -- 9074
++ -- 3123
+- -- 150
+* -- 728
+:= -- 9527
+add.period$ -- 61
+call.type$ -- 19
+change.case$ -- 28
+chr.to.int$ -- 2707
+cite$ -- 25
+duplicate$ -- 382
+empty$ -- 1036
+format.name$ -- 293
+if$ -- 15334
 int.to.chr$ -- 1
-int.to.str$ -- 7
+int.to.str$ -- 20
 missing$ -- 0
-newline$ -- 39
-num.names$ -- 18
-pop$ -- 445
+newline$ -- 108
+num.names$ -- 57
+pop$ -- 2067
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 19
 quote$ -- 0
-skip$ -- 1278
+skip$ -- 5426
 stack$ -- 0
-substring$ -- 899
-swap$ -- 15
-text.length$ -- 51
+substring$ -- 3257
+swap$ -- 56
+text.length$ -- 182
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
-warning$ -- 0
-while$ -- 69
+type$ -- 156
+warning$ -- 6
+while$ -- 243
 width$ -- 0
-write$ -- 92
+write$ -- 292
+(There were 8 warnings)

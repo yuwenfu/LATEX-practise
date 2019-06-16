@@ -91,7 +91,26 @@
 		\centering
 		\includegraphics[width=#1\linewidth]{./Img/#2}\caption{#3}\label{#2}
 	\end{figure}
-}%\addimage{写入比例}{图片文件名}{文档显示名}
+}%\addimg{写入比例}{图片文件名}{文档显示名}
+
+\newcommand{\addimgL}[3]{
+	
+	\begin{figure}[!htb]
+		\begin{flushleft}
+		\includegraphics[width=#1\linewidth]{./Img/#2}\caption{#3}\label{#2}
+		\end{flushleft}
+	\end{figure}
+	
+}%\addimgL{写入比例}{图片文件名}{文档显示名}
+
+% 旋转插入的图片
+\newcommand{\addimgRt}[4]{
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=#1\linewidth,angle=#4]{./Img/#2}\caption{#3}\label{#2}
+	\end{figure}
+}%\addimgRt{写入比例}{图片文件名}{文档显示名}{逆时针旋转角度}
+
 
 
 %-

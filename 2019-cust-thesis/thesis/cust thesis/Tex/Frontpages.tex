@@ -44,21 +44,50 @@
 \setcounter{page}{1}% 开始页码
 \pagenumbering{Roman}% 页码符号
 %---------------------------------------------------------------------------%
-伴随着科学技术的不断发展进步，我们也一步步的迈入了现代化社会的发展。手机、电脑、智能电视、机器人、智能家居等等一系列高科技产品层出不穷的呈现在我们眼前。而面对这些高科技产品在我们生活中、工作中发挥着越来越重要的作用，我们不禁会对这些高技术产品的产生兴趣。而首先出现在我们脑海中的就是机器视觉和人工智能这两个在现代科技社会中不得不提到的两个关键词。而机器视觉和人工智能也是最近讨论研究颇多的热门话题。而本文主要是通过对机器视觉和人工智能发展内容的概括，阐释机器视觉系统在人工智能领域的作用及发展趋势。
+本文针对轻小型平台安全保密、紧凑的要求，使用基于MEMS逆向光调制器件，开展了逆向光通信系统原理的研究。涉及到逆向光通信系统的光机结构是如何设计、理论计算和选型，最后涉及到软件的仿真、电路的设计、光学系统设计和光机结构的设计和建模。
+
+
+具体工作如下：
+
+1.设计主动端的RC卡塞格林光学系统，理论计算得出参数，最后通过ZEMAX优化，并确定遮光结构参数，SolidWorks设计固定光学系统的机械结构和系统的遮光结构。
+
+2.通过SolidWorks设计主动端的两自由度回转平台，设计相应的回转轴系，对直流力矩电机进行选型，并设计固定的装置。
+
+3.根据逆光调制器应用的场景和实际要求，进行选型和机械固定结构的设计。
+
+4.根据所使用的的光纤激光器，理论计算确定激光光纤准直器的相关参数，然后依据参数进行产品的选型，获取光学参数后，进行ZEMAX仿真评估，看是否满足使用要求。
+
+5.电路设计。根据要求需要设计一个语音采集电路，使用STM32单片机进行控制，对语音数据进行存储和操作；设计STM32单片机（CMOS电平）与MEMS逆向光调制器（TTL电平）的电平匹配电路，并用Multisim进行电路仿真，确定可行性和可靠性；通过STM32单片机对探测器接收的数据进行解码，解析出其中包含的语音数据；通过Altium Designer进行电路图绘制。
+
+6.结合SolidWorks和CAD，进行3D建模，出工程图纸，包括主动端装配图，整个逆向调制系统的光路图和程序流程图。
 
 
 
 %---------------------------------------------------------------------------%
-\keywords{机器视觉；计算机视觉；人工智能；发展前景；趋势研究}% 中文关键词
+\keywords{MEMS调制器；逆向光调制；ZEMAX；Multisum；激光通信；RC卡塞格林系统}% 中文关键词
 %---------------------------------------------------------------------------%
 %-> 英文摘要
 %---------------------------------------------------------------------------%
 \chapter*{Abstract}\chaptermark{Abstract}% 摘要标题
 %---------------------------------------------------------------------------%
+Based on light small compact platform security and requirements, this paper used modulating retro-reflector(MRR) based on MEMS, carried out the study of reverse optical communication system.Concerning the design, theoretical calculation and selection of the  opto-mechanical system structure of the reverse optical communication system. Finally came to the software simulation, circuit design,  opto-Mechanical system design and modeling.
 
-With the continuous development of science and technology
+The detailed works as follow:
+
+1.The RC Cassegrain  optical system of the active end was designed and the parameters was calculated theoretically.Finally, the shading structure parameters was determined through ZEMAX optimization. SolidWorks was used to design the mechanical structure of the fixed optical system and the shading structure of the system.
+
+2. Designed the 2-DOF rotary platform of the active end with SolidWorks, seted the corresponding rotation shaft system, selected the DC torque motor, and designed the fixed device.
+
+3. According to the application scenarios and actual requirements of the backlight modulator, determined the mechanical device fixed on a small platform, and checked whether there were corresponding products available for purchase and use through the selection of products on the market. 
+
+
+4. According to the fiber laser used, the relevant parameters of the laser fiber collimator was determined by theoretical calculation. Then, the product selection was conducted according to the parameters. 
+
+5. Circuit design.According to the requirements, a audio acquisition circuit was designed, which was controlled by STM32 single chip microcomputer to store and operate the audio data.Designed the voltage level matching circuit between STM32 single chip microcomputer (CMOS level) and MEMS reverse optical modulator (TTL level), and used Multisim for circuit simulation to determine feasibility and reliability.STM32 microcontroller decoded the data received by the detector and analyzed the audio data contained in it.Conducted circuit diagram drawing through Altium Designer. 
+
+6. 3D modeling with SolidWorks and CAD, and Conducted engineering drawings, including assembly drawing of active end, optical path drawing and program flow chart of the whole reverse modulation system.
 
 
 %---------------------------------------------------------------------------%
-\englishkeywords{MV;CV;AI;Development Prospects;Trend Research}% 英文关键词
+\englishkeywords{MEMS MRR;FSO;RC Cassegrain;ZEMAX;Multisum；Solidworks}% 英文关键词
 %---------------------------------------------------------------------------%

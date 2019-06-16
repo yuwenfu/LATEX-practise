@@ -1,0 +1,56 @@
+\chapter{电路设计}
+本课题设计的电路要求如下，设计一个音频采集电路、音乐文件解码播放电路和单片机与MEMS逆向光调制电平匹配电路，如图~\ref{data-electric-01.pdf}。
+\addimg{1}{data-electric-01.pdf}{电路工作流程图}
+\section{录音电路和音频解码}
+音频采集电路和音频解码电路采用的是正点原子公司推出的以VS1053为核心的MP3音频解码模块，支持大多数常用的音频播放格式，支持对语音进行录制，经过模块编码之后，以WAV文件格式存储于SD卡中，方便后续STM32进行读取，经电平匹配电路，然后传送至MEMS调制器进行信息的发送。STM32单片机通过SPI协议即可控制该模块，兼容5V或3.3V。
+
+
+\addimg{0.8}{ATK-VS1053-MP3.png}{ATK-VS1053 MP3模块资源图}
+STM32F103中的音频编解码芯片的原理图如图~/ref{MEDIA-DECODER.pdf}所示。
+
+\addimg{1}{MEDIA-DECODER.pdf}{MEDIA DECODER}
+VS1053是一颗单片OGG/MP3/AAC/WMA/MIDI音频解码器，通过加载官网中的补丁文件就可以实现FLAC的解码、OGG编码。这样我们可以通过麦克风录制语音，经该芯片编码之后，得到与音乐文件类似的格式存储于介质中，方便后续读取。相比它以前的产品，该芯片的音质上也有很大地提高，还可以设置空间效果，这样我们可以录制完语音文件，直接接后面的功放电路驱动小喇叭播放，看语音效果如何，以便和经过激光传输后接收的语音信息播放效果对比。
+
+
+\addimg{1}{SPEAK-PWMDAC.pdf}{SPEAK 和 PWM DAC}
+
+
+
+
+如图~\\ref{SPEAK-PWMDAC.pdf}为采用型号为HT6872的D类音频功率放大器的电路设计，采用它来驱动板载的喇叭。有了板载喇叭，我们就可以直接通过板载喇叭欣赏开发板播放的音乐或者其他音频了，更加人性化。图~\ref{Typical-Connection-Diagram-Using-LQFP-48.pdf}是单片机与VS1053连接的典型应用电路。
+\addimg{0.8}{Typical-Connection-Diagram-Using-LQFP-48.pdf}{单片机和VS1053芯片典型连接电路}
+
+
+
+
+\section{常用的逻辑电平介绍}
+从图~\ref{logic-voltage-stds.pdf}第三列可以看出标准的5V TTL的电平标准，注意其输入和输出时，高低电平对应的电压是不同的。
+
+
+\addimg{1}{logic-voltage-stds.pdf}{常用逻辑电平}
+\addimg{1}{logic-family-voltage-table.pdf}{逻辑电平家族对比图}
+
+\section{ 电平匹配电路}
+STM32F103ZET6单片机的电平标准为COMS电平，大多数引脚支持TTL电平输入输出，但是为了安全起见，设置了CMOS和TTL电平信号双向转换电路，这里提供了两种方案用于电平转换。
+
+\subsection{ 方案一：使用集成电路芯片ADG3308实现}
+ADI公司提供了一系列的电平转换器，这里我选择数据传送速率达50Mbps的8路电平转换器，型号为ADG3308。
+
+\addimg{1}{ADG3308MANUAL.pdf}{选自ADI电平转换芯片选型手册}
+图~\ref{}是ADG3308芯片工作原理图。通过控制使能引脚EN可以实现三态操作，引脚EN高电平有效。
+\addimg{0.4}{ADG3308BDG.pdf}{ADG3308功能框图}
+需要注意的是，ADG3308的供电范围是$ 1.15 \mathrm { V } \leq \mathrm { V } _ { \mathrm { CCA } } < \mathrm { V } _ { \mathrm { CCY} } $；$ 1.65 \mathrm { V } \leq \mathrm { V } _ { \mathrm { CC } } \leq 5.5 \mathrm { V } $。
+\addimg{0.8}{VOLTAGETRANS01.pdf}{ADG3308原理图}
+\subsection{ 方案一：使用分立元件场效应管来实现（Multisim软件仿真）}
+通过合理配置与场效应管搭配的电阻实现信号电平转换。
+1.未加载信号之前
+\addimg{1}{Multisim001.png}{未加载信号之前}
+2.加载5V信号之后
+\addimg{1}{Multisim002.png}{加载5V信号之后}
+3.加载3.3V信号之后
+\addimg{1}{Multisim003.png}{加载3.3V信号之后}
+
+电路原理图如图~\ref{}
+
+\addimg{0.8}{VOLTAGETRANS02.pdf}{使用分立元件场效应管来实现的原理图}
+

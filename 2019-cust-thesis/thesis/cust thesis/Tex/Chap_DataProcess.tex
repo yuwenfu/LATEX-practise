@@ -1,0 +1,34 @@
+\chapter{光信号调制原理与技术}
+自由光通信通常采用的调制方式为开关键控和频率调制，大多采用强度调制直接检测方式，通过光学系统后方的光电探测器来检测。比较典型的调制方式有开关键控（OOK）调制脉冲位置调制（PPM）和数字脉冲间隔调制（DPIM）。
+
+\section{开关键控调制（OOK）}
+在OOK调制方式中，通过开或关两种方式来传送数据。最大比特率直接依赖光源所能达到的开关速率。。OOK调制工作原理示意图如图~\ref{OOK.pdf}所示
+
+
+\addimg{1}{OOK.pdf}{OOK调制工作原理小意图}
+
+
+\section{脉冲位置调制（PPM）}
+PPM主要是在特定的脉冲信息宽度中，通过控制在这个宽度中不同位置来实现不同信息的传送。例如，当M=2时，OOK调制与PPM的对应关系如图~\ref{OOK-PPM.pdf}所示。
+\addimg{1}{OOK-PPM.pdf}{OOK调制与PPM的对应关系}
+PPM抗干扰能力强，对激光器发射功率的要求低，适用于传输速率不高、峰值功率较大的通信系统，如深空激光通信系统和对潜激光通信系统。
+
+
+\section{数字脉冲间隔调制（PIM）}
+PIM调制就是在两个高电平之间插入不同低电平的数量来实现不同信息的传输，其有点是传输信息量少，缺点是误码率很高。
+
+图~\ref{SINAL-ANDTRANFCODE.pdf}给出了在几种调制方式下信息码字与传送码字的对应关系\citep{WJ.2013.02}\footnote{ 王佳著. 光纤通信与空间光通信技术. 北京：电子工业出版社, 2013.02.}。
+\addimg{1}{SINAL-ANDTRANFCODE.pdf}{信息码字与传送码字的对应关系}
+图~\ref{OOK-PPM-DPIM.pdf}显示三种调制方式的码字波形对比图。
+\addimg{1}{OOK-PPM-DPIM.pdf}{OOK（NRZ）调制、PPM和DPIM三种调制方式的码字波形图}
+
+\section{ 几种调制方式的性能比较}
+\subsection{发射功率}
+\addimg{1}{DPIM-PPM-OOK-PWR.pdf}{DPIM、PPM与OOK调制的发射功率比较}
+\subsection{带宽}
+\addimg{1}{DPIM-PPM-OOK-BWCOPARE.pdf}{DPIM、PPM与OOK调制的占用带宽比较}
+综上所述，OOK调制实现电路简单，但误码率较高，通信带宽较低。PPM可以用更小功实现OOK相同的数据传输速率，误码率较低，高速红外自由光通信、光纤通信等场合得到应用，它需要功率较低，需要时隙同步。
+
+
+
+

@@ -1,12 +1,64 @@
-\contentsline {chapter}{引言}{ii}{chapter*.2}
-\contentsline {section}{\numberline {0.1}研究背景}{ii}{section.0.1}
-\contentsline {chapter}{概述}{iii}{chapter*.3}
-\contentsline {section}{\numberline {0.2}视觉检测技术的相关概念}{iii}{section.0.2}
-\contentsline {subsection}{\numberline {0.2.1}计算机视觉}{iii}{subsection.0.2.1}
-\contentsline {subsection}{\numberline {0.2.2}狭义机器视觉}{iii}{subsection.0.2.2}
-\contentsline {chapter}{光学系统}{iv}{chapter*.4}
-\contentsline {section}{\numberline {0.3}反射式物镜设计}{iv}{section.0.3}
-\contentsline {section}{\numberline {0.4}一、两镜系统设计}{iv}{section.0.4}
-\contentsline {section}{\numberline {0.5}天文望远镜R-C系统设计}{v}{section.0.5}
-\contentsline {section}{\numberline {0.6}卫星R-C系统设计}{v}{section.0.6}
-\contentsline {chapter}{参考文献}{vii}{section*.5}
+\contentsline {chapter}{摘要}{I}{chapter*.1}
+\contentsline {chapter}{目\hskip 1em\relax 录}{III}{section*.3}
+\contentsline {chapter}{\numberline {第1章\hspace {.3em}}引言}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}本课题研究目的和意义}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}常用的逆向调制器类型和国内外文献发展现状}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3} 逆光调制器的发展趋势}{8}{section.1.3}
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}MEMS逆向光调制器（MRR）}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}MEMS逆向光调制器的工作原理}{10}{section.2.1}
+\contentsline {section}{\numberline {2.2}MEMS逆向光调制器}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}产品概述}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}MEMS MRR的机电特性}{13}{subsection.2.2.2}
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}主动端光学系统设计}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}光学分系统总体分析}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}光学设计考虑的因素}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}口径计算}{17}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}接收视场角的选择}{17}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}材料性能与选择}{17}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}卡式系统反射式物镜设计}{18}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}R-C系统理论计算公式}{19}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}R-C系统设计}{20}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}MATLAB自动化生成RC望远镜尺寸参数}{20}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}光机系统遮光结构设计}{26}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}遮光机械结构设计}{26}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}光学机械设计}{28}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}主镜固定的机械结构设计}{29}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}次镜固定的机械结构设计}{31}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}装配误差}{31}{section.3.6}
+\contentsline {section}{\numberline {3.7}光学系统的稳定性和轻小型化}{32}{section.3.7}
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}激光单元}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}激光器概述}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}激光束瞄准和稳定}{34}{section.4.2}
+\contentsline {section}{\numberline {4.3}激光单元的实验设备理论计算和选型}{34}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}理论计算}{34}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}准直透镜设备选型}{37}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}准直透镜ZEMAX仿真}{37}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}激光准直器在光学基台的安装}{38}{subsection.4.3.4}
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}} 光电探测器单元 }{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}自由光通信主要使用的探测器类型}{42}{section.5.1}
+\contentsline {section}{\numberline {5.2}通信接收单元的信号处理}{42}{section.5.2}
+\contentsline {section}{\numberline {5.3}实验所用的探测器简介}{43}{section.5.3}
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}光信号调制原理与技术}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}开关键控调制（OOK）}{47}{section.6.1}
+\contentsline {section}{\numberline {6.2}脉冲位置调制（PPM）}{47}{section.6.2}
+\contentsline {section}{\numberline {6.3}数字脉冲间隔调制（PIM）}{48}{section.6.3}
+\contentsline {section}{\numberline {6.4} 几种调制方式的性能比较}{49}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}发射功率}{49}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}带宽}{50}{subsection.6.4.2}
+\contentsline {chapter}{\numberline {第7章\hspace {.3em}}电路设计}{51}{chapter.7}
+\contentsline {section}{\numberline {7.1}录音电路和音频解码}{51}{section.7.1}
+\contentsline {section}{\numberline {7.2}常用的逻辑电平介绍}{54}{section.7.2}
+\contentsline {section}{\numberline {7.3} 电平匹配电路}{55}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1} 方案一：使用集成电路芯片ADG3308实现}{56}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2} 方案一：使用分立元件场效应管来实现（Multisim软件仿真）}{56}{subsection.7.3.2}
+\contentsline {chapter}{\numberline {第8章\hspace {.3em}}光机结构设计}{60}{chapter.8}
+\contentsline {section}{\numberline {8.1}主动端二自由度回转平台组成}{60}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}方位转台设计}{61}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}俯仰转台设计}{61}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}光学平台设计}{64}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}MEMS逆向光调制器（角反棱镜式）机械结构设计}{65}{section.8.2}
+\contentsline {chapter}{\numberline {第9章\hspace {.3em}}成本预算}{67}{chapter.9}
+\contentsline {section}{\numberline {9.1}实验所需设备}{67}{section.9.1}
+\contentsline {section}{\numberline {9.2}费用估算}{67}{section.9.2}
+\contentsline {chapter}{参考文献}{68}{section*.105}
+\contentsline {chapter}{致谢}{69}{appendix*.107}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.15)  28 MAY 2019 08:50
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.15)  1 JUN 2019 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2103,27 +2103,27 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ]) [2
 
-] (./optical-engneering.toc)
+] (./optical-engneering.toc [3
+
+])
 \tf@toc=\write4
 \openout4 = `optical-engneering.toc'.
 
- [3
-
-]
+ [4]
 (./optical-engneering.lof)
 \tf@lof=\write5
 \openout5 = `optical-engneering.lof'.
 
- [4
+ [5
 
 ] (./optical-engneering.lot)
 \tf@lot=\write6
 \openout6 = `optical-engneering.lot'.
 
  (./Tex/Prematter.tex
-[5
+[6
 
-]) [6
+]) [7
 
 ]
 
@@ -2164,35 +2164,11 @@ less on input line 68.
 . <->"FangSong/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-
-Package natbib Warning: Citation `.2014' on page 1 undefined on input line 7.
-
-
-Package natbib Warning: Citation `.2015b' on page 1 undefined on input line 7.
-
-
-Package natbib Warning: Citation `.2006' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 11.
-
 [1
 
 
 ]
 第2章
-
-Package natbib Warning: Citation `yong.2013' on page 2 undefined on input line 
-14.
-
-
-Package natbib Warning: Citation `A.2017' on page 2 undefined on input line 18.
-
-
-
-Package natbib Warning: Citation `zhang.2017' on page 2 undefined on input line
- 18.
-
 \g__fontspec_family_KaiTi_int=\count337
 .................................................
 . fontspec info: "no-font-shape"
@@ -2219,23 +2195,9 @@ Package natbib Warning: Citation `zhang.2017' on page 2 undefined on input line
 . - 'normal' (m/n) with NFSS spec.: <->"KaiTi/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 40.
-
 [2
 
-]
-
-Package natbib Warning: Citation `.2016c' on page 3 undefined on input line 50.
-
-
-
-Package natbib Warning: Citation `.e' on page 3 undefined on input line 52.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 55.
-
-[3]
+] [3]
 File: ./Img/mv-sys.pdf Graphic file (type pdf)
 <use ./Img/mv-sys.pdf>
 
@@ -2243,200 +2205,79 @@ Overfull \hbox (43.50691pt too wide) in paragraph at lines 56--56
  [][] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 66.
-
-[4]
-
-Package natbib Warning: Citation `.2018' on page 5 undefined on input line 75.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 78.
-
-[5]
-
-Package natbib Warning: Citation `.2016d' on page 6 undefined on input line 79.
-
-
-
-Package natbib Warning: Citation `.2018i' on page 6 undefined on input line 82.
-
-
-
-Package natbib Warning: Citation `.f' on page 6 undefined on input line 98.
-
-
-Package natbib Warning: Citation `.2012' on page 6 undefined on input line 98.
-
-
-Package natbib Warning: Citation `.2017b' on page 6 undefined on input line 98.
-
-
-
-Package natbib Warning: Citation `.2018c' on page 6 undefined on input line 98.
-
-
-
-Package natbib Warning: Citation `.2010' on page 6 undefined on input line 98.
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 99.
-
-[6]
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 100.
-
-[7]
+[4] [5] [6] [7]
 第3章
-
-Package natbib Warning: Citation `.2016' on page 8 undefined on input line 117.
-
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 133.
-
 [8
 
-]
-
-Package natbib Warning: Citation `.2015' on page 9 undefined on input line 150.
-
-
-
-Package natbib Warning: Citation `.2016b' on page 9 undefined on input line 150
-.
-
-
-Package natbib Warning: Citation `.2018k' on page 9 undefined on input line 150
-.
-
-
-Package natbib Warning: Citation `.2017' on page 9 undefined on input line 152.
-
-
-
-Package natbib Warning: Citation `.d' on page 9 undefined on input line 152.
-
-
-Package natbib Warning: Citation `.2017e' on page 9 undefined on input line 152
-.
-
-
-Package natbib Warning: Citation `.2017d' on page 9 undefined on input line 152
-.
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 159.
-
-[9]
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 162.
-
-[10]
+] [9] [10]
 第4章
-
-Package natbib Warning: Citation `Zhao.2012' on page 11 undefined on input line
- 166.
-
-
-Package natbib Warning: Citation `zhangke.2013' on page 11 undefined on input l
-ine 186.
-
 
 Overfull \hbox (58.66725pt too wide) in paragraph at lines 198--214
  [][] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 235.
-
 [11
 
-]
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 235.
-
-[12]
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 246.
-
-[13]
+] [12] [13]
 第5章
-
-Package natbib Warning: Citation `.2018g' on page 14 undefined on input line 26
-4.
-
-
-Package natbib Warning: Citation `.2018e' on page 14 undefined on input line 26
-4.
-
-
-Package natbib Warning: Citation `.2018b' on page 14 undefined on input line 26
-4.
-
-
-Package natbib Warning: Citation `.2018h' on page 14 undefined on input line 26
-4.
-
-
-Package natbib Warning: Citation `.g' on page 14 undefined on input line 266.
-
-
-Package natbib Warning: Citation `.c' on page 14 undefined on input line 266.
-
-
-Package natbib Warning: Citation `.c' on page 14 undefined on input line 266.
-
-
-Package natbib Warning: Citation `.b' on page 14 undefined on input line 266.
-
-
-Package natbib Warning: Citation `.2018j' on page 14 undefined on input line 26
-6.
-
-
-Package natbib Warning: Citation `.2004' on page 14 undefined on input line 266
-.
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 267.
-
 [14
 
+] [15] [16])) [17] (./Tex/Appendix.tex)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 82.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 82.
+
+(./optical-engneering.bbl [18
+
+
+
+
+]) (./Tex/Backmatter.tex [19]
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 3.
+
+)
+
+Package caption Warning: Unused \captionsetup[bi-first] on input line 56.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[bi-second] on input line 56.
+See the caption package documentation for explanation.
+
+
+AED: lastpage setting LastPage
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 86.
+
+[20
+
 ]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+ (./optical-engneering.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
+Package rerunfilecheck Info: File `optical-engneering.out' has not changed.
+(rerunfilecheck)             Checksum: B092F5BE6B8696B0F025BCEB9F75E576.
+ )
+(\end occurred inside a group at level 1)
 
-Package natbib Warning: Citation `.1992' on page 15 undefined on input line 272
-.
-
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 278.
-
-[15]
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 288.
-
-[16])
-
-! LaTeX Error: File `Tex/Chap_Lens.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.6 \input{Tex/Chap_Lens}
-                         ^^M
-*** (cannot \read from terminal in nonstop modes)
-
- 
+### simple group (level 1) entered at line 4 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 31054 strings out of 492970
- 606629 string characters out of 6131417
- 787511 words of memory out of 5000000
- 34598 multiletter control sequences out of 15000+600000
+ 31252 strings out of 492970
+ 613356 string characters out of 6131417
+ 788749 words of memory out of 5000000
+ 34786 multiletter control sequences out of 15000+600000
  559660 words of font info for 145 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,11n,94p,10518b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on optical-engneering.pdf (25 pages).
+ 60i,11n,94p,10518b,797s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on optical-engneering.pdf (30 pages).

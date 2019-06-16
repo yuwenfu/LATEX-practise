@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.15)  28 MAY 2019 11:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.15)  10 JUN 2019 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1836,14 +1836,17 @@ Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 LaTeX Warning: Unused global option(s):
     [singlsided].
 
-(./thesis-optical-comunication.aux)
+(./thesis-optical-comunication.aux
+
+LaTeX Warning: Label `MEMS-MRR.pdf' multiply defined.
+
+)
 \openout1 = `thesis-optical-comunication.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 48.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 48
 .
-
-(e:/Program Files/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
+ (e:/Program Files/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 48.
@@ -2019,6 +2022,14 @@ less on input line 52.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 52.
 
+(./Tex/Frontpages.tex
+File: Img/cust_logo.pdf Graphic file (type pdf)
+<use Img/cust_logo.pdf>
+
+Overfull \hbox (0.473pt too wide) in paragraph at lines 35--35
+ [][] 
+ []
+
 \g__fontspec_family_SimHei_int=\count335
 .................................................
 . fontspec info: "no-font-shape"
@@ -2049,37 +2060,33 @@ less on input line 52.
 . <->"SimHei/OT:script=hani;language=DFLT;embolden=4;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
-(./thesis-optical-comunication.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
-
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 (e:/Program Files/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (e:/Program Files/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 1.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 35.
+
 
 (e:/Program Files/texlive/2018/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 1.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 35.
+
 
 (e:/Program Files/texlive/2018/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 1.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 35.
+
 
 (e:/Program Files/texlive/2018/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-))
-\tf@toc=\write4
-\openout4 = `thesis-optical-comunication.toc'.
-
-
-(./Tex/Mainmatter.tex (./Tex/Chap_Intro.tex
+)
 (e:/Program Files/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.d
 ef
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
@@ -2088,111 +2095,542 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 
 
-]
-\g__fontspec_family_FangSong_int=\count336
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FangSong(0)' created for font 'FangSong' with options
-. [Script={CJK}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->"FangSong/OT:script=hani;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
- [2
+] [2
+
+
+] [3
+
+
+] [1
+
 
 ]
-\g__fontspec_family_KaiTi_int=\count337
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "KaiTi/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "KaiTi/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "KaiTi/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'KaiTi(0)' created for font 'KaiTi' with options [Script={CJK}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"KaiTi/OT:script=hani;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
-) (./Tex/Chap_Lens.tex [3
-
-] [4
-
-]
-Overfull \hbox (19.32039pt too wide) detected at line 51
-\OML/ntxmi/m/it/12.045 e[] \OT1/cmr/m/n/12.045 = [] = [] = [] = 16\OML/ntxmi/m/
-it/12.045 :\OT1/cmr/m/n/12.045 317073
+Overfull \hbox (5.00705pt too wide) in paragraph at lines 81--82
+\TU/entextrm/m/n/12.045 modulator, determined the mechanical device fixed on a 
+small platform, and checked whether
  []
 
-[5])) [6] (./Tex/Appendix.tex)
+) [2
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 12.045pt
+(hyperref)                replaced by space on input line 56.
+
+(./thesis-optical-comunication.toc [3
+
+
+] [4])
+\tf@toc=\write4
+\openout4 = `thesis-optical-comunication.toc'.
+
+ [5]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 82.
+less on input line 67.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 82.
+less on input line 67.
 
-(./thesis-optical-comunication.bbl) 
-AED: lastpage setting LastPage
-[7
+(./Tex/Mainmatter.tex (./Tex/Chap_Intro.tex
+第1章
+File: ./Img/FLC-SWITCH.pdf Graphic file (type pdf)
+<use ./Img/FLC-SWITCH.pdf>
+File: ./Img/THREE-FSO-PATTERN.pdf Graphic file (type pdf)
+<use ./Img/THREE-FSO-PATTERN.pdf>
+[1
+
+
+]
+
+Package natbib Warning: Citation `WYJ.2015.12' on page 2 undefined on input lin
+e 35.
+
+[2]
+File: ./Img/AOM-MRR.pdf Graphic file (type pdf)
+<use ./Img/AOM-MRR.pdf>
+File: ./Img/MEMS-MRR.pdf Graphic file (type pdf)
+<use ./Img/MEMS-MRR.pdf>
+File: ./Img/Electrowetting-lenslet-MRR.pdf Graphic file (type pdf)
+<use ./Img/Electrowetting-lenslet-MRR.pdf>
+File: ./Img/corner-mrr.pdf Graphic file (type pdf)
+<use ./Img/corner-mrr.pdf>
+ [3]
+File: ./Img/MRR-ABROAD.pdf Graphic file (type pdf)
+<use ./Img/MRR-ABROAD.pdf>
+File: ./Img/MRR-INNER.pdf Graphic file (type pdf)
+<use ./Img/MRR-INNER.pdf>
+ [4] [5] [6] [7]
+
+LaTeX Warning: Reference `CAT-MQW-ARRY.pdf' on page 8 undefined on input line 5
+7.
+
+File: ./Img/CAT-MQW-ARRY.pdf Graphic file (type pdf)
+<use ./Img/CAT-MQW-ARRY.pdf>
+) (./Tex/Chap_MRR.tex [8
+
+]
+第2章
+File: ./Img/DIFF-MRR-CMP.pdf Graphic file (type pdf)
+<use ./Img/DIFF-MRR-CMP.pdf>
+[9
+
+]
+File: ./Img/BOSTON-MRR-PRICNPLE.jpg Graphic file (type bmp)
+<./Img/BOSTON-MRR-PRICNPLE.jpg>
+File: ./Img/MEMS-MRR.pdf Graphic file (type pdf)
+<use ./Img/MEMS-MRR.pdf>
+File: ./Img/mems-principle.pdf Graphic file (type pdf)
+<use ./Img/mems-principle.pdf>
+File: ./Img/MRR-TWO-STATE.pdf Graphic file (type pdf)
+<use ./Img/MRR-TWO-STATE.pdf>
+
+Overfull \hbox (2.00749pt too wide) in paragraph at lines 19--30
+ []$[]$ $[]$ 
+ []
+
+[10]
+Overfull \hbox (21.05675pt too wide) in paragraph at lines 40--41
+[]\TU/SimSun(1)/m/n/12.045 波 士 顿 微 机 械 公 司 对 于 逆 向 光 通 信 推 出 了 两 款 微 镜，|  分 别 是
+ 镜 面 分 立 型 \TU/entextsf/m/n/12.045 MEMS([][]2.5a[][])
+ []
+
+File: ./Img/Segmented-DM.png Graphic file (type bmp)
+<./Img/Segmented-DM.png>
+File: ./Img/Continuous-DM.png Graphic file (type bmp)
+<./Img/Continuous-DM.png>
+
+Overfull \hbox (2.00749pt too wide) in paragraph at lines 46--57
+ []$[]$ $[]$ 
+ []
+
+File: ./Img/boston-MEMS-MRR-INNER.jpg Graphic file (type bmp)
+<./Img/boston-MEMS-MRR-INNER.jpg>
+File: ./Img/boston-MEMS-MRR-outer.jpg Graphic file (type bmp)
+<./Img/boston-MEMS-MRR-outer.jpg>
+File: ./Img/boston-MEMS-MRR-driver.jpg Graphic file (type bmp)
+<./Img/boston-MEMS-MRR-driver.jpg>
+File: ./Img/MB-200-frequency.pdf Graphic file (type pdf)
+<use ./Img/MB-200-frequency.pdf>
+
+Underfull \hbox (badness 1803) in paragraph at lines 89--89
+[][]|\TU/entextrm/bx/n/10.53937 MEMS MRR.(a) MEMS-MRR-INNER . (b) MEMS-MRR-OUTS
+IDE .(c)MEMS-
+ []
+
+[11] [12]
+File: ./Img/MEMS-MRR-VOLTAGE.png Graphic file (type bmp)
+<./Img/MEMS-MRR-VOLTAGE.png>
+File: ./Img/MEMS-MRR-RISETIME.png Graphic file (type bmp)
+<./Img/MEMS-MRR-RISETIME.png>
+
+Overfull \hbox (45.51442pt too wide) in paragraph at lines 120--131
+ []$[]$ $[]$ 
+ []
+
+File: ./Img/MRR-ASSEMBLED.png Graphic file (type bmp)
+<./Img/MRR-ASSEMBLED.png>
+File: ./Img/MRR-Incident-beam-angle-FOV.png Graphic file (type bmp)
+<./Img/MRR-Incident-beam-angle-FOV.png>
+) (./Tex/Chap_Lens.tex [13] [14]
+第3章
+
+Package natbib Warning: Citation `JHL.2010.12' on page 15 undefined on input li
+ne 36.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+\TU/SimSun(1)/m/n/12.045 靠 校 正
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+\TU/SimSun(1)/m/n/12.045 靠 校 正
+ []
+
+[15
+
+] [16]
+Overfull \hbox (3.66107pt too wide) in paragraph at lines 98--98
+ \TU/entextsf/m/n/12.045 ($\OML/ntxmi/m/it/12.045 g\OT1/cmr/m/n/12.045 /\OML/nt
+xmi/m/it/12.045 cm[]$\TU/entextsf/m/n/12.045 )| 
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 98--98
+\TU/entextsf/m/n/12.045 E/P/($\OT1/cmr/m/n/12.045 10[]\OML/ntxmi/m/it/12.045 N 
+\LMS/ntxsy/m/n/12.045 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\TU/SimSun(1)/m/n/12.045 导 热 率\TU/entextsf/m/n/12.045 /
+ []
+
+
+Overfull \hbox (3.13228pt too wide) in paragraph at lines 98--98
+ \OML/ntxmi/m/it/12.045 ^^K\OT1/cmr/m/n/12.045 /(10[]/[]\OML/ntxmi/m/it/12.045 
+C\OT1/cmr/m/n/12.045 )$| 
+ []
+
+
+Overfull \hbox (11.2648pt too wide) in paragraph at lines 98--99
+ \OML/ntxmi/m/it/12.045 ^^K\OT1/cmr/m/n/12.045 /\OML/ntxmi/m/it/12.045 ^^U\OT1/
+cmr/m/n/12.045 (10[]\OML/ntxmi/m/it/12.045 m\OT1/cmr/m/n/12.045 /\OML/ntxmi/m/i
+t/12.045 W\OT1/cmr/m/n/12.045 )$| 
+ []
+
+
+Overfull \hbox (46.44226pt too wide) in paragraph at lines 96--110
+ [][][] 
+ []
+
+[17]
+File: ./Img/kashixitongshiyitu.pdf Graphic file (type pdf)
+<use ./Img/kashixitongshiyitu.pdf>
+File: ./Img/sanjingkashixitong.pdf Graphic file (type pdf)
+<use ./Img/sanjingkashixitong.pdf>
+ [18] [19]
+File: ./Img/lendesign.png Graphic file (type bmp)
+<./Img/lendesign.png>
+File: ./Img/RCCassegrainLens01.pdf Graphic file (type pdf)
+<use ./Img/RCCassegrainLens01.pdf>
+File: ./Img/RCCassegrainLens01Spotdata.pdf Graphic file (type pdf)
+<use ./Img/RCCassegrainLens01Spotdata.pdf>
+File: ./Img/lendesignop.png Graphic file (type bmp)
+<./Img/lendesignop.png>
+File: ./Img/RCCassegrainLens02.pdf Graphic file (type pdf)
+<use ./Img/RCCassegrainLens02.pdf>
+File: ./Img/RCCassegrainLens02Spotdata.pdf Graphic file (type pdf)
+<use ./Img/RCCassegrainLens02Spotdata.pdf>
+File: ./Img/RCCassegrainLens02Energy.pdf Graphic file (type pdf)
+<use ./Img/RCCassegrainLens02Energy.pdf>
+File: ./Img/MATLAB001.png Graphic file (type bmp)
+<./Img/MATLAB001.png>
+File: ./Img/MATLAB002.png Graphic file (type bmp)
+<./Img/MATLAB002.png>
+ [20] [21] [22] [23] [24] [25]
+File: ./Img/SWRCCassegrainBFlatLens.png Graphic file (type bmp)
+<./Img/SWRCCassegrainBFlatLens.png>
+File: ./Img/zhunjiguangxian500.png Graphic file (type bmp)
+<./Img/zhunjiguangxian500.png>
+File: ./Img/RCCassegrainLens03tracelightpupil.pdf Graphic file (type pdf)
+<use ./Img/RCCassegrainLens03tracelightpupil.pdf>
+
+Overfull \hbox (26.40625pt too wide) in paragraph at lines 229--229
+ [][] 
+ []
+
+File: ./Img/zasanguangxiaochu.pdf Graphic file (type pdf)
+<use ./Img/zasanguangxiaochu.pdf>
+[26
+
+] [27]
+File: ./Img/lioupupil.pdf Graphic file (type pdf)
+<use ./Img/lioupupil.pdf>
+ [28]
+File: ./Img/dianxingjingtoujingtong01.pdf Graphic file (type pdf)
+<use ./Img/dianxingjingtoujingtong01.pdf>
+File: ./Img/dianxingjingtoujingtong02.pdf Graphic file (type pdf)
+<use ./Img/dianxingjingtoujingtong02.pdf>
+File: ./Img/RCzhujing001.png Graphic file (type bmp)
+<./Img/RCzhujing001.png>
+File: ./Img/RCzhujing002.png Graphic file (type bmp)
+<./Img/RCzhujing002.png>
+
+Overfull \hbox (2.00749pt too wide) in paragraph at lines 278--289
+ []$[]$ $[]$ 
+ []
+
+File: ./Img/RCcijing001.png Graphic file (type bmp)
+<./Img/RCcijing001.png>
+File: ./Img/RCcijing002.png Graphic file (type bmp)
+<./Img/RCcijing002.png>
+
+Overfull \hbox (2.00749pt too wide) in paragraph at lines 299--310
+ []$[]$ $[]$ 
+ []
+
+[29]
+
+LaTeX Warning: Text page 30 contains only floats.
+
+[30] [31]) (./Tex/Chap_Laser.tex [32]
+第4章
+File: ./Img/guangxianfangdaqi.pdf Graphic file (type pdf)
+<use ./Img/guangxianfangdaqi.pdf>
+[33
+
+]
+File: ./Img/VFLS-1550-B.jpg Graphic file (type bmp)
+<./Img/VFLS-1550-B.jpg>
+File: ./Img/laser-guangxian.pdf Graphic file (type pdf)
+<use ./Img/laser-guangxian.pdf>
+File: ./Img/Corning-SMF28E.pdf Graphic file (type pdf)
+<use ./Img/Corning-SMF28E.pdf>
+
+
+LaTeX Warning: Reference `MFD.pdf' on page 34 undefined on input line 29.
+
+
+LaTeX Warning: Reference `SMF28-sesan.pdf' on page 34 undefined on input line 2
+9.
+
+
+Overfull \hbox (17.30937pt too wide) in paragraph at lines 29--30
+[]\TU/SimSun(1)/m/n/12.045 具 体 的 光 学 指 标，|  如 模 场 直 径  |（\TU/entextsf/m/n/12.04
+5 [MFD]\TU/SimSun(1)/m/n/12.045 ） 、|  色 散 和 数 值 孔 径  |（\TU/entextsf/m/n/12.045 
+NA\TU/SimSun(1)/m/n/12.045 ）|  如 图 []、|  图 []和 [][]\TU/entextsf/m/n/12.045 4.7[
+][]\TU/SimSun(1)/m/n/12.045 所
+ []
+
+File: ./Img/MFD.png Graphic file (type bmp)
+<./Img/MFD.png>
+File: ./Img/SMF28-sesan.png Graphic file (type bmp)
+<./Img/SMF28-sesan.png>
+File: ./Img/SMF28-NA.pdf Graphic file (type pdf)
+<use ./Img/SMF28-NA.pdf>
+File: ./Img/Divergence.jpg Graphic file (type bmp)
+<./Img/Divergence.jpg>
+[34] [35]
+File: ./Img/F810FC.jpg Graphic file (type bmp)
+<./Img/F810FC.jpg>
+File: ./Img/fiber-xuanxi.png Graphic file (type bmp)
+<./Img/fiber-xuanxi.png>
+ [36]
+File: ./Img/F810APC-1550-01.png Graphic file (type bmp)
+<./Img/F810APC-1550-01.png>
+File: ./Img/Fiber-Collimation.pdf Graphic file (type pdf)
+<use ./Img/Fiber-Collimation.pdf>
+File: ./Img/F810APC-1550-ENY.pdf Graphic file (type pdf)
+<use ./Img/F810APC-1550-ENY.pdf>
+File: ./Img/F810APC-1550-FAN.pdf Graphic file (type pdf)
+<use ./Img/F810APC-1550-FAN.pdf>
+File: ./Img/F810APC-1550-SPOT.pdf Graphic file (type pdf)
+<use ./Img/F810APC-1550-SPOT.pdf>
+File: ./Img/Fiber.jpg Graphic file (type bmp)
+<./Img/Fiber.jpg>
+File: ./Img/zhunzhitoujinganzhuang.png Graphic file (type bmp)
+<./Img/zhunzhitoujinganzhuang.png>
+) (./Tex/Chap_Detector.tex [37] [38] [39] [40] [41]
+第5章
+File: ./Img/digitalReceiver.pdf Graphic file (type pdf)
+<use ./Img/digitalReceiver.pdf>
+File: ./Img/dataregeneration.pdf Graphic file (type pdf)
+<use ./Img/dataregeneration.pdf>
+[42
+
+]
+File: ./Img/PDA20CS-EC-IMG.png Graphic file (type bmp)
+<./Img/PDA20CS-EC-IMG.png>
+File: ./Img/PDA20CS-EC-PICTURE.jpg Graphic file (type bmp)
+<./Img/PDA20CS-EC-PICTURE.jpg>
+
+Overfull \hbox (2.00749pt too wide) in paragraph at lines 32--43
+ []$[]$ $[]$ 
+ []
+
+File: ./Img/PDA20CSanzhuangtu.png Graphic file (type bmp)
+<./Img/PDA20CSanzhuangtu.png>
+File: ./Img/BNC-PDA20CS.png Graphic file (type bmp)
+<./Img/BNC-PDA20CS.png>
+File: ./Img/PDA20CSTOP.jpg Graphic file (type bmp)
+<./Img/PDA20CSTOP.jpg>
+File: ./Img/PDA20CFRONT.jpg Graphic file (type bmp)
+<./Img/PDA20CFRONT.jpg>
+
+Overfull \hbox (2.00749pt too wide) in paragraph at lines 58--69
+ []$[]$ $[]$ 
+ []
+
+File: ./Img/swichable-gain-and-BW.pdf Graphic file (type pdf)
+<use ./Img/swichable-gain-and-BW.pdf>
+File: ./Img/swtich-gain.pdf Graphic file (type pdf)
+<use ./Img/swtich-gain.pdf>
+[43]
+
+LaTeX Warning: Text page 44 contains only floats.
+
+[44]) (./Tex/Chap_DataProcess.tex [45] [46]
+第6章
+File: ./Img/OOK.pdf Graphic file (type pdf)
+<use ./Img/OOK.pdf>
+File: ./Img/OOK-PPM.pdf Graphic file (type pdf)
+<use ./Img/OOK-PPM.pdf>
+[47
+
+]
+File: ./Img/SINAL-ANDTRANFCODE.pdf Graphic file (type pdf)
+<use ./Img/SINAL-ANDTRANFCODE.pdf>
+File: ./Img/OOK-PPM-DPIM.pdf Graphic file (type pdf)
+<use ./Img/OOK-PPM-DPIM.pdf>
+ [48]
+File: ./Img/DPIM-PPM-OOK-PWR.pdf Graphic file (type pdf)
+<use ./Img/DPIM-PPM-OOK-PWR.pdf>
+File: ./Img/DPIM-PPM-OOK-BWCOPARE.pdf Graphic file (type pdf)
+<use ./Img/DPIM-PPM-OOK-BWCOPARE.pdf>
+ [49]) (./Tex/Chap_CircuitDesign.tex [50]
+第7章
+File: ./Img/data-electric-01.pdf Graphic file (type pdf)
+<use ./Img/data-electric-01.pdf>
+File: ./Img/ATK-VS1053-MP3.png Graphic file (type bmp)
+<./Img/ATK-VS1053-MP3.png>
+File: ./Img/MEDIA-DECODER.pdf Graphic file (type pdf)
+<use ./Img/MEDIA-DECODER.pdf>
+[51
+
+] [52]
+File: ./Img/SPEAK-PWMDAC.pdf Graphic file (type pdf)
+<use ./Img/SPEAK-PWMDAC.pdf>
+File: ./Img/Typical-Connection-Diagram-Using-LQFP-48.pdf Graphic file (type pdf
+)
+<use ./Img/Typical-Connection-Diagram-Using-LQFP-48.pdf>
+ [53]
+File: ./Img/logic-voltage-stds.pdf Graphic file (type pdf)
+<use ./Img/logic-voltage-stds.pdf>
+File: ./Img/logic-family-voltage-table.pdf Graphic file (type pdf)
+<use ./Img/logic-family-voltage-table.pdf>
+ [54]
+File: ./Img/ADG3308MANUAL.pdf Graphic file (type pdf)
+<use ./Img/ADG3308MANUAL.pdf>
+ [55]
+
+LaTeX Warning: Reference `' on page 56 undefined on input line 40.
+
+File: ./Img/ADG3308BDG.pdf Graphic file (type pdf)
+<use ./Img/ADG3308BDG.pdf>
+File: ./Img/VOLTAGETRANS01.pdf Graphic file (type pdf)
+<use ./Img/VOLTAGETRANS01.pdf>
+File: ./Img/Multisim001.png Graphic file (type bmp)
+<./Img/Multisim001.png>
+File: ./Img/Multisim002.png Graphic file (type bmp)
+<./Img/Multisim002.png>
+File: ./Img/Multisim003.png Graphic file (type bmp)
+<./Img/Multisim003.png>
+
+LaTeX Warning: Reference `' on page 56 undefined on input line 53.
+
+File: ./Img/VOLTAGETRANS02.pdf Graphic file (type pdf)
+<use ./Img/VOLTAGETRANS02.pdf>
+) (./Tex/Chap_Mechanic.tex [56] [57] [58] [59]
+第8章
+File: ./Img/2DOFmechanics.jpg Graphic file (type bmp)
+<./Img/2DOFmechanics.jpg>
+File: ./Img/2DOF-explore.jpg Graphic file (type bmp)
+<./Img/2DOF-explore.jpg>
+File: ./Img/2DOF-buttom.jpg Graphic file (type bmp)
+<./Img/2DOF-buttom.jpg>
+[60
+
+]
+File: ./Img/2DOF-yaw.jpg Graphic file (type bmp)
+<./Img/2DOF-yaw.jpg>
+File: ./Img/2DOF-pitch-motor.jpg Graphic file (type bmp)
+<./Img/2DOF-pitch-motor.jpg>
+File: ./Img/2DOF-grating.jpg Graphic file (type bmp)
+<./Img/2DOF-grating.jpg>
+File: ./Img/optics-front.jpg Graphic file (type bmp)
+<./Img/optics-front.jpg>
+ [61]
+
+LaTeX Warning: Text page 62 contains only floats.
+
+[62]
+
+LaTeX Warning: Text page 63 contains only floats.
+
+[63]
+File: ./Img/optics-back.jpg Graphic file (type bmp)
+<./Img/optics-back.jpg>
+File: ./Img/optics-dig.jpg Graphic file (type bmp)
+<./Img/optics-dig.jpg>
+File: ./Img/optics-explorer.jpg Graphic file (type bmp)
+<./Img/optics-explorer.jpg>
+ [64]
+File: ./Img/MRR-DIG.jpg Graphic file (type bmp)
+<./Img/MRR-DIG.jpg>
+File: ./Img/MRR-explorer.jpg Graphic file (type bmp)
+<./Img/MRR-explorer.jpg>
+ [65]) (./Tex/Chap_CostBudgeting.tex [66]
+第9章
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\TU/SimSun(1)/m/n/12.045 采 购 的 费 用
+ []
+
+)) [67
+
+] (./Tex/Appendix.tex)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 81.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 81.
+
+(./thesis-optical-comunication.bbl) (./Tex/Backmatter.tex [68
 
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 3.
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+
+Package caption Warning: Unused \captionsetup[bi-first] on input line 76.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[bi-second] on input line 76.
+See the caption package documentation for explanation.
+
+
+AED: lastpage setting LastPage
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 85.
+
+[69
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
  (./thesis-optical-comunication.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 86.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
-Package rerunfilecheck Info: File `thesis-optical-comunication.out' has not cha
-nged.
-(rerunfilecheck)             Checksum: A94FE2EA281C4072F56F8EC1CD96CA9B.
- )
-(\end occurred inside a group at level 1)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 
-### simple group (level 1) entered at line 4 ({)
-### bottom level 
+
+Package rerunfilecheck Warning: File `thesis-optical-comunication.out' has chan
+ged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis-optical-comunication.out':
+(rerunfilecheck)             Before: DD3BC3A550EFEA939B9B93C5B642F8DB
+(rerunfilecheck)             After:  62D8CFF4CE1BD851BD54494C90A53492.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 30902 strings out of 492970
- 597930 string characters out of 6131417
- 781699 words of memory out of 5000000
- 34460 multiletter control sequences out of 15000+600000
- 559620 words of font info for 140 fonts, out of 8000000 for 9000
+ 31819 strings out of 492970
+ 631820 string characters out of 6131417
+ 791824 words of memory out of 5000000
+ 35243 multiletter control sequences out of 15000+600000
+ 559652 words of font info for 144 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,12n,94p,10527b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,16n,94p,10527b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis-optical-comunication.pdf (7 pages).
+Output written on thesis-optical-comunication.pdf (77 pages).
