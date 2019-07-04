@@ -5,7 +5,7 @@
 
 目前，利用光放大器如掺铒光纤放大器的半导体激光器可将输出数据传输速率超过10Gb/s，输出功率从1mW提高到数千毫瓦。振荡器以多吉比特每秒的速率输出调制光信号之后经光放大且保持其较好的光束质量特性。激光发射单元的设计包括波长、输出功率、增益、增益系数、增益波动、噪声系数和带宽等参数。图~\ref{guangxianfangdaqi.pdf}是一个多级振荡一放大器框图
 
-\addimg{1}{guangxianfangdaqi.pdf}{几十dBm调制激光功率的多级放大器，输出功率根据放大器级数扩展}
+\addimg{0.8}{guangxianfangdaqi.pdf}{几十dBm调制激光功率的多级放大器，输出功率根据放大器级数扩展}
 
 \section{激光束瞄准和稳定}
 对于运动平台间的自由空间激光通信，激光束指向和对准是最具挑战性的技术之一。激光通信指向在一般情况下可以分解成光视轴稳定和提供正确的接收器位置。后者由接收端信标光完成，前者通过使用高带宽的控制回路来正确感应平台抖动。近地激光通信系统接收端的强信标光同时可完成以上两功能。
@@ -20,32 +20,32 @@
 
 查询科乃特公司（connet laser）的1.55um系列连续光纤激光器的技术文档可知，如图~\ref{laser-guangxian.pdf}所示，单模光纤是采用康宁公司最常见的SMF28系列的，连接器为APC结构，设计和选型时需要注意。
 
-\addimg{1}{laser-guangxian.pdf}{1550nm连续光纤激光器的技术文档}
+\addimg{0.9}{laser-guangxian.pdf}{1550nm连续光纤激光器的技术文档}
 
 查询Corning公司SMF-28e+光纤的技术手册可知，如图~\ref{Corning-SMF28E.pdf}。
 
 \addimg{1}{Corning-SMF28E.pdf}{Corning-SMF28E技术文档}
 
-具体的光学指标，如模场直径（[MFD]）、色散和数值孔径（NA）如图~\ref{MFD.pdf}、图~\ref{SMF28-sesan.pdf}和~\ref{SMF28-NA.pdf}所示，这些参数主要用于设计光纤准直透镜时会用到。
+具体的光学指标，如模场直径（[MFD]）、色散和数值孔径（NA）如图~\ref{MFD.png}、图~\ref{SMF28-sesan.pdf}和~\ref{SMF28-NA.pdf}所示，这些参数主要用于设计光纤准直透镜时会用到。
 
 
 \addimg{0.8}{MFD.png}{Corning-SMF28e+的模场直径}
 \addimg{0.8}{SMF28-sesan.png}{Corning-SMF28e+色散}
-\addimg{1}{SMF28-NA.pdf}{Corning-SMF28e+数值孔径NA}
-\addimg{1}{Divergence.jpg}{光纤激光准直器的光束直径}
+\addimg{0.8}{SMF28-NA.pdf}{Corning-SMF28e+数值孔径NA}
+\addimg{0.8}{Divergence.jpg}{光纤激光准直器的光束直径}
 根据输出光束直径（7mm）估算准直器的焦距，如图\ref{Divergence.jpg},所用激光波长为1550nm，公式如下
 $$ f \approx \frac { \pi d [ M F D ]} {  4 \lambda  }  \approx \frac { \pi \times 7 \times 10.4 \times 10^{-6}} {  4 \times 1.55 \times 10^{-6}  } \approx 36.89 mm $$
 根据单模光纤估算其发散角（全角）,焦距取37mm，公式如下
 $$ \theta \approx \left( \frac { [ M F D ] } { f } \right) \left( \frac { 180 } { \pi } \right) =  \left( \frac { 10.4 \times 10^{-6}} { 37 \times 10^{-3} } \right) \left( \frac { 180 } { \pi } \right) =  0.0161 ^{\circ} $$
 
-维持准直，激光束束腰距离透镜最远的距离，根据计算公司，可知
+维持准直，激光束束腰距离透镜最远的距离，根据计算公式，可知
 $$ z _ { \max } = f + \frac { 2 f ^ { 2 } \lambda } { \pi [ M F D ] ^ { 2 } } =  37\times 10^{-3} + \frac { 2 \times\left(37\times 10^{-3}\right)^ { 2 } \times 1.55\times 10^{-6} } { \pi \times\left({10.4\times 10^{-6}} \right)^ { 2 } } \approx 12.527 m  $$
 
 \subsection{准直透镜设备选型}
-根据上述的计算，在THORLBAS公司的空气隙双合透镜准直器产品选型即可，如图\ref{fiber-xuanxi.png}和图\ref{F810FC.jpg}。
+根据上述的计算，在THORLBAS公司的空气隙双合透镜准直器产品选型即可，如表\ref{fiber-xuanxi.png}和图\ref{F810FC.jpg}。
 \addimg{1}{F810FC.jpg}{带准直器的光纤激光器}
 %[1550nm连续光纤激光器技术参数](http://connet-laser.com.cn/ProDetail.aspx?pid=95&posi=3)
-\addimg{1}{fiber-xuanxi.png}{选型}
+\addimgTbl{1}{fiber-xuanxi.png}{选型}
 
 \subsection{准直透镜ZEMAX仿真}
 根据计算的参数选型，将模型导入ZEMAX仿真。

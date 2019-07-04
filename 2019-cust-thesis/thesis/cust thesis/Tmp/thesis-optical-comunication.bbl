@@ -1,0 +1,133 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[Honghui\ et~al.(2013)Honghui, Hongwei, Hailiang, Xiaofeng, Shengli,
+  and Juncai]{Honghui.2013}
+Honghui~J, Hongwei~Y, Hailiang~Z, et~al.
+\newblock Study on the heterodyning scattering of retroreflective free-space
+  optical communication with optical heterodyning\allowbreak[J].
+\newblock Journal of the Optical Society of America A Optics Image Science {\&}
+  Vision, 2013, 30\penalty0 (11):\penalty0 2286-2290.
+
+\bibitem[白帅\ 等(2015)白帅, 王建宇, 张亮, and
+  杨明冬]{白帅.2015}
+白帅, 王建宇, 张亮, 等.
+\newblock 空间光通信发展历程及趋势\allowbreak[J/OL].
+\newblock 激光与光电子学进展, 2015\penalty0 (07):\penalty0 7-20.
+\newblock DOI: \doi{10.3788/LOP52.070001}.
+
+\bibitem[姜会林\ 等(2015)姜会林, 安岩, 张雅琳, 江伦, 赵义武,
+  董科研, 张鹏, 王超, and 战俊彤]{姜会林.2015}
+姜会林, 安岩, 张雅琳, 等.
+\newblock
+  空间激光通信现状、发展趋势及关键技术分析\allowbreak[J].
+\newblock 飞行器测控学报, 2015\penalty0 (03):\penalty0 207-217.
+
+\bibitem[李展\ 等(2007)李展, 彭仁军, 吴健, and
+  张俊玲]{李展.2007}
+李展, 彭仁军, 吴健, 等.
+\newblock 光学逆向调制技术\allowbreak[J].
+\newblock 激光与光电子学进展, 2007\penalty0 (11):\penalty0 47-51.
+
+\bibitem[孙华燕\ 等(2013)孙华燕, 张来线, 赵延仲, and
+  郑勇辉]{孙华燕.2013}
+孙华燕, 张来线, 赵延仲, 等.
+\newblock 逆向调制自由空间激光通信技术研究进展\allowbreak[J].
+\newblock 激光与光电子学进展, 2013, 50\penalty0 (04):\penalty0 33-41.
+
+\bibitem[邱灏\ 等(2015)邱灏, 汪井源, 徐智勇, 韦毅梅, and
+  赵继勇]{邱灏.2015b}
+邱灏, 汪井源, 徐智勇, 等.
+\newblock 逆向调制光通信技术\allowbreak[J].
+\newblock 军事通信技术, 2015, 36\penalty0 (02):\penalty0 29-33.
+
+\bibitem[李展()]{李展.}
+李展.
+\newblock 大视场``猫眼''结构光学逆向调制器研究\allowbreak[D].
+\newblock 电子科技大学.
+
+\bibitem[魏宾()]{魏宾.b}
+魏宾.
+\newblock
+  基于声换能器的``猫眼''逆向光调制技术及应用\allowbreak[D].
+\newblock 电子科技大学.
+
+\bibitem[任建迎\ 等(2017)任建迎, 孙华燕, and
+  张来线]{任建迎.2017}
+任建迎, 孙华燕, 张来线.
+\newblock ``猫眼''逆向调制自由空间光通信技术\allowbreak[J].
+\newblock 激光与红外, 2017, 47\penalty0 (01):\penalty0 98-102.
+
+\bibitem[曾智龙\ 等(2017)曾智龙, 黄海洋, 王侠, 罗广军, and
+  刘兴]{曾智龙.2017}
+曾智龙, 黄海洋, 王侠, 等.
+\newblock 逆向调制空间激光通信技术研究进展\allowbreak[J].
+\newblock 光通信技术, 2017, 41\penalty0 (12):\penalty0 16-19.
+
+\bibitem[胡放荣\ 等(2010)胡放荣 and 熊显名]{胡放荣.2010}
+胡放荣, 熊显名.
+\newblock MEMS空间光调制器的研究现状与发展趋势\allowbreak[J].
+\newblock 半导体光电, 2010\penalty0 (05):\penalty0 665-669+676.
+
+\bibitem[江伦\ 等(2016)江伦, 胡源, 王超, 安岩, 董科研, and
+  张立中]{.2016}
+江伦, 胡源, 王超, 等.
+\newblock
+  一点对多点同时空间激光通信光学系统研究\allowbreak[J].
+\newblock 光学学报, 2016\penalty0 (05):\penalty0 37-43.
+
+\bibitem[张雅琳\ 等(2016)张雅琳, 安岩, 姜会林, 王超, 江伦,
+  胡源, 董科研, 战俊彤, and 韩龙]{张雅琳.2016}
+张雅琳, 安岩, 姜会林, 等.
+\newblock
+  空间激光通信一点对多点光学原理与方法的比较研究\allowbreak[J].
+\newblock 兵工学报, 2016, 37\penalty0 (1):\penalty0 165-171.
+
+\bibitem[{Jiang Huilin}姜会林\ 等(2012){Jiang Huilin}姜会林, {Hu
+  Yuan}胡源, {Ding Ying}丁莹, {Fu Qiang}付强, {Zhao Yiwu}赵义武, {Dong
+  Keyan}董科研, {Song Yansong}宋延嵩, and {Lou
+  Yan}娄岩]{JiangHuilin.2012}
+{Jiang Huilin}姜会林, {Hu Yuan}胡源, {Ding Ying}丁莹, 等.
+\newblock Optical Principle Research of Space Laser Communication
+  Network\allowbreak[J/OL].
+\newblock Acta Optica Sinica, 2012, 32\penalty0 (10):\penalty0 1006003.
+\newblock DOI: \doi{10.3788/AOS201232.1006003}.
+
+\bibitem[Majumdar(2015)]{Majumdar.2015}
+Majumdar~A~K.
+\newblock Springer series in optical sciences: volume 186\quad Advanced free
+  space optics (fso): A systems approach\allowbreak[M].
+\newblock New York, NY: Springer, 2015.
+
+\bibitem[yao(2011)]{yao.2011}
+yao~W~t.
+\newblock Na mi guang tong xin ji shu yu ying yong\allowbreak[M].
+\newblock Bei jing: {Guo fang gong ye chu ban she}, 2011.
+
+\bibitem[Li\ et~al.(2015)Li, Huang, and Wang]{Li.2015}
+Li~L, Huang~Y, Wang~Y.
+\newblock Xian dai guang xue she ji fang fa: Modern optical
+  design\allowbreak[M].
+\newblock Di 2 ban ed.
+\newblock Beijing: {Bei jing li gong da xue chu ban she}, 2015.
+
+\bibitem[Yoder(2006)]{Yoder.2006}
+Yoder~P~R.
+\newblock Optical science and engineering: volume 105\quad Opto-mechanical
+  systems design\allowbreak[M].
+\newblock 3. ed. ed.
+\newblock Bellingham, Wash. and Boca Raton: {SPIE Press} and {CRC, Taylor {\&}
+  Francis}, 2006.
+
+\bibitem[王佳(2013.02)]{WJ.2013.02}
+王佳.
+\newblock Xin hao yu xin xi chu li ji shu cong shu:
+  光纤通信与空间光通信技术\allowbreak[M].
+\newblock 北京: 电子工业出版社, 2013.02.
+
+\end{thebibliography}

@@ -1,5 +1,5 @@
 \BOOKMARK [0][-]{chapter*.1}{摘要}{}% 1
-\BOOKMARK [0][-]{section*.3}{目 录}{}% 2
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 2
 \BOOKMARK [0][-]{chapter.1}{第1章  引言}{}% 3
 \BOOKMARK [1][-]{section.1.1}{1.1 本课题研究目的和意义}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.2}{1.2 常用的逆向调制器类型和国内外文献发展现状}{chapter.1}% 5
@@ -49,16 +49,21 @@
 \BOOKMARK [1][-]{section.7.1}{7.1 录音电路和音频解码}{chapter.7}% 49
 \BOOKMARK [1][-]{section.7.2}{7.2 常用的逻辑电平介绍}{chapter.7}% 50
 \BOOKMARK [1][-]{section.7.3}{7.3  电平匹配电路}{chapter.7}% 51
-\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1  方案一：使用集成电路芯片ADG3308实现}{section.7.3}% 52
-\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2  方案一：使用分立元件场效应管来实现（Multisim软件仿真）}{section.7.3}% 53
-\BOOKMARK [0][-]{chapter.8}{第8章  光机结构设计}{}% 54
-\BOOKMARK [1][-]{section.8.1}{8.1 主动端二自由度回转平台组成}{chapter.8}% 55
-\BOOKMARK [2][-]{subsection.8.1.1}{8.1.1 方位转台设计}{section.8.1}% 56
-\BOOKMARK [2][-]{subsection.8.1.2}{8.1.2 俯仰转台设计}{section.8.1}% 57
-\BOOKMARK [2][-]{subsection.8.1.3}{8.1.3 光学平台设计}{section.8.1}% 58
-\BOOKMARK [1][-]{section.8.2}{8.2 MEMS逆向光调制器（角反棱镜式）机械结构设计}{chapter.8}% 59
-\BOOKMARK [0][-]{chapter.9}{第9章  成本预算}{}% 60
-\BOOKMARK [1][-]{section.9.1}{9.1 实验所需设备}{chapter.9}% 61
-\BOOKMARK [1][-]{section.9.2}{9.2 费用估算}{chapter.9}% 62
-\BOOKMARK [0][-]{section*.105}{参考文献}{}% 63
-\BOOKMARK [0][-]{appendix*.107}{致谢}{}% 64
+\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 使用集成电路芯片ADG3308实现}{section.7.3}% 52
+\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 使用分立元件场效应管来实现（Multisim软件仿真）}{section.7.3}% 53
+\BOOKMARK [1][-]{section.7.4}{7.4 调制解调电路设计}{chapter.7}% 54
+\BOOKMARK [2][-]{subsection.7.4.1}{7.4.1 调制原理}{section.7.4}% 55
+\BOOKMARK [2][-]{subsection.7.4.2}{7.4.2 解调原理和电路设计}{section.7.4}% 56
+\BOOKMARK [1][-]{section.7.5}{7.5 STM32单片机GUI界面设计}{chapter.7}% 57
+\BOOKMARK [0][-]{chapter.8}{第8章  光机结构设计}{}% 58
+\BOOKMARK [1][-]{section.8.1}{8.1 主动端二自由度回转平台组成}{chapter.8}% 59
+\BOOKMARK [2][-]{subsection.8.1.1}{8.1.1 方位转台设计}{section.8.1}% 60
+\BOOKMARK [2][-]{subsection.8.1.2}{8.1.2 俯仰转台设计}{section.8.1}% 61
+\BOOKMARK [2][-]{subsection.8.1.3}{8.1.3 光学平台设计}{section.8.1}% 62
+\BOOKMARK [1][-]{section.8.2}{8.2 MEMS逆向光调制器（角反棱镜式）机械结构设计}{chapter.8}% 63
+\BOOKMARK [0][-]{chapter.9}{第9章  成本预算}{}% 64
+\BOOKMARK [1][-]{section.9.1}{9.1 实验所需设备}{chapter.9}% 65
+\BOOKMARK [1][-]{section.9.2}{9.2 费用估算}{chapter.9}% 66
+\BOOKMARK [0][-]{appendix.A}{附录 A  MATLAB自动化设计光学物镜}{}% 67
+\BOOKMARK [0][-]{section*.111}{参考文献}{}% 68
+\BOOKMARK [0][-]{appendix*.113}{致谢}{}% 69

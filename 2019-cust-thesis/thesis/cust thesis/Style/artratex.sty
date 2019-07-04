@@ -199,6 +199,7 @@
     %- <\upshape|\itshape|\scshape>: shape of font, default <\upshape>
     %- Roman or Serif - typefaces with strokes - for main content
     %- examples: Times New Roman, Garamond, Adobe Garamond Pro
+	
     %\setmainfont{Garamond}[BoldFont=Garamond-Bold,ItalicFont=Garamond-Italic]%
     %- font switches: {\rmfamily ...}, \textrm{...}, {\normalfont ...}, \textnormal{...}
     %- the latter is due to \renewcommand*{\familydefault}{\rmdefault}
@@ -216,9 +217,16 @@
     %\RequirePackage{unicode-math}% another math symbol font configuration
     %\setmathfont{XITS Math}% a complete symbol set for STIX math fonts
     \ifartx@windows%
-        \setCJKmainfont[AutoFakeBold,ItalicFont=KaiTi]{SimSun}% \setCJKmainfont 设置 CJK 主字体，也就是设置 \rmfamily 的 CJK 字体
-        \setCJKsansfont[AutoFakeBold]{SimHei}%设置 CJK 无衬线的字体，也就是设置 \sffamily 的 CJK 字体
-        \setCJKmonofont{FangSong}%设置 CJK 的等宽字体，也就是设置 \ttfamily 的 CJK 字体
+       % \setCJKmainfont[AutoFakeBold,ItalicFont=KaiTi]{SimSun}% \setCJKmainfont 设置 CJK 主字体，也就是设置 \rmfamily 的 CJK 字体
+	    %\setCJKsansfont[AutoFakeBold]{SimHei}%设置 CJK 无衬线的字体，也就是设置 \sffamily 的 CJK 字体
+        %\setCJKmonofont{FangSong}%设置 CJK 的等宽字体，也就是设置 \ttfamily 的 CJK 字体
+		
+		
+		%\setCJKmainfont[AutoFakeBold,ItalicFont=KaiTi]{AdobeSongStd-Light}% \setCJKmainfont 设置 CJK
+		%Adobe Song Std
+		\setCJKmainfont[AutoFakeBold,ItalicFont=KaiTi]{Adobe Song Std}% \setCJKmainfont 设置 CJK
+		\setCJKsansfont[AutoFakeBold]{Adobe Song Std}%
+        \setCJKmonofont{Adobe Song Std}%
     \else\ifartx@mac%
         \setCJKmainfont[ItalicFont=Kaiti SC,BoldItalicFont=Kaiti SC Bold]{Songti SC Light}%
         \setCJKsansfont{Heiti SC}%
@@ -352,9 +360,14 @@
 \RequirePackage{bigstrut}%设置表内结构
 \RequirePackage{booktabs}%普通三线表
 \RequirePackage{makecell}
+\RequirePackage{etoolbox}
+
 \ifartx@table%
     \RequirePackage{ctable}% imports the array, tabularx and booktabs packages
-    
+    \BeforeBeginEnvironment{tabular}{\zihao{5}} %设置表格字体为5号字体
+%	\DeclareCaptionFormat{myformat}%
+%	{#1 \thechapter-\arabic{section}\ #3}
+%\captionsetup{format=myformat}
 \fi
 %-
 %-> List structures
@@ -411,10 +424,11 @@
 %-
 %-> Layout, space, and style
 %-
-\ifartx@geometry% enable geometry to redefine page layout
-    \geometry{paper=a4paper,left=31.7mm,right=25.4mm,top=25.4mm,bottom=25.4mm}%
+\ifartx@geometry% enable geometry to redefine page layout 设置页边距
+    \geometry{paper=a4paper,left=31.7mm,right=31.7mm,top=25.4mm,bottom=25.4mm}%
 \fi
-%\linespread{1.5}% 1.5 for "one and a half" line spacing, and 2.0 for "double" line spacing
+%正文行距设置
+\linespread{1.25}% 1.5 for "one and a half" line spacing, and 2.0 for "double" line spacing
 %\setlength{\parskip}{0.5ex plus 0.25ex minus 0.25ex}% skip space a paragraph
 \setcounter{tocdepth}{2}% depth for the table of contents
 \setcounter{secnumdepth}{2}% depth for section numbering, default is 2(subsub)
@@ -468,32 +482,43 @@
     %- Define different kinds of header and footer for different parts
     \fancypagestyle{frontmatterstyle}{% style for frontmatter
         \fancyhf{}% clear fields
-%       \fancyhead[CE]{\footnotesize 长春理工大学本科毕业设计}% structure elements
-% 		\fancyhead[CO]{\footnotesize 长春理工大学本科毕业设计}% structure elements
-        \fancyhead[CE]{\footnotesize \@title}% structure elements
-        \fancyhead[CO]{\footnotesize \leftmark}% structure elements
-        \fancyfoot[CE]{\footnotesize \thepage of }% page number
+		\fancyhead[CE]{\footnotesize 长春理工大学本科毕业论文}% structure elements
+ 		\fancyhead[CO]{\footnotesize 长春理工大学本科毕业论文}% structure elements
+       % \fancyhead[CE]{\footnotesize \@title}% structure elements
+        %\fancyhead[CO]{\footnotesize \leftmark}% structure elements
+        \fancyfoot[CE]{\footnotesize \thepage  }% page number
         \fancyfoot[CO]{\footnotesize \thepage}% page number
         \renewcommand{\headrulewidth}{0.8pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }
     \fancypagestyle{mainmatterstyle}{% style for mainmatter
         \fancyhf{}% clear fields
-%        \fancyhead[CE]{ \small 基于MEMS的逆向光通信系统设计}% structure elements
-% 		\fancyhead[CO]{ \small 基于MEMS的逆向光通信系统设计}% structure elements      
-        \fancyhead[CE]{\footnotesize \@title}% structure elements
-        \fancyhead[CO]{\footnotesize \CTEXthechapter\ \leftmark}% structure elements
-        \fancyfoot[LE]{\footnotesize \thepage\ of \pageref{LastPage}}% page number
-        \fancyfoot[RO]{\footnotesize \thepage\ of \pageref{LastPage}}% page number
+		\fancyhead[CE]{ \small 长春理工大学本科毕业论文}% structure elements
+ 		\fancyhead[CO]{ \small 长春理工大学本科毕业论文}% structure elements   
+   
+        %\fancyhead[CE]{\footnotesize \@title}% structure elements
+        %\fancyhead[CO]{\footnotesize \CTEXthechapter\ \leftmark}% structure elements
+        %\fancyfoot[LE]{\footnotesize \thepage\ of \pageref{LastPage}}% page number
+        %\fancyfoot[RO]{\footnotesize \thepage\ of \pageref{LastPage}}% page number
+		
+		\fancyfoot[CE]{\footnotesize \thepage } %设置页码  奇数和偶数页脚居中
+		\fancyfoot[CO]{\footnotesize \thepage}% page number
+		
+		
         \renewcommand{\headrulewidth}{0.8pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }
     \fancypagestyle{backmatterstyle}{% header and footer style for backmatter
         \fancyhf{}% clear fields
-        \fancyhead[CE]{\footnotesize \@title}% structure elements
-        \fancyhead[CO]{\footnotesize \leftmark}% structure elements
-        \fancyfoot[LE]{\footnotesize \thepage\ of \pageref{LastPage}}% page number
-        \fancyfoot[RO]{\footnotesize \thepage\ of \pageref{LastPage}}% page number
+		\fancyhead[CE]{ \small 长春理工大学本科毕业论文}% structure elements
+ 		\fancyhead[CO]{ \small 长春理工大学本科毕业论文}% structure elements 
+		\fancyfoot[CE]{\footnotesize \thepage } %设置页码  奇数和偶数页脚居中
+		\fancyfoot[CO]{\footnotesize \thepage}% page number		
+		
+%        \fancyhead[CE]{\footnotesize \@title}% structure elements
+%        \fancyhead[CO]{\footnotesize \leftmark}% structure elements
+%        \fancyfoot[LE]{\footnotesize \thepage\ of \pageref{LastPage}}% page number
+%       \fancyfoot[RO]{\footnotesize \thepage\ of \pageref{LastPage}}% page number
         \renewcommand{\headrulewidth}{0.8pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }

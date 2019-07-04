@@ -4,8 +4,6 @@ The top-level auxiliary file: thesis-optical-comunication.aux
 The style file: Biblio/gbt7714-unsrt.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
-Warning--I didn't find a database entry for "WYJ.2015.12"
-Warning--I didn't find a database entry for "JHL.2010.12"
 Warning--empty year in 李展.
 Warning--empty year in 魏宾.b
 Warning--empty year in 李展.
@@ -14,7 +12,7 @@ Warning--empty year in 魏宾.b
 Warning--empty year in 魏宾.b
 You've used 19 entries,
             3798 wiz_defined-function locations,
-            945 strings with 8971 characters,
+            941 strings with 8927 characters,
 and the built_in function-call counts, 61438 in all, are:
 = -- 1149
 > -- 5911
@@ -53,4 +51,4 @@ warning$ -- 6
 while$ -- 243
 width$ -- 0
 write$ -- 292
-(There were 8 warnings)
+(There were 6 warnings)

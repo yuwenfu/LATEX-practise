@@ -93,6 +93,50 @@
 	\end{figure}
 }%\addimg{写入比例}{图片文件名}{文档显示名}
 
+\newcommand{\addimgH}[3]{
+	\begin{figure}[!htp]
+		\centering
+		\includegraphics[width=#1\linewidth]{./Img/#2}\caption{#3}\label{#2}
+	\end{figure}
+}%\addimg{写入比例}{图片文件名}{文档显示名}
+
+\newcommand{\addimgB}[3]{
+	\begin{figure}[b]
+		\centering
+		\includegraphics[width=#1\linewidth]{./Img/#2}\caption{#3}\label{#2}
+	\end{figure}
+}%\addimg{写入比例}{图片文件名}{文档显示名}
+\newcommand{\addimgT}[3]{
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=#1\linewidth]{./Img/#2}\caption{#3}\label{#2}
+	\end{figure}
+}%\addimg{写入比例}{图片文件名}{文档显示名}
+
+\newcommand{\addimgP}[3]{
+	\begin{figure}[p]
+		\centering
+		\includegraphics[width=#1\linewidth]{./Img/#2}\caption{#3}\label{#2}
+	\end{figure}
+}%\addimg{写入比例}{图片文件名}{文档显示名}
+
+\newcommand{\addimgTop}[3]{
+	\begin{figure}[t]
+		\centering
+		\caption{#3}
+		\includegraphics[width=#1\linewidth]{./Img/#2}\label{#2}
+	\end{figure}
+}%\addimg{写入比例}{图片文件名}{文档显示名}
+
+
+\newcommand{\addimgTbl}[3]{
+	\begin{table}[t]
+		\centering
+		\caption{#3}
+		\includegraphics[width=#1\linewidth]{./Img/#2}\label{#2}
+	\end{table}
+}
+
 \newcommand{\addimgL}[3]{
 	
 	\begin{figure}[!htb]

@@ -1,0 +1,150 @@
+%\renewcommand\thechapter{\arabic{chapter}}
+
+\chapter{MATLAB自动化设计光学物镜}
+
+%\begin{algorithm}[!htbp]
+%	\small
+%	\caption{RC-Cassegrain's algorithm}\label{alg:RC-Cassegrain}
+%		\Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
+%		\State $r\gets a\bmod b$
+%		\While{$r\not=0$}\Comment{We have the answer if r is 0}
+%		\State $a\gets b$
+%		\State $b\gets r$
+%		\State $r\gets a\bmod b$
+%		\EndWhile\label{euclidendwhile}
+%		\State \textbf{return} $b$\Comment{The gcd is b}
+%		\EndProcedure
+
+		\%close all;clear all;
+		
+		\% RC卡塞格林望远镜理论计算
+		
+		syms D f F l2 a delta beta f1 e12 e22 d r1 r2 d;
+		
+		\%F数——相对孔径的倒数
+		
+		F = 3;
+		
+		\%口径
+		
+		D = 250;
+		
+		\%系统焦距伸出量
+		
+		delta = 180 ;
+		
+		\%系统焦距
+		
+		f = 1000;
+		
+		format short g;
+		
+		\%手动输入参数
+		
+		handle = fopen('cassegrain.txt','wt');\%打开文件
+		
+		data = [250,1000,180,3];
+		
+		n=length(data);
+		
+		disp("请依次输入系统口径、系统焦距、伸出量和F数")
+		
+		str = ["请输入系统口径:","请输入系统焦距:","请输入伸出量:","请输入F数:"]; 
+		
+		for i=1:n
+		
+		data(i) = input(str\{i\});
+		
+		end
+		
+		D = data(1);
+		
+		f = data(2);
+		
+		delta = data(3);
+		
+		F = data(4);
+		
+		disp("计算主镜焦距f1'")
+		
+		f1p = -D/(1/F) \%p代表右上标‘
+		
+		\%放大率——系统焦距除以主镜焦距
+		
+		disp("放大率")
+		
+		beta = f/f1p
+		
+		disp("计算次镜物距l2")
+		
+		l2 = (-f1p+delta)/(beta-1)
+		
+		disp("计算遮光比a")
+		
+		a =  l2/f1p
+		
+		disp("计算面型参数e1\^{}2和e2\^{}2")
+		
+		e12 = 1+2*a/((1-a)*beta*beta)
+		
+		e22 = (2*beta/(1-a)+(1+beta)*(1-beta)\^{}2)/(1+beta)\^{}3
+		
+		disp("计算主镜半径r1,次镜半径r2,主次镜距离d")
+		
+		r1 = -2*D*F
+		
+		r2 = a*beta*r1/(1+beta)
+		
+		d = f1p*(1-a)
+		
+		\% 输出参数到文件
+		
+		fprintf(handle,'\%s\textbackslash\{\}n','这是输入的参数');
+		
+		fprintf(handle,'系统口径D=\textbackslash\{\}t\%g\textbackslash\{\}n',D);
+		
+		fprintf(handle,'系统焦距f=\textbackslash\{\}t\%g\textbackslash\{\}n',f);
+		
+		fprintf(handle,'系统伸出量=\textbackslash\{\}t\%g\textbackslash\{\}n',delta)
+		;
+		
+		fprintf(handle,'系统F数=\textbackslash\{\}t\%g\textbackslash\{\}n',F);
+		
+		
+		fprintf(handle,'这是计算的数值\textbackslash\{\}n');
+		
+		fprintf(handle,'遮光比a=\textbackslash\{\}t\%g\textbackslash\{\}n',a);
+		
+		fprintf(handle,'放大率=\textbackslash\{\}t\%g\textbackslash\{\}n',beta);
+		
+		fprintf(handle,'面型系数e1\^{}2=\textbackslash\{\}t\%g\textbackslash\{\}n',e12);
+		
+		fprintf(handle,'面型系数e2\^{}2=\textbackslash\{\}t\%g\textbackslash\{\}n',e22);
+		
+		fprintf(handle,'主镜的半径r1=\textbackslash\{\}t\%g\textbackslash\{\}n',r1);
+		
+		fprintf(handle,'次镜的半径r2=\textbackslash\{\}t\%g\textbackslash\{\}n',r2);
+		
+		fprintf(handle,'主次镜距离d=\textbackslash\{\}t\%g\textbackslash\{\}n',d);
+		
+		fclose(handle);
+		
+		disp("所有参数输出")
+		
+		a 
+		
+		beta 
+		
+		e12
+		
+		e22
+		
+		r1 
+		
+		r2 
+		
+		d 
+
+%\end{algorithm}
+
+
